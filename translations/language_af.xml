@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-
 <l10n>
     <translationContributors>WeatherMan_ZA, Translator Google</translationContributors>
-
     <texts>
-
         <text name="station_port03"							text="Noord-wes Poort"/>
         <text name="station_Matadero"						text="Matadero"/>
         <text name="station_SiloGroup"						text="SiloGroup"/>
@@ -18,6 +15,7 @@
         <text name="action_lightSwitchON"					text="Skakel ligte aan"/>
         <text name="action_lightSwitchOFF"					text="Skakel ligte af"/>
         <text name="fillType_hop"							text="Hop"/>
+        <text name="fillType_grapes"						text="Druiwe"/> <!-- last -->
         <text name="fillType_beer"							text="Bier"/> <!-- last -->
         <text name="fillType_compost"						text="Kompos"/>
         <text name="fillType_biogas"						text="Biogas"/>
@@ -32,6 +30,7 @@
         <text name="input_MasterS"							text="Vastestowwe"/>
         <text name="input_MasterL"							text="Vloeistowwe"/>
         <text name="output_MasterF"							text="Vervaardig"/>
+        <text name="shopItem_farmSiloLLarge"				text="Großes Silo"/> <!-- last -->
         <text name="shopItem_HerbiMaster"					text="OnkruiddoderMeester"/>
         <text name="shopItem_FertiMaster"					text="KunsmisMeester"/>
         <text name="shopItem_SeedMaster"					text="SaadMeester"/>
@@ -40,10 +39,17 @@
         <text name="shopItem_pelletSMaster"					text="Strooi KorrelsMeester"/>
         <text name="shopItem_LimeMaster"					text="Kalksteen Fabriek"/>
         <text name="shopItem_DaffMaster"					text="Bier Produksie"/> <!-- last -->
+        <text name="shopItem_Viniedo"						text="Druiwe Produksie"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Gruis Stasie"/>
         <text name="shopItem_limestoneStation"				text="Kalksteen Stasie"/>
         <text name="shopItem_sandStation"					text="Sand Stasie"/>
-        <text name="shopItem_foodStation"					text="Venta Alimentos"/> <!-- last -->
-        <text name="shopItem_farmStation"					text="Semillería"/> <!-- last -->
+        <text name="shopItem_foodStation"					text="Kos verkoop"/> <!-- last -->
+        <text name="shopItem_farmStation"					text="Sämling"/> <!-- last -->
+        <text name="action_doSmartAttachGround"				text="Haak mobiele tenk"/> <!-- last -->
+        <text name="configuration_valueMan"					text="Hitch MAN"/> <!-- last -->
+        <text name="configuration_valueTatra"				text="Hitch Tatra"/> <!-- last -->
+        <text name="configuration_valueTruckS"				text="Hitch Warrior"/> <!-- last -->
+        <text name="configuration_valueTruckM"				text="Hitch Hulk"/> <!-- last -->
+        <text name="configuration_valueTruckL"				text="Hitch RoadRunner"/> <!-- last -->
 	</texts>
 </l10n>

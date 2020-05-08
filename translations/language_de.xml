@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
     <translationContributors>Vanquish081, juf.de, Translator Google</translationContributors>
-
-<texts>
+	<texts>
         <text name="station_port03"							text="Nordwesthafen"/> <!-- Hafen-Nordwest works too -->
         <text name="station_Matadero"						text="Schlachthof"/>
         <text name="station_SiloGroup"						text="SiloGruppe"/>
@@ -16,6 +15,7 @@
         <text name="action_lightSwitchON"					text="Licht an"/>
         <text name="action_lightSwitchOFF"					text="Licht aus"/>
         <text name="fillType_hop"							text="Hopfen"/>
+        <text name="fillType_grapes"						text="Trauben"/> <!-- last -->
         <text name="fillType_beer"							text="Bier"/> <!-- last -->
         <text name="fillType_compost"						text="Kompost"/>
         <text name="fillType_biogas"						text="Biogas"/>
@@ -39,10 +39,17 @@
         <text name="shopItem_pelletSMaster"					text="StrohpelletsMaster"/>
         <text name="shopItem_LimeMaster"					text="Kalkstein Fabrik"/>
         <text name="shopItem_DaffMaster"					text="Bier Produktion"/> <!-- last -->
+        <text name="shopItem_Viniedo"						text="Trauben Produktion"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Schotter Silo"/>
         <text name="shopItem_limestoneStation"				text="Kalkstein Silo"/>
         <text name="shopItem_sandStation"					text="Sand Silo"/>
-        <text name="shopItem_foodStation"					text="Venta Alimentos"/> <!-- last -->
-        <text name="shopItem_farmStation"					text="Semillería"/> <!-- last -->
+        <text name="shopItem_foodStation"					text="Lebensmittelverkauf"/> <!-- last -->
+        <text name="shopItem_farmStation"					text="Sämling"/> <!-- last -->
+        <text name="action_doSmartAttachGround"				text="Mobiler Panzer einhaken"/> <!-- last -->
+        <text name="configuration_valueMan"					text="Kupplung MAN"/> <!-- last -->
+        <text name="configuration_valueTatra"				text="Kupplung Tatra"/> <!-- last -->
+        <text name="configuration_valueTruckS"				text="Kupplung Warrior"/> <!-- last -->
+        <text name="configuration_valueTruckM"				text="Kupplung Hulk"/> <!-- last -->
+        <text name="configuration_valueTruckL"				text="Kupplung RoadRunner"/> <!-- last -->
 	</texts>
 </l10n>

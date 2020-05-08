@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
+
     <texts>
         <text name="station_port03"							text="Puerto Noroeste"/>
         <text name="station_Matadero"						text="Matadero"/>
@@ -14,6 +15,7 @@
         <text name="action_lightSwitchON"					text="Encender Luces"/>
         <text name="action_lightSwitchOFF"					text="Apagar Luces"/>
         <text name="fillType_hop"							text="Lúpulo"/>
+        <text name="fillType_grapes"						text="Uvas"/> <!-- last -->
         <text name="fillType_beer"							text="Cerveza"/> <!-- last -->
         <text name="fillType_compost"						text="Compost"/>
         <text name="fillType_biogas"						text="Biogas"/>
@@ -37,10 +39,17 @@
         <text name="shopItem_pelletSMaster"					text="PelletMaster Paja"/>
         <text name="shopItem_LimeMaster"					text="Fábrica Cal"/>
         <text name="shopItem_DaffMaster"					text="Producción Cerveza"/> <!-- last -->
+        <text name="shopItem_Viniedo"						text="Producción Uvas"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Venta Grava"/>
         <text name="shopItem_limestoneStation"				text="Venta Caliza"/>
         <text name="shopItem_sandStation"					text="Venta Arena"/>
         <text name="shopItem_foodStation"					text="Venta Alimentos"/> <!-- last -->
         <text name="shopItem_farmStation"					text="Semillería"/> <!-- last -->
+        <text name="action_doSmartAttachGround"				text="Enganchar depósito móvil"/> <!-- last -->
+        <text name="configuration_valueMan"					text="Enganche MAN"/> <!-- last -->
+        <text name="configuration_valueTatra"				text="Enganche Tatra"/> <!-- last -->
+        <text name="configuration_valueTruckS"				text="Enganche Warrior"/> <!-- last -->
+        <text name="configuration_valueTruckM"				text="Enganche Hulk"/> <!-- last -->
+        <text name="configuration_valueTruckL"				text="Enganche RoadRunner"/> <!-- last -->
 	</texts>
 </l10n>

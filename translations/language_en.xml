@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
     <translationContributors>Vanquish081, Translator Google</translationContributors>
-
     <texts>
         <text name="station_port03"							text="Northwest Port"/>
         <text name="station_Matadero"						text="Matadero"/>
@@ -16,6 +15,7 @@
         <text name="action_lightSwitchON"					text="Turn On Lights"/>
         <text name="action_lightSwitchOFF"					text="Turn Off Lights"/>
         <text name="fillType_hop"							text="Hop"/>
+        <text name="fillType_grapes"						text="Grapes"/> <!-- last -->
         <text name="fillType_beer"							text="Beer"/> <!-- last -->
         <text name="fillType_compost"						text="Compost"/>
         <text name="fillType_biogas"						text="Biogas"/>
@@ -39,10 +39,17 @@
         <text name="shopItem_pelletSMaster"					text="Straw PelletMaster"/>
         <text name="shopItem_LimeMaster"					text="Factory Lime"/>
         <text name="shopItem_DaffMaster"					text="Production Beer"/> <!-- last -->
+        <text name="shopItem_Viniedo"						text="Production Grapes"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Gravel Station"/>
         <text name="shopItem_limestoneStation"				text="Limestone Station"/>
         <text name="shopItem_sandStation"					text="Sand Station"/>
         <text name="shopItem_foodStation"					text="Food Station"/> <!-- last -->
         <text name="shopItem_farmStation"					text="Farm Shop Station"/> <!-- last -->
+        <text name="action_doSmartAttachGround"				text="Hook mobile tank"/> <!-- last -->
+        <text name="configuration_valueMan"					text="Hitch MAN"/> <!-- last -->
+        <text name="configuration_valueTatra"				text="Hitch Tatra"/> <!-- last -->
+        <text name="configuration_valueTruckS"				text="Hitch Warrior"/> <!-- last -->
+        <text name="configuration_valueTruckM"				text="Hitch Hulk"/> <!-- last -->
+        <text name="configuration_valueTruckL"				text="Hitch RoadRunner"/> <!-- last -->
 	</texts>
 </l10n>
