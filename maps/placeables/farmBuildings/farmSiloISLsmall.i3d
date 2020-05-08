@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="IberianSouthland" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="11" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="2" filename="$data/shared/default_normal.png"/>
+    <File fileId="7" filename="../../models/buildings/kuhlturm.dds"/>
+    <File fileId="9" filename="../../models/objects/coupling_normal.png"/>
+    <File fileId="10" filename="../../models/objects/coupling_specular.png"/>
+    <File fileId="8" filename="../../models/objects/dryer.dds"/>
+    <File fileId="4" filename="../../models/objects/gasStation_diff.dds"/>
+    <File fileId="6" filename="../../models/objects/propane.dds"/>
+    <File fileId="5" filename="../../models/objects/towerDryer.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="acmat_0" materialId="10" diffuseColor="0.6 0.6 0.6 1" customShaderId="11">
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="default" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1" specularColor="1 1 1">
+    </Material>
+    <Material name="UnnamedMaterial" materialId="11" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="default_mat" materialId="14" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="couplings_mat" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="11" customShaderVariation="colorMask">
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="lambert1" materialId="13" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="Material #543" materialId="5">
+      <Texture fileId="5"/>
+    </Material>
+    <Material name="ac3dmat1" materialId="8">
+      <Texture fileId="4"/>
+    </Material>
+    <Material name="Material #906" materialId="12" specularColor="1 1 1">
+      <Texture fileId="6"/>
+    </Material>
+    <Material name="Material #181" materialId="6">
+      <Texture fileId="8"/>
+    </Material>
+    <Material name="acmat_0" materialId="9" specularColor="1 1 1">
+      <Texture fileId="7"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="farmSiloISLsmall.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Silo" clipDistance="500" nodeId="31">
+      <TransformGroup name="gameplay" nodeId="32">
+        <TransformGroup name="IN" translation="5.14409 0.173994 -18.4231" rotation="0 -90 0" nodeId="33">
+          <TransformGroup name="unloadingStation" nodeId="34">
+            <TransformGroup name="unloadingTriggers" translation="8.71851 0 11.4463" rotation="0 270 0" nodeId="35">
+              <Shape shapeId="1" name="exactFillRootNode" translation="0.529215 -0.0971224 -11.5248" static="true" collisionMask="1073741824" nodeId="36" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="OUT" nodeId="37">
+          <TransformGroup name="loadingStation" nodeId="38">
+            <TransformGroup name="loadingTriggers" translation="0.705991 -0.695459 -9.03325" nodeId="39">
+              <Shape shapeId="2" name="loadingTrigger" translation="-18.493 6.86817 2.12521" static="true" trigger="true" collisionMask="1073741824" nodeId="40" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <TransformGroup name="dischargeNode" translation="-18.493 6.86817 2.12521" nodeId="41"/>
+              <TransformGroup name="dischargeEffect" translation="-18.493 7.12809 2.12521" nodeId="42">
+                <Shape shapeId="3" name="pipeEffect" translation="0 -0.268395 0" rotation="90 0 0" clipDistance="300" nodeId="43" materialIds="14" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="pipeEffectSmoke" translation="0 -4.66253 0" visibility="false" clipDistance="100" nodeId="44" materialIds="14" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="storageFarm" translation="0 0 2.40601" nodeId="45"/>
+        <TransformGroup name="mapPosition" translation="-22.935 1.08171e-06 8.27501" rotation="180 36.2288 180" nodeId="46"/>
+      </TransformGroup>
+      <TransformGroup name="Store_Liquid" translation="-10.3981 0 -56.6842" clipDistance="200" nodeId="47">
+        <TransformGroup name="Tuberias" translation="226.3 -101.8 -152.1" rotation="-4.45385e-21 270 0" nodeId="48">
+          <Shape shapeId="5" name="Tubo_Conexion" translation="201.863 120.095 216.261" rotation="0 90 0" nodeId="49" materialIds="7"/>
+          <Shape shapeId="6" name="Tubo_Descarga" translation="201.86 120.165 226.35" rotation="0 90 -7.57297e-29" nodeId="50" materialIds="7">
+            <Shape shapeId="7" name="Tapa" translation="-7.33279 -12.3648 0.0216382" nodeId="51" materialIds="8" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+          </Shape>
+          <Shape shapeId="5" name="Tubo_Conexion" translation="201.863 120.095 221.284" rotation="0 90 0" nodeId="52" materialIds="7"/>
+        </TransformGroup>
+        <TransformGroup name="GroupName" translation="9.949 -0.024466 60.777" nodeId="53">
+          <Shape shapeId="8" name="towerDryer" translation="-5 0 -11.013" rotation="0 -34.7466 0" clipDistance="500" nodeId="54" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="towerDryer" translation="-0 0 -11.013" rotation="0 -34.7466 0" clipDistance="500" nodeId="55" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="towerDryer" translation="-10 0 -11.013" clipDistance="500" nodeId="56" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="GroupName" translation="8.835 1.61967 54.804" nodeId="57">
+          <Shape shapeId="9" name="propane" translation="4.54479 -2.85088e-06 -9.20033" rotation="90 0 1.45405e-05" clipDistance="500" nodeId="58" materialIds="12" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="10" name="Tubo_Simple" translation="1.26002e-07 2.16927 0" rotation="0 180 0" scale="0.845951 1 1" clipDistance="500" nodeId="59" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="9" name="propane" translation="4.54479 2.10746 -9.20033" rotation="90 0 1.45405e-05" clipDistance="500" nodeId="60" materialIds="12" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="11" name="Tubo_Simple" translation="0.129723 8.158 0.248732" rotation="2.73422e-06 -23.6607 180" scale="0.946385 1 1" clipDistance="500" nodeId="61" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="9" name="propane" translation="4.54479 4.19687 -9.20033" rotation="90 0 1.45405e-05" clipDistance="500" nodeId="62" materialIds="12" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="11" name="Tubo_Simple" translation="0.13409 8.158 0.259905" rotation="2.74917e-06 -24.362 180" clipDistance="500" nodeId="63" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <Shape shapeId="12" name="dryer" translation="4.26749 -0.0356193 53.6673" rotation="0 90 0" clipDistance="500" nodeId="64" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="13" name="col" translation="6.36595 10.0053 51.1746" visibility="false" static="true" nodeId="65" materialIds="11" nonRenderable="true" distanceBlending="false"/>
+      </TransformGroup>
+      <TransformGroup name="areaDefinitions" nodeId="66">
+        <TransformGroup name="start" translation="-22.3791 0 -14.1353" nodeId="67">
+          <TransformGroup name="width" translation="30.6129 0 0" nodeId="68"/>
+          <TransformGroup name="height" translation="0 0 19.4663" nodeId="69"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="14" name="hose_connector" translation="-9.36732 1.32051 -1.76851" rotation="90 -60 -90" static="true" clipDistance="300" nodeId="70" materialIds="4" castsShadows="true" receiveShadows="true" skinBindNodeIds="70 71 72 73">
+        <TransformGroup name="handle_connector" translation="0.143933 0.132807 0.0384674" rotation="-1.01778e-12 -1.18062e-11 -125" clipDistance="300" nodeId="71"/>
+        <TransformGroup name="hose_clamp" translation="0.226611 -0.134366 1.52588e-05" rotation="-2.03555e-12 1.95413e-11 -12" clipDistance="300" nodeId="72">
+          <TransformGroup name="link" translation="0.00154766 0.249973 7.77346e-16" rotation="2.44267e-11 8.75289e-12 -15" clipDistance="300" nodeId="73"/>
+        </TransformGroup>
+        <TransformGroup name="connector_node" translation="0.165507 0 0" rotation="0 90 0" nodeId="74"/>
+        <Shape shapeId="15" name="Exn" translation="0.00962829 -3.73195e-17 -4.20866e-10" rotation="0 90 0" static="true" clipDistance="500" nodeId="75" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="trigger" translation="2.72969 0.107521 -1.19331" rotation="180 90 -150" static="true" collisionMask="1073741824" nodeId="76" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="31">
+      <Attribute name="mapPositionIndex" type="string" value="0|3"/>
+    </UserAttribute>
+    <UserAttribute nodeId="70">
+      <Attribute name="connectorNode" type="string" value="2"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

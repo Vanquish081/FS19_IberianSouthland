@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/maps/textures/shared/triggerIcons_diffuse.png"/>
+    <File fileId="3" filename="$data/shaders/fxCircleShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="triggerIcons_mat" materialId="171" alphaBlending="true" customShaderId="3" customShaderVariation="PULSATING">
+      <Emissivemap fileId="2"/>
+      <CustomParameter name="scaleParameters" value="0.75 1 2.5 1"/>
+    </Material>
+    <Material name="gray_mat" materialId="555" diffuseColor="0.584314 0.584314 0.584314 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="vehicleSellPoint.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="vehicleSellingPoint" nodeId="232699">
+      <Shape shapeId="1" name="sellAreaTrigger" translation="0 0 -1.85675" scale="8 5 17" static="true" trigger="true" collisionMask="81797120" nodeId="232700" materialIds="555" nonRenderable="true"/>
+      <Shape shapeId="2" name="sellTrigger" translation="5.96915 0.0296211 -5.6326" static="true" trigger="true" collisionMask="3145728" nodeId="232701" materialIds="555" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="3" name="triggerIconSell" translation="0 1 0" clipDistance="300" nodeId="232702" materialIds="171" castsShadows="true" receiveShadows="true">
+          <Light name="light" nodeId="232703" type="point" color="0 0.35 0.75" emitDiffuse="true" emitSpecular="true" decayRate="4" range="3"/>
+        </Shape>
+        <TransformGroup name="iconPos" translation="-0.853 0.184282 8.80165" nodeId="232704"/>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="232699">
+      <Attribute name="onCreate" type="scriptCallback" value="VehicleSellingPoint.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="bunkerSiloLarge" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="11" filename="../../models/buildings/siloLOD_diffuse.png"/>
+    <File fileId="2" filename="../../models/buildings/silo_diffuse.png"/>
+    <File fileId="3" filename="../../models/buildings/silo_normal.png"/>
+    <File fileId="4" filename="../../models/buildings/silo_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="4" diffuseColor="0.498039 0.498039 0.498039 1">
+    </Material>
+    <Material name="siloLOD_mat" materialId="25">
+      <Texture fileId="11"/>
+    </Material>
+    <Material name="silo_mat" materialId="26" customShaderId="5">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="lambert1" materialId="27" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="bunkerISsmall.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="silo" clipDistance="800" objectMask="65534" nodeId="32">
+      <Shape shapeId="1" name="interactionTrigger" visibility="false" static="true" trigger="true" collisionMask="15736832" nodeId="37" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="bunkerSiloArea" nodeId="38">
+        <TransformGroup name="startNode" translation="3.8 0 29" nodeId="39"/>
+        <TransformGroup name="widthNode" translation="-3.8 0 29" nodeId="40"/>
+        <TransformGroup name="heightNode" translation="3.8 0 -29" nodeId="41"/>
+      </TransformGroup>
+      <TransformGroup name="clearArea" nodeId="42">
+        <TransformGroup name="clearAreaStart" translation="7 0 31" nodeId="43"/>
+        <TransformGroup name="clearAreaWidth" translation="-7 0 31" nodeId="44"/>
+        <TransformGroup name="clearAreaHeight" translation="7 0 -31" nodeId="45"/>
+      </TransformGroup>
+      <TransformGroup name="levelingArea" nodeId="46">
+        <TransformGroup name="levelingAreaStart" translation="8 0 38" nodeId="47"/>
+        <TransformGroup name="levelingAreaWidth" translation="-8 0 38" nodeId="48"/>
+        <TransformGroup name="levelingAreaHeight" translation="8 0 -38" nodeId="49"/>
+      </TransformGroup>
+      <TransformGroup name="visual" clipDistance="800" nodeId="34" lodDistance="0 150">
+        <Shape shapeId="2" name="LOD0" nodeId="35" materialIds="26" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="LOD1" nodeId="36" materialIds="25" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <Shape shapeId="4" name="collision" static="true" collisionMask="524543" nodeId="33" materialIds="27" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="33">
+      <Attribute name="collisionHeight" type="float" value="3"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

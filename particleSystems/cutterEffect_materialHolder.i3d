@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="cutterEffect_materialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/shaders/cuttersShader.xml"/>
+    <File fileId="1" filename="../foliage/hop_diffuse.png"/>
+    <File fileId="3" filename="../foliage/hop_diffuse2.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="hop_mat15" materialId="5" customShaderId="2" customShaderVariation="MESH_SCROLLING">
+      <Texture fileId="3"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="4 1 1.5 1.5"/>
+    </Material>
+    <Material name="hop_mat" materialId="4" customShaderId="2" customShaderVariation="MESH_SCALING">
+      <Texture fileId="1"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="2.5 1.3 2 3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="cutterEffect_materialHolder.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="cutting" nodeId="10">
+      <TransformGroup name="shader" nodeId="11">
+        <TransformGroup name="hopForage" nodeId="12">
+          <Shape shapeId="1" name="center" clipDistance="100" nodeId="13" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="right" clipDistance="100" nodeId="14" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="left" clipDistance="100" nodeId="15" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="13">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="hop"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="hop"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="15">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="hop"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

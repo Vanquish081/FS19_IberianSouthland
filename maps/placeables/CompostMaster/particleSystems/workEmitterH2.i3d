@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="7" filename="$data/shaders/psColorShader.xml"/>
+    <File fileId="3" filename="$data/shaders/psSubUVShader.xml"/>
+    <File fileId="1" filename="$data/particleSystems/fx_sugarCane32x4_diffuse.png"/>
+    <File fileId="2" filename="$data/particleSystems/fx_woodChips32x4_normal.png"/>
+    <File fileId="5" filename="$data/particleSystems/fx_chaff4x1_diffuse.png"/>
+    <File fileId="6" filename="$data/particleSystems/fx_chaff4x1_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="fx_woodChips_mat" materialId="4" alphaBlending="true" customShaderId="7">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <CustomParameter name="psColor" value="1.5 1.5 1 1"/>
+    </Material>
+    <Material name="fx_soil32x4_mat" materialId="5" customShaderId="3" customShaderVariation="SUBUV_MOVIE_HORIZONTAL">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="psPlayScale" value="50 200 1 0"/>
+      <CustomParameter name="psColor" value="1.5 1.5 1 1"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="workEmitter2.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+    <ParticleSystem name="woodDustEmitter" dynamicId="1" type="sprite" rate="1" lifespan="1000" maxCount="1000" speed="0.0015" speedRandom="0.0005" tangentSpeed="0.5" normalSpeed="1.2" emitterShapeVelocityScale="0.25" spriteScaleX="0.06" spriteScaleY="0.06" blendFactor="1" blendInFactor="0" blendOutFactor="1" depthSort="true" deltaRotateMin="-0.00139626" deltaRotateMax="0.00139626" textureAtlasSizeX="32" textureAtlasSizeY="4">
+      <Gravity force="0 -0.5 0"/>
+    </ParticleSystem>
+    <ParticleSystem name="woodDustEmitter" dynamicId="3" type="sprite" rate="0.1" lifespan="1000" maxCount="1000" speed="0.0015" speedRandom="0.0005" tangentSpeed="0.5" normalSpeed="1.2" emitterShapeVelocityScale="0.25" spriteScaleX="0.5" spriteScaleY="0.5" blendFactor="1" blendInFactor="0" blendOutFactor="0" depthSort="true" deltaRotateMin="-0.00139626" deltaRotateMax="0.00139626" textureAtlasSizeX="4">
+      <Gravity force="0 -0.5 0"/>
+    </ParticleSystem>
+  </Dynamics>
+
+  <Scene>
+    <Dynamic dynamicId="1" emitterShapeNodeId="15" name="SawEmitter" clipDistance="50" nodeId="14" materialIds="5" castsShadows="true" receiveShadows="true" distanceBlending="false">
+      <Shape shapeId="2" name="emitShape" nodeId="15" materialIds="6" nonRenderable="true"/>
+    </Dynamic>
+    <Dynamic dynamicId="3" emitterShapeNodeId="18" name="SawDustEmitter" clipDistance="50" nodeId="17" materialIds="4" castsShadows="true" receiveShadows="true" distanceBlending="false">
+      <Shape shapeId="2" name="emitShape" nodeId="18" materialIds="6" nonRenderable="true"/>
+    </Dynamic>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="14">
+      <Attribute name="useWorldSpace" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="17">
+      <Attribute name="useWorldSpace" type="boolean" value="false"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

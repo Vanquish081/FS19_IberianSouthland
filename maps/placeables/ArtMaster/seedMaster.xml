@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_SeedMaster</name>
+		<image>maps/placeables/ArtMaster/store_seedMaster.png</image>
+        <specs>
+            <capacity>50000</capacity>
+            <fillTypes>WHEAT BARLEY OAT LIQUIDMANURE DIGESTATE</fillTypes>
+        </specs>
+		<price>60000</price>
+        <allowLeasing>true</allowLeasing>
+        <dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>ARTMECHANIC</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>fillTypeConverter</placeableType>
+    <filename>maps/placeables/ArtMaster/seedMaster.i3d</filename>
+
+    <placement testSizeX="26" testSizeZ="17" testSizeOffsetX="-2" testSizeOffsetZ="-0.5" sizeX="21" sizeZ="12" sizeOffsetX="-2" sizeOffsetZ="-0.5" useRandomYRotation="false" useManualYRotation="true" />
+
+    <hotspots>
+        <hotspot name="SeedMaster" fullName="$l10n_shopItem_SeedMaster" imageFilename="fillPlanes/huds/mapHotspots.dds" imageUVs="534 226 230 230" hidable="true" linkNode="2|0" category="CATEGORY_TRIGGERS"/>  <!-- Beta PC -->
+    </hotspots>
+
+    <clearAreas>
+        <clearArea startNode="8|0" widthNode="8|0|0" heightNode="8|0|1"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="8" maxSlope="30" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="8|0" widthNode="8|0|0" heightNode="8|0|1" groundType="concrete"/>
+        </levelAreas>
+    </leveling>
+
+    <seasons>
+        <maskAreas>
+            <maskArea startNode="9|0" widthNode="9|0|0" heightNode="9|0|1"/>
+            <maskArea startNode="9|1" widthNode="9|1|0" heightNode="9|1|1"/>
+        </maskAreas>
+    </seasons>
+
+    <tipOcclusionUpdateArea sizeX="25" sizeZ="12"/>
+
+    <!--storages>
+        <storage fillTypes="wheat barley oat liquidManure digestate" />
+    </storages-->
+
+    <fillTypeConverter stationName="$l10n_shopItem_SeedMaster" updateInterval="5" combinedCapacity="false" adjustForSeasonsLength="false">
+		<inputs>
+            <input fillTypes="WHEAT OAT BARLEY" perHour="5000" capacity="50000" displayName="input_MasterS" displayNameAddIndex="true">
+                <fillPlanes>
+                    <fillPlane node="7|0" minMaxY="0.0 2.3"  alwaysVisible="false"/>
+                </fillPlanes>
+
+                <displays>
+                    <display baseNode="4|3" type="FILL_LEVEL"	numberColor="BLACK" showZero="false"/>
+                    <display baseNode="4|0" type="FILL_LEVEL"	numberColor="WHITE" showZero="false"/>
+                </displays>
+            </input>
+			
+            <input fillTypes="LIQUIDMANURE DIGESTATE" perHour="1000" capacity="10000" displayName="input_MasterL" displayNameAddIndex="true">
+                <fillPlanes>
+                    <fillPlane node="7|1" minMaxY="0.0 0.85" alwaysVisible="true"/>
+                </fillPlanes>
+
+                <displays>
+                    <display baseNode="4|4" type="FILL_LEVEL"	numberColor="BLACK" showZero="false"/>
+                    <display baseNode="4|1" type="FILL_LEVEL"	numberColor="WHITE" showZero="false"/>
+                </displays>
+            </input>
+        </inputs>
+
+        <outputs>
+            <output fillType="SEEDS" perHour="5000" capacity="50000" displayName="output_MasterF" displayNameAddIndex="false">
+                <fillPlanes>
+                    <fillPlane node="7|2" minMaxY="0.0 2.3" alwaysVisible="true"/>
+                </fillPlanes>
+
+                <displays>
+                    <display baseNode="4|5" type="FILL_LEVEL"	numberColor="BLACK" showZero="false"/>
+					<display baseNode="4|2" type="FILL_LEVEL"	numberColor="WHITE" showZero="false"/>
+                </displays>
+            </output>
+        </outputs>
+		
+		<fillPlaneMaterials>
+            <fillPlaneMaterial fillType="WHEAT"				refNode="7|0"/>
+            <fillPlaneMaterial fillType="OAT"				refNode="7|0"/>
+            <fillPlaneMaterial fillType="BARLEY"			refNode="7|0"/>
+            <fillPlaneMaterial fillType="LIQUIDMANURE"		refNode="7|1"/>
+            <fillPlaneMaterial fillType="DIGESTATE"			refNode="7|1"/>
+            <fillPlaneMaterial fillType="SEEDS"				refNode="7|2"/>
+        </fillPlaneMaterials>
+
+        <loadTriggers>
+            <loadTrigger triggerNode="3|0" fillLitersPerSecond="800" dischargeNode="3|1" autoStart="true" fillTypes="SEEDS">
+                <effectNode effectNode="3|2|0" materialType="unloading" materialTypeId="3" fadeTime="0.5" maxBending="0" controlPoint="3.75 0 0 0"/>
+                <effectNode effectNode="3|2|1" materialType="smoke"     materialTypeId="1" fadeTime="0.5"/>
+            </loadTrigger>
+        </loadTriggers>
+
+        <unloadTriggers>
+            <unloadTrigger exactFillRootNode="2|1" fillTypeCategories="BULK"/>
+			
+            <unloadTrigger exactFillRootNode="2|2" fillTypeCategories="SLURRYTANK"/>
+        </unloadTriggers>
+		
+        <interactionTrigger node="2|0" startStopAction="TOGGLE_TIPSTATE"/>
+		
+		<parts sequence="60 30" >
+            <animationNodeGroups>
+                <animationNodes useSequence="false">
+					<animationNode node="6|3|0|0"   rotSpeed="-200" rotAxis="2" turnOnFadeTime="1" turnOffFadeTime="3" />
+					<animationNode node="6|3|1"   rotSpeed="125" rotAxis="2" turnOnFadeTime="1" turnOffFadeTime="3" />
+					<animationNode node="6|3|2"   rotSpeed="125" rotAxis="2" turnOnFadeTime="1" turnOffFadeTime="3" />
+                </animationNodes>
+            </animationNodeGroups>
+
+            <changedParts>
+                <changedPart node="6|3|3|0" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="4|3" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="4|4" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="4|5" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="6|2|0" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="6|2|1" offVisibility="false" onVisibility="true" useSequence="false"/>
+			</changedParts>
+
+            <beaconLights>
+                <beaconLight rotatorNode="5|1|0" realLightNode="5|1|0|0" speed="0.015" intensity="80"/>
+            </beaconLights>
+        </parts>
+
+		<automaticAnimatedObjects>
+			<animatedObject saveId="door01">
+				<animation duration="4">
+					<part node="0|1">
+						<keyFrame time="0.1" translation="0 0 0"/>
+						<keyFrame time="0.9" translation="0 0 -1.2"/>
+					</part>
+				</animation>
+					<trigger node="0|0" allowPlayers="false" allowVehicles="true"/>
+				<sounds>
+					<moving file="$data/sounds/tools/milkrobot/milkrobot_door_01.ogg" loops="0" linkNode="1|11" volume="0.25" radius="5" innerRadius="2" fadeOut="0.25"/>
+				</sounds>
+			</animatedObject>
+		</automaticAnimatedObjects>
+
+    </fillTypeConverter>
+	
+</placeable>

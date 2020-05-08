@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/psColorShader.xml"/>
+    <File fileId="2" filename="$data/particleSystems/fx_chaff4x1_normal.png"/>
+    <File fileId="1" filename="fx_earth4x1_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="fx_straw_mat" materialId="5" alphaBlending="true" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="psColor" value="0.1 0.1 0.1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="earthEmitter02.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+    <ParticleSystem name="chaffEmitter" dynamicId="1" type="sprite" rate="0.03" lifespan="2000" maxCount="350" speed="0.0012" speedRandom="0" tangentSpeed="0" normalSpeed="1" damping="0.548387" spriteScaleX="0.2" spriteScaleY="0.2" spriteScaleXGain="0.001" spriteScaleYGain="0.001" blendFactor="1.5" blendInFactor="0.15" blendOutFactor="1" randomInitRotation="true" textureAtlasSizeX="4">
+      <Gravity force="0 -0.8 0"/>
+    </ParticleSystem>
+  </Dynamics>
+
+  <Scene>
+    <Dynamic dynamicId="1" emitterShapeNodeId="12" name="earthEmitter" rotation="90 85.9483 90" clipDistance="100" nodeId="11" materialIds="5" distanceBlending="false">
+      <Shape shapeId="2" name="emitShape" rotation="0 -0 90" scale="1 1 6" nodeId="12" materialIds="4" nonRenderable="true"/>
+    </Dynamic>
+  </Scene>
+
+</i3D>

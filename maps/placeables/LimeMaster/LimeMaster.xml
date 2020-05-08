@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_LimeMaster</name>
+		<image>maps/placeables/ArtMaster/store_fertiMaster.png</image>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <specs>
+            <capacity>200000</capacity>
+            <fillTypes>LIMESTONE WOODCHIPS LIME</fillTypes>
+        </specs>
+		<price>0</price>
+        <allowLeasing>false</allowLeasing>
+        <dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>ARTMECHANIC</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+	<boughtWithFarmland>true</boughtWithFarmland>
+    <placeableType>fillTypeConverter</placeableType>
+    <filename>maps/placeables/LimeMaster/LimeMaster.i3d</filename>
+
+    <placement testSizeX="26" testSizeZ="17" testSizeOffsetX="-2" testSizeOffsetZ="-0.5" sizeX="21" sizeZ="12" sizeOffsetX="-2" sizeOffsetZ="-0.5" useRandomYRotation="false" useManualYRotation="true" />  <!-- Beta PC -->
+
+    <hotspots>
+        <hotspot name="LimeMaster" fullName="$l10n_shopItem_LimeMaster" imageFilename="fillPlanes/huds/mapHotspots.dds" imageUVs="534 226 230 230" linkNode="3|0" showName="true" hidable="true" renderLast="false" category="CATEGORY_TRIGGER"/> <!-- Beta PC -->
+    </hotspots>
+
+    <clearAreas>
+        <clearArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1"/>
+    </clearAreas>
+
+    <seasons>
+        <maskAreas>
+            <maskArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1"/>
+        </maskAreas>
+    </seasons>
+
+    <tipOcclusionUpdateArea sizeX="25" sizeZ="12"/>
+
+    <!--storages>
+        <storage fillTypes="manure compost liquidManure digestate" />
+    </storages-->
+
+    <fillTypeConverter stationName="$l10n_shopItem_LimeMaster" updateInterval="5" combinedCapacity="false" adjustForSeasonsLength="false">
+		<inputs>
+            <input fillTypes="LIMESTONE" perHour="10000" capacity="200000" displayName="input_MasterS" displayNameAddIndex="true">
+                <fillPlanes>
+                    <fillPlane node="4|0" minMaxY="-3.5 3.4"  alwaysVisible="true"/>
+                </fillPlanes>
+
+                <displays>
+                    <display baseNode="2|0" type="FILL_LEVEL"	numberColor="WHITE" showZero="false"/>
+                    <display baseNode="2|3" type="FILL_LEVEL"	numberColor="BLACK" showZero="false"/>
+                </displays>
+            </input>
+			
+            <input fillTypes="WOODCHIPS" perHour="5000" capacity="200000" displayName="input_MasterS" displayNameAddIndex="true">
+                <fillPlanes>
+                    <fillPlane node="4|1" minMaxY="-0.5 0.558"  alwaysVisible="true"/>
+                    <fillPlane node="4|2" minMaxY="-3.645 3.4"	alwaysVisible="true"/>
+                </fillPlanes>
+
+                <displays>
+                    <display baseNode="2|1" type="FILL_LEVEL"	numberColor="WHITE" showZero="false"/>
+                    <display baseNode="2|4" type="FILL_LEVEL"	numberColor="BLACK" showZero="false"/>
+                </displays>
+            </input>
+        </inputs>
+
+        <outputs>
+            <output fillType="LIME" perHour="12500" capacity="200000" displayName="output_MasterF" displayNameAddIndex="false">
+                <fillPlanes>
+                    <fillPlane node="4|3" minMaxY="-3.5 3.4" alwaysVisible="true"/>
+                </fillPlanes>
+
+                <displays>
+					<display baseNode="2|2" type="FILL_LEVEL"	numberColor="WHITE" showZero="false"/>
+                    <display baseNode="2|5" type="FILL_LEVEL"	numberColor="BLACK" showZero="false"/>
+                </displays>
+            </output>
+        </outputs>
+		
+        <loadTriggers>
+            <loadTrigger triggerNode="1|0" fillLitersPerSecond="800" dischargeNode="1|1" autoStart="true" fillTypes="LIME">
+                <effectNode effectNode="1|2|0" materialType="unloading" materialTypeId="3" fadeTime="0.5" maxBending="0" controlPoint="3.75 0 0 0"/>
+                <effectNode effectNode="1|2|1" materialType="smoke"     materialTypeId="1" fadeTime="0.5"/>
+            </loadTrigger>
+        </loadTriggers>
+
+        <unloadTriggers>
+            <unloadTrigger exactFillRootNode="0|1" fillTypes="LIMESTONE"/>
+            <unloadTrigger exactFillRootNode="0|2" fillTypes="WOODCHIPS"/>
+        </unloadTriggers>
+		
+        <interactionTrigger node="0|0" startStopAction="TOGGLE_TIPSTATE"/>
+		
+		<parts sequence="60 30" >
+            <changedParts>
+                <changedPart node="2|3" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="2|4" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="2|5" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="3|1|3|0" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="3|2|0" offVisibility="false" onVisibility="true" useSequence="false"/>
+            </changedParts>
+
+        </parts>
+
+    </fillTypeConverter>
+	
+</placeable>

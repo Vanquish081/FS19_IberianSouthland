@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="sprayers_smartAttach">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>Tank Tender</name>
+        <specs>
+            <combination>PHOENIX, TGS</combination>
+        </specs>
+        <functions>
+            <function>$l10n_function_additionalTank</function>
+        </functions>
+        <image>$data/vehicles/kuhn/kuhnPF1500/store_kuhnPF1500.png</image>
+        <price>8000</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>ARTMECHANIC</brand>
+        <category>sprayers</category>
+        <vertexBufferMemoryUsage>450812</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>73992</indexBufferMemoryUsage>
+        <textureMemoryUsage>12757816</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_typeDesc_sprayerTank</typeDesc>
+        <filename>maps/placeables/vehiculos/tankTender/tankTender.i3d</filename>
+        <size width="3" length="1.5"/>
+        <components>
+            <component centerOfMass="0 0.25 0" solverIterationCount="10" mass="350" />
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+        </schemaOverlay>
+    </base>
+
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJointSemiTrailer" jointType="semitrailer" lowerRotLimitScale="0 0 0" upperRotLimitScale="0 0 0" upperRotationOffset="0" lowerTransLimitScale="0 0 0" upperTransLimitScale="0 0 0">  <!-- Beta PC -->
+                <additionalObjects>
+                    <additionalObject node="attacherMAN" attacherVehiclePath="maps/placeables/vehiculos/man/tgs18500.xml"/>
+                    <additionalObject node="attacherMAN" attacherVehiclePath="$data/vehicles/man/tgs18500/tgs18500.xml"/>
+                    <additionalObject node="attacherTatra" attacherVehiclePath="maps/placeables/vehiculos/tatra/tatraPhoenix.xml"/>
+                    <additionalObject node="attacherTatra" attacherVehiclePath="$data/vehicles/tatra/tatraPhoenix/tatraPhoenix.xml"/>
+                    <additionalObject node="attacherLizardTruckS" attacherVehiclePath="$data/vehicles/lizard/truckS/truckS.xml"/>
+                    <additionalObject node="attacherLizardTruckM" attacherVehiclePath="$data/vehicles/lizard/truckM/truckM.xml"/>
+                    <additionalObject node="attacherLizardTruckL" attacherVehiclePath="$data/vehicles/lizard/truckL/truckL.xml"/>
+                </additionalObjects>
+            </inputAttacherJoint>
+        </inputAttacherJoints>
+        <support animationName="moveSupport"/>
+    </attachable>
+
+    <animations>
+        <animation name="moveSupport">
+            <part node="attachers" startTime="0.98" endTime="0.99" visibility="true"/>
+            <part node="attachers" startTime="0.99" endTime="1.0" visibility="false"/>
+        </animation>
+    </animations>
+
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <unloading width="7" offset="0 0 0" />
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="liquidFertilizer" capacity="10000" />
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="herbicide" capacity="10000" />
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+
+    <smartAttach trigger="smartAttachTrigger" jointType="semitrailer" distanceThreshold="5"/>
+
+    <sprayer allowsSpraying="false"/>
+
+    <foliageBending>
+        <bendingNode minX="-1.2" maxX="1.2" minZ="-1.9" maxZ="2" yOffset="0.5" />
+    </foliageBending>
+
+    <wearable wearDuration="680" workMultiplier="1" fieldMultiplier="2"/>
+    <washable dirtDuration="180" washDuration="1" workMultiplier="2" fieldMultiplier="2"/>
+
+    <i3dMappings>
+	  <i3dMapping id="AMtankTender_main_component1" node="0>" />
+	  <i3dMapping id="attacherJointSemiTrailer" node="0>0|0" />
+	  <i3dMapping id="attachers" node="0>0|2" />
+	  <i3dMapping id="attacherMAN" node="0>0|2|0" />
+	  <i3dMapping id="attacherTatra" node="0>0|2|1" />
+	  <i3dMapping id="attacherLizardTruckS" node="0>0|2|2" />
+	  <i3dMapping id="attacherLizardTruckM" node="0>0|2|3" />
+	  <i3dMapping id="attacherLizardTruckL" node="0>0|2|4" />
+	  <i3dMapping id="trailerTigger" node="0>0|3" />
+	  <i3dMapping id="unloadTrigger" node="0>0|4" />
+	  <i3dMapping id="smartAttachTrigger" node="0>0|5" />
+    </i3dMappings>
+</vehicle>

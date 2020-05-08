@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="../../models/buildings/poleBarn03_diffuse.dds"/>
+    <File fileId="2" filename="../../models/buildings/poleBarn03_normal.dds"/>
+    <File fileId="3" filename="../../models/buildings/poleBarn03_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="poleBarn03_mat" materialId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="shedFS13.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="shedFS13" rotation="0 -5.00896e-06 0" static="true" clipDistance="950" nodeId="8" lodDistance="0 950">
+      <TransformGroup name="vis" rotation="0 5.00896e-06 0" nodeId="9">
+        <Shape shapeId="1" name="poleBarn_lod01" rotation="0 -5.00896e-06 0" oc="true" static="true" collisionMask="524543" clipDistance="950" nodeId="10" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="poleBarn_lod02" rotation="0 -5.00896e-06 0" oc="true" static="true" collisionMask="524543" clipDistance="950" nodeId="11" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+      <TransformGroup name="clearArea" nodeId="12">
+        <TransformGroup name="start" translation="-21.0951 0 -9.95569" nodeId="13">
+          <TransformGroup name="width" translation="42.2021 0 0" nodeId="14"/>
+          <TransformGroup name="height" translation="0 0 20.3297" nodeId="15"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="rampAreas" nodeId="16">
+        <TransformGroup name="start" translation="-21.1677 0 -9.94083" rotation="0 270 0" nodeId="17">
+          <TransformGroup name="width" translation="20.3876 0 0" nodeId="18"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="19"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="-21.0656 0 10.3946" nodeId="20">
+          <TransformGroup name="width" translation="42.1909 0 0" nodeId="21"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="22"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="21.1725 0 10.3642" rotation="0 90 0" nodeId="23">
+          <TransformGroup name="width" translation="20.336 0 0" nodeId="24"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="25"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="21.1222 0 -9.96327" rotation="0 180 0" nodeId="26">
+          <TransformGroup name="width" translation="42.1547 0 0" nodeId="27"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="28"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="IberianSouthland" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="21" filename="$data/maps/textures/shared/metalGridGrating_diffuse.dds"/>
+    <File fileId="22" filename="$data/maps/textures/shared/metalGridGrating_normal.dds"/>
+    <File fileId="23" filename="$data/maps/textures/shared/metalGridGrating_specular.dds"/>
+    <File fileId="14" filename="$data/maps/textures/shared/sellingStationGeneric_ao.dds"/>
+    <File fileId="10" filename="$data/maps/textures/shared/sellingStationGeneric_diffuse.dds"/>
+    <File fileId="11" filename="$data/maps/textures/shared/sellingStationGeneric_normal.dds"/>
+    <File fileId="12" filename="$data/maps/textures/shared/sellingStationGeneric_specular.dds"/>
+    <File fileId="24" filename="$data/maps/textures/shared/warningStripes_diffuse.png"/>
+    <File fileId="25" filename="$data/maps/textures/shared/warningStripes_normal.png"/>
+    <File fileId="19" filename="$data/maps/textures/shared/wheatBottom_diffuse.dds"/>
+    <File fileId="20" filename="$data/maps/textures/shared/wheatBottom_normal.dds"/>
+    <File fileId="27" filename="$data/placeables/farmSilos/farmSilos_diffuse.png"/>
+    <File fileId="28" filename="$data/placeables/farmSilos/farmSilos_normal.png"/>
+    <File fileId="29" filename="$data/placeables/farmSilos/farmSilos_specular.png"/>
+    <File fileId="13" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="2" filename="$data/shared/default_normal.png"/>
+    <File fileId="7" filename="../../models/objects/bomba02_diffuse.dds"/>
+    <File fileId="8" filename="../../models/objects/bomba02_nrm.dds"/>
+    <File fileId="9" filename="../../models/objects/bomba02_spc.dds"/>
+    <File fileId="4" filename="../../models/objects/bomba_diffuse.dds"/>
+    <File fileId="5" filename="../../models/objects/bomba_nrm.dds"/>
+    <File fileId="6" filename="../../models/objects/bomba_spc.dds"/>
+    <File fileId="30" filename="../../models/objects/electroBox_diffuse.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="metalGridGrating_mat" materialId="212">
+      <Texture fileId="21"/>
+      <Normalmap fileId="22"/>
+      <Glossmap fileId="23"/>
+    </Material>
+    <Material name="farmSilos_mat" materialId="178">
+      <Texture fileId="27"/>
+      <Normalmap fileId="28"/>
+      <Glossmap fileId="29"/>
+    </Material>
+    <Material name="lambert1" materialId="398" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="wheatBottom_mat" materialId="361">
+      <Texture fileId="19"/>
+      <Normalmap fileId="20"/>
+    </Material>
+    <Material name="electroBox_mat" materialId="316">
+      <Texture fileId="30"/>
+    </Material>
+    <Material name="Stutzen" materialId="326" diffuseColor="1 1 1 1" specularColor="1 1 1">
+    </Material>
+    <Material name="default_mat" materialId="148953" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="Bomba" materialId="148954">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="warningStripes_mat" materialId="148952" specularColor="0.494118 1 0.494118">
+      <Texture fileId="24"/>
+      <Normalmap fileId="25"/>
+    </Material>
+    <Material name="Bomba_Carga" materialId="148951">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+    </Material>
+    <Material name="sellingStationGeneric_mat" materialId="832" customShaderId="13">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+      <Custommap name="mMaskMap" fileId="14"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="farmSiloIS.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Silo" clipDistance="500" nodeId="148969">
+      <TransformGroup name="gameplay" nodeId="148970">
+        <TransformGroup name="IN" translation="9.36104e-07 0 10.7078" rotation="0 180 0" nodeId="148971">
+          <TransformGroup name="unloadingStation" nodeId="148972">
+            <TransformGroup name="unloadingTriggers" nodeId="148973">
+              <Shape shapeId="1" name="exactFillRootNode" translation="-2.08057 0.271075 -11.969" static="true" collisionMask="1073741824" nodeId="148974" materialIds="398" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="OUT" nodeId="148975">
+          <TransformGroup name="loadingStation" nodeId="148976">
+            <TransformGroup name="loadingTriggers" translation="2.46489 1.02962 0.07855" nodeId="148977">
+              <Shape shapeId="2" name="loadingTrigger" translation="-18.493 4.05552 2.12521" static="true" trigger="true" collisionMask="1073741824" nodeId="148978" materialIds="398" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <TransformGroup name="dischargeNode" translation="-18.493 4.20714 2.12521" nodeId="148979"/>
+              <TransformGroup name="dischargeEffect" translation="-18.493 3.99456 2.12521" nodeId="148980">
+                <Shape shapeId="3" name="pipeEffect" translation="0 0 -4.4431e-09" rotation="90 0 0" clipDistance="300" nodeId="148981" materialIds="148953" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="pipeEffectSmoke" translation="0 -4.43757 0" clipDistance="100" nodeId="148982" materialIds="148953" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="storageFarm" translation="0 0 2.40601" nodeId="148983"/>
+        <TransformGroup name="mapPosition" translation="-15.7711 0 13.5237" rotation="0 33.3886 0" nodeId="148984"/>
+      </TransformGroup>
+      <TransformGroup name="vis" nodeId="148985">
+        <Shape shapeId="5" name="Tuberia" static="true" clipDistance="500" nodeId="148986" materialIds="326" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="bomba" static="true" clipDistance="500" nodeId="148987" materialIds="148954" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="7" name="Bomba02" translation="0 -1.13737 0" static="true" clipDistance="500" nodeId="148988" materialIds="148951" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="8" name="sellingStationGeneric" translation="2.089 0 22.6195" static="true" clipDistance="400" nodeId="148989" materialIds="832" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="9" name="sellingStationGenericGrainPlane" clipDistance="100" nodeId="148990" materialIds="361" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="sellingStationGenericGrid" static="true" clipDistance="400" nodeId="148991" materialIds="212" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="11" name="sellingStationGenericWarningStripes" clipDistance="200" nodeId="148992" materialIds="148952" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="12" name="silo" translation="12.188 -9e-08 8.88793" clipDistance="500" nodeId="148993" materialIds="178" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="12" name="silo" translation="-0.546454 -9e-08 8.88793" clipDistance="500" nodeId="148994" materialIds="178" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="12" name="silo" translation="-0.686172 -9e-08 -4.17421" clipDistance="500" nodeId="148995" materialIds="178" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="12" name="silo" translation="12.2585 -9e-08 -4.17421" clipDistance="500" nodeId="148996" materialIds="178" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="13" name="electroBox" translation="6.82987 0.254005 19.8007" static="true" clipDistance="100" nodeId="7720" materialIds="316" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="14" name="col" visibility="false" static="true" density="0.0001" nodeId="148997" materialIds="398" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+      <TransformGroup name="areaDefinitions" nodeId="148998">
+        <TransformGroup name="start" translation="-23.2588 0 -13.4303" nodeId="148999">
+          <TransformGroup name="width" translation="47.8655 0 0" nodeId="149000"/>
+          <TransformGroup name="height" translation="0 0 40.1613" nodeId="149001"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="148969">
+      <Attribute name="mapPositionIndex" type="string" value="0|3"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="fillPlane_materialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="12" filename="$data/fillPlanes/potatoes_normal.png"/>
+    <File fileId="13" filename="$data/fillPlanes/potatoes_specular.png"/>
+    <File fileId="6" filename="$data/shaders/fillIconShader.xml"/>
+    <File fileId="4" filename="$data/shaders/fillPlaneShader.xml"/>
+    <File fileId="7" filename="compost_diffuse.png"/>
+    <File fileId="8" filename="compost_normal.png"/>
+    <File fileId="9" filename="compost_spc.png"/>
+    <File fileId="15" filename="gravel_diffuse.png"/>
+    <File fileId="16" filename="gravel_nrm.png"/>
+    <File fileId="17" filename="gravel_spc.png"/>
+    <File fileId="23" filename="hayPellets_diffuse.png"/>
+    <File fileId="1" filename="hop_diffuse.png"/>
+    <File fileId="2" filename="hop_normal.png"/>
+    <File fileId="3" filename="hop_specular.png"/>
+    <File fileId="10" filename="huds/hud_fill_compost.png"/>
+    <File fileId="18" filename="huds/hud_fill_gravel.png"/>
+    <File fileId="26" filename="huds/hud_fill_hayPellets.png"/>
+    <File fileId="5" filename="huds/hud_fill_hop.png"/>
+    <File fileId="14" filename="huds/hud_fill_limestone.png"/>
+    <File fileId="22" filename="huds/hud_fill_sand.png"/>
+    <File fileId="28" filename="huds/hud_fill_strawPellets.png"/>
+    <File fileId="11" filename="limestone_diffuse.png"/>
+    <File fileId="24" filename="pellets_normal.png"/>
+    <File fileId="25" filename="pellets_specular.png"/>
+    <File fileId="19" filename="sand_diffuse.png"/>
+    <File fileId="20" filename="sand_nrm.png"/>
+    <File fileId="21" filename="sand_spc.png"/>
+    <File fileId="27" filename="strawPellets_diffuse.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="sand_mat" materialId="10" customShaderId="4">
+      <Texture fileId="19"/>
+      <Normalmap fileId="20"/>
+      <Glossmap fileId="21"/>
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <CustomParameter name="uvOffset" value="0 0 0 1"/>
+    </Material>
+    <Material name="compost_mat" materialId="4" customShaderId="4">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <CustomParameter name="uvOffset" value="0 0 0 1"/>
+    </Material>
+    <Material name="gravel_mat" materialId="8" customShaderId="4">
+      <Texture fileId="15"/>
+      <Normalmap fileId="16"/>
+      <Glossmap fileId="17"/>
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <CustomParameter name="uvOffset" value="0 0 0 1"/>
+    </Material>
+    <Material name="hayPellets_mat" materialId="11" customShaderId="4">
+      <Texture fileId="23"/>
+      <Normalmap fileId="24"/>
+      <Glossmap fileId="25"/>
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <CustomParameter name="uvOffset" value="0 0 0 1"/>
+    </Material>
+    <Material name="strawPellets_mat" materialId="12" customShaderId="4">
+      <Texture fileId="27"/>
+      <Normalmap fileId="24"/>
+      <Glossmap fileId="25"/>
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <CustomParameter name="uvOffset" value="0 0 0 1"/>
+    </Material>
+    <Material name="hud_fill_sand_mat" materialId="13" alphaBlending="true" customShaderId="6">
+      <Texture fileId="22"/>
+      <CustomParameter name="iconColor" value="0 0 0 1"/>
+    </Material>
+    <Material name="hud_fill_hayPellets_mat" materialId="14" alphaBlending="true" customShaderId="6">
+      <Texture fileId="26"/>
+      <CustomParameter name="iconColor" value="0 0 0 1"/>
+    </Material>
+    <Material name="hud_fill_strawPelltes_mat" materialId="15" alphaBlending="true" customShaderId="6">
+      <Texture fileId="28"/>
+      <CustomParameter name="iconColor" value="0 0 0 1"/>
+    </Material>
+    <Material name="limestone_mat" materialId="16" customShaderId="4">
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <CustomParameter name="uvOffset" value="0 0 0 1"/>
+    </Material>
+    <Material name="hud_fill_limestone_mat" materialId="17" alphaBlending="true" customShaderId="6">
+      <Texture fileId="14"/>
+      <CustomParameter name="iconColor" value="0 0 0 1"/>
+    </Material>
+    <Material name="hud_fill_compost_mat" materialId="7" alphaBlending="true" customShaderId="6">
+      <Texture fileId="10"/>
+      <CustomParameter name="iconColor" value="0 0 0 1"/>
+    </Material>
+    <Material name="hud_fill_hop_mat" materialId="5" alphaBlending="true" customShaderId="6">
+      <Texture fileId="5"/>
+      <CustomParameter name="iconColor" value="0 0 0 1"/>
+    </Material>
+    <Material name="hud_fill_gravel_mat" materialId="6" alphaBlending="true" customShaderId="6">
+      <Texture fileId="18"/>
+      <CustomParameter name="iconColor" value="0 0 0 1"/>
+    </Material>
+    <Material name="hop_mat" materialId="9" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <CustomParameter name="uvOffset" value="0 0 0 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="fillPlane_materialHolder.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="hop" clipDistance="10" nodeId="21">
+      <Shape shapeId="1" name="hop_materialHolder" clipDistance="10" nodeId="22" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="hop_icon_materialHolder" clipDistance="10" nodeId="23" materialIds="5" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="compost" clipDistance="10" nodeId="24">
+      <Shape shapeId="1" name="compost_materialHolder" clipDistance="10" nodeId="25" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="compost_icon_materialHolder" clipDistance="10" nodeId="26" materialIds="7" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="limestone" clipDistance="10" nodeId="27">
+      <Shape shapeId="1" name="limestone_materialHolder" clipDistance="10" nodeId="28" materialIds="16" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="limestone_icon_materialHolder" clipDistance="10" nodeId="29" materialIds="17" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="gravel" clipDistance="10" nodeId="30">
+      <Shape shapeId="1" name="gravel_materialHolder" clipDistance="10" nodeId="31" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="gravel_icon_materialHolder" clipDistance="10" nodeId="32" materialIds="6" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="sand" clipDistance="10" nodeId="33">
+      <Shape shapeId="1" name="sand_materialHolder" clipDistance="10" nodeId="34" materialIds="10" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="sand_icon_materialHolder" clipDistance="10" nodeId="35" materialIds="13" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="hayPellets" clipDistance="10" nodeId="36">
+      <Shape shapeId="1" name="hayPellets_materialHolder" clipDistance="10" nodeId="37" materialIds="11" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="hayPellets_icon_materialHolder" clipDistance="10" nodeId="38" materialIds="14" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="strawPellets" clipDistance="10" nodeId="39">
+      <Shape shapeId="1" name="strawPellets_materialHolder" clipDistance="10" nodeId="40" materialIds="12" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="strawPellets_icon_materialHolder" clipDistance="10" nodeId="41" materialIds="15" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="22">
+      <Attribute name="fillType" type="string" value="hop"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="23">
+      <Attribute name="fillType" type="string" value="hop"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="25">
+      <Attribute name="fillType" type="string" value="compost"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="26">
+      <Attribute name="fillType" type="string" value="compost"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="28">
+      <Attribute name="fillType" type="string" value="limestone"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="29">
+      <Attribute name="fillType" type="string" value="limestone"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="31">
+      <Attribute name="fillType" type="string" value="gravel"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="32">
+      <Attribute name="fillType" type="string" value="gravel"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="34">
+      <Attribute name="fillType" type="string" value="sand"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="35">
+      <Attribute name="fillType" type="string" value="sand"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="37">
+      <Attribute name="fillType" type="string" value="hayPellets"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="38">
+      <Attribute name="fillType" type="string" value="hayPellets"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="40">
+      <Attribute name="fillType" type="string" value="strawPellets"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="41">
+      <Attribute name="fillType" type="string" value="strawPellets"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

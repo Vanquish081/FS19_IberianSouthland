@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_gravelStation</name>
+        <image>$data/store/store_empty.png</image>
+        <price>1</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>buyingStation</placeableType>
+    <filename>maps/placeables/animalTrader/buyingAnimalW.i3d</filename>
+    <placement testSizeX="17" testSizeZ="10" sizeX="4" sizeZ="3" useRandomYRotation="false" useManualYRotation="true" />
+
+    <buyingStation stationName="$l10n_shopItem_gravelStation" appearsOnPDA="false" storageRadius="0" fillSoundIdentifier="fillSound03">  <!-- Beta PC -->
+        <loadTrigger triggerNode="0|0|0|0" fillLitersPerSecond="1250" dischargeNode="0|0|0|1"/>
+		<fillType name="water" priceScale="0.01" />
+    </buyingStation>
+	
+</placeable>

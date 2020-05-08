@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_workshop</name>
+        <functions>
+            <function>$l10n_function_workshop</function>
+        </functions>
+        <image>maps/placeables/farmBuildings/store_garage.png</image>
+        <price>15000</price>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <dailyUpkeep>25</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>workshop</placeableType>
+    <filename>maps/placeables/farmBuildings/garaje.i3d</filename>
+    <placement testSizeX="39" testSizeZ="18" sizeX="39" sizeZ="18" useRandomYRotation="false" useManualYRotation="true" />  <!-- Beta PC -->
+
+    <dayNightObjects>
+        <dayNightObject node="10" visibleDay="false" visibleNight="true" />
+    </dayNightObjects>
+
+    <tipOcclusionUpdateArea sizeX="39" sizeZ="18" />
+
+    <sellingPoint playerTriggerNode="4" iconNode="4|0" sellTriggerNode="3" ownWorkshop="true" />
+
+    <clearAreas>
+        <clearArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="6|0" widthNode="6|0|0" heightNode="6|0|1" groundType="gravel"/>
+        </levelAreas>
+        <rampAreas> <!-- Deprecated! no longer used in script -->
+            <rampArea maxSlope="75" rootNode="7|0" startNode="7|0" widthNode="7|0|0" heightNode="7|0|1" />
+            <rampArea maxSlope="75" rootNode="7|1" startNode="7|1" widthNode="7|1|0" heightNode="7|1|1" />
+        </rampAreas>
+    </leveling>
+</placeable>

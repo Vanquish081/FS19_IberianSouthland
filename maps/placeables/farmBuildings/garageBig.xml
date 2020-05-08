@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_farmGarage</name>
+        <functions>
+            <function>$l10n_function_decoration</function>
+        </functions>
+        <image>maps/placeables/farmBuildings/store_garageBig.png</image>
+        <price>49000</price>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <dailyUpkeep>25</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>sheds</category>
+    </storeData>
+
+    <placeableType>placeable</placeableType>
+    <filename>maps/placeables/farmBuildings/garageBig.i3d</filename>
+    <placement testSizeX="32" testSizeZ="42" sizeX="32" sizeZ="42" useRandomYRotation="false" useManualYRotation="true" />  <!-- Beta PC -->
+
+    <tipOcclusionUpdateArea sizeX="32" sizeZ="42" />
+
+    <clearAreas>
+        <clearArea startNode="1|0" widthNode="1|0|0" heightNode="1|0|1"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="1|0" widthNode="1|0|0" heightNode="1|0|1" groundType="gravel"/>
+        </levelAreas>
+        <rampAreas> <!-- Deprecated! no longer used in script -->
+            <rampArea maxSlope="75" rootNode="2|0" startNode="2|0" widthNode="2|0|0" heightNode="2|0|1" />
+            <rampArea maxSlope="75" rootNode="2|1" startNode="2|1" widthNode="2|1|0" heightNode="2|1|1" />
+            <rampArea maxSlope="75" rootNode="2|2" startNode="2|2" widthNode="2|2|0" heightNode="2|2|1" />
+            <rampArea maxSlope="75" rootNode="2|3" startNode="2|3" widthNode="2|3|0" heightNode="2|3|1" />
+        </rampAreas>
+    </leveling>
+</placeable>

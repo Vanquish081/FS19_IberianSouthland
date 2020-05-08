@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_farmGarage</name>
+        <functions>
+            <function>$l10n_function_decoration</function>
+        </functions>
+        <image>maps/placeables/farmBuildings/store_shedVSM.png</image>
+        <price>15900</price>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <dailyUpkeep>25</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>sheds</category>
+    </storeData>
+
+    <placeableType>placeable</placeableType>
+    <filename>maps/placeables/farmBuildings/vehicleShelterMedium.i3d</filename>
+    <placement testSizeX="32" testSizeZ="42" sizeX="32" sizeZ="42" useRandomYRotation="false" useManualYRotation="true" />
+
+    <tipOcclusionUpdateArea sizeX="32" sizeZ="42" />
+
+    <clearAreas>
+        <clearArea startNode="6|0" widthNode="6|0|0" heightNode="6|0|1"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="6|0" widthNode="6|0|0" heightNode="6|0|1" groundType="gravel"/>
+        </levelAreas>
+        <rampAreas> <!-- Deprecated! no longer used in script -->
+            <rampArea maxSlope="75" rootNode="7|0" startNode="7|0" widthNode="7|0|0" heightNode="7|0|1" />
+            <rampArea maxSlope="75" rootNode="7|1" startNode="7|1" widthNode="7|1|0" heightNode="7|1|1" />
+            <rampArea maxSlope="75" rootNode="7|2" startNode="7|2" widthNode="7|2|0" heightNode="7|2|1" />
+            <rampArea maxSlope="75" rootNode="7|3" startNode="7|3" widthNode="7|3|0" heightNode="7|3|1" />
+        </rampAreas>
+    </leveling>
+
+	<animatedObjects>
+		<animatedObject index="oneDoorRight01" saveId="oneDoorRight01" >
+            <animation duration="4">
+                <part node="0|1">
+                    <keyFrame time="0.0" translation="0 0 0"/>
+                    <keyFrame time="1.0" translation="0 0 4.5"/>
+                </part>
+            </animation>
+            <controls triggerNode="0|0" posAction="ACTIVATE_HANDTOOL" posText="action_opentailGate" negText="action_closetailGate" />
+            <sounds>
+                <moving file="maps/sounds/winchPull.ogg" loops="0" linkNode="0" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
+				<posEnd file="$data/sounds/prefab/gate/gate_opened.ogg" linkNode="0" volume="0.4" radius="25" innerRadius="3" />
+				<negEnd file="$data/sounds/prefab/gate/gate_closed.ogg" linkNode="0" volume="0.4" radius="25" innerRadius="3" />
+            </sounds>
+        </animatedObject>
+		
+		<animatedObject index="oneDoorLeft01" saveId="oneDoorLeft01" >
+            <animation duration="4">
+                <part node="3|1">
+                    <keyFrame time="0.0" translation="0 0 0"/>
+                    <keyFrame time="1.0" translation="0 0 -4.5"/>
+                </part>
+            </animation>
+            <controls triggerNode="3|0" posAction="ACTIVATE_HANDTOOL" posText="action_opentailGate" negText="action_closetailGate" />
+            <sounds>
+                <moving file="maps/sounds/winchPull.ogg" loops="0" linkNode="0" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
+				<posEnd file="$data/sounds/prefab/gate/gate_opened.ogg" linkNode="0" volume="0.4" radius="25" innerRadius="3" />
+				<negEnd file="$data/sounds/prefab/gate/gate_closed.ogg" linkNode="0" volume="0.4" radius="25" innerRadius="3" />
+            </sounds>
+        </animatedObject>
+		
+		<animatedObject index="doorBothMedium101" saveId="doorBothMedium101" >
+            <animation duration="4">
+                <part node="1|1">
+                    <keyFrame time="0.0" translation="0 0 0"/>
+                    <keyFrame time="1.0" translation="0 0 -3.3"/>
+                </part>
+                <part node="1|2">
+                    <keyFrame time="0.0" translation="0 0 0"/>
+                    <keyFrame time="1.0" translation="0 0 3.3"/>
+                </part>
+            </animation>
+            <controls triggerNode="1|0" posAction="ACTIVATE_HANDTOOL" posText="action_opentailGate" negText="action_closetailGate" />
+            <sounds>
+                <moving file="maps/sounds/winchPull.ogg" loops="0" linkNode="0" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
+				<posEnd file="$data/sounds/prefab/gate/gate_opened.ogg" linkNode="0" volume="0.4" radius="25" innerRadius="3" />
+				<negEnd file="$data/sounds/prefab/gate/gate_closed.ogg" linkNode="0" volume="0.4" radius="25" innerRadius="3" />
+            </sounds>
+        </animatedObject>
+		
+		<animatedObject index="doorBothMedium201" saveId="doorBothMedium201" >
+            <animation duration="4">
+                <part node="2|1">
+                    <keyFrame time="0.0" translation="0 0 0"/>
+                    <keyFrame time="1.0" translation="0 0 -3.3"/>
+                </part>
+                <part node="2|2">
+                    <keyFrame time="0.0" translation="0 0 0"/>
+                    <keyFrame time="1.0" translation="0 0 3.3"/>
+                </part>
+            </animation>
+            <controls triggerNode="2|0" posAction="ACTIVATE_HANDTOOL" posText="action_opentailGate" negText="action_closetailGate" />
+            <sounds>
+                <moving file="maps/sounds/winchPull.ogg" loops="0" linkNode="0" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>  <!-- Beta PC -->
+				<posEnd file="$data/sounds/prefab/gate/gate_opened.ogg" linkNode="0" volume="0.4" radius="25" innerRadius="3" />
+				<negEnd file="$data/sounds/prefab/gate/gate_closed.ogg" linkNode="0" volume="0.4" radius="25" innerRadius="3" />
+            </sounds>
+        </animatedObject>
+	</animatedObjects>
+	
+</placeable>

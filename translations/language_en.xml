@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Vanquish081, Translator Google</translationContributors>
+
+    <texts>
+        <text name="station_port03"							text="Northwest Port"/>
+        <text name="station_Matadero"						text="Matadero"/>
+        <text name="station_SiloGroup"						text="SiloGroup"/>
+        <text name="station_farmShop"						text="Farm Shop"/>
+        <text name="station_Destilery"						text="Destilery"/>
+        <text name="station_Refineria"						text="Refinery"/>
+        <text name="station_freiyard"						text="Freight Yard"/>
+        <text name="station_StationBeer"					text="Factory Beer"/>
+        <text name="action_opentailGate"					text="Open Gate"/>
+        <text name="action_closetailGate"					text="Open Gate"/> <!-- Only show 1 text -->
+        <text name="action_lightSwitchON"					text="Turn On Lights"/>
+        <text name="action_lightSwitchOFF"					text="Turn Off Lights"/>
+        <text name="fillType_hop"							text="Hop"/>
+        <text name="fillType_beer"							text="Beer"/> <!-- last -->
+        <text name="fillType_compost"						text="Compost"/>
+        <text name="fillType_biogas"						text="Biogas"/>
+        <text name="fillType_limestone"						text="Limestone"/>
+        <text name="fillType_gravel"						text="Gravel"/>
+        <text name="fillType_sand"							text="Sand"/>
+        <text name="fillType_hayPellets"					text="Hay Pellets"/>
+        <text name="fillType_strawPellets"					text="Straw Pellets"/>
+        <text name="fillTypeGroup_pellets"					text="Pellets"/>
+        <text name="configuration_XS"						text="XS 525/65/R20.5"/>
+		
+        <text name="input_MasterS"							text="Solids"/>
+        <text name="input_MasterL"							text="Liquids"/>
+        <text name="output_MasterF"							text="Produced"/>
+        <text name="shopItem_farmSiloLLarge"				text="Large Liquid Silo"/> <!-- last -->
+        <text name="shopItem_FertiMaster"					text="FertiMaster"/>
+        <text name="shopItem_HerbiMaster"					text="HerbiMaster"/> <!-- last -->
+        <text name="shopItem_SeedMaster"					text="SeedMaster"/>
+        <text name="shopItem_CompostMaster"					text="CompostMaster"/>
+        <text name="shopItem_pelletHMaster"					text="Hay PelletMaster"/>
+        <text name="shopItem_pelletSMaster"					text="Straw PelletMaster"/>
+        <text name="shopItem_LimeMaster"					text="Factory Lime"/>
+        <text name="shopItem_DaffMaster"					text="Production Beer"/> <!-- last -->
+        <text name="shopItem_gravelStation"					text="Gravel Station"/>
+        <text name="shopItem_limestoneStation"				text="Limestone Station"/>
+        <text name="shopItem_sandStation"					text="Sand Station"/>
+        <text name="shopItem_foodStation"					text="Food Station"/> <!-- last -->
+        <text name="shopItem_farmStation"					text="Farm Shop Station"/> <!-- last -->
+	</texts>
+</l10n>

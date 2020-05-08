@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="$data/maps/textures/shared/numbers_diffuse.dds"/>
+    <File fileId="2" filename="$data/maps/textures/shared/weightDisplay_diffuse.dds"/>
+    <File fileId="3" filename="$data/maps/textures/shared/weightDisplay_normal.dds"/>
+    <File fileId="4" filename="$data/maps/textures/shared/weightDisplay_specular.dds"/>
+    <File fileId="14" filename="$data/placeables/animalHusbandry/liquidManure_diffuse.png"/>
+    <File fileId="15" filename="$data/placeables/animalHusbandry/liquidManure_normal.png"/>
+    <File fileId="16" filename="$data/placeables/animalHusbandry/liquidManure_specular.png"/>
+    <File fileId="6" filename="$data/shaders/numberShader.xml"/>
+    <File fileId="9" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="7" filename="../../models/objects/coupling_normal.png"/>
+    <File fileId="8" filename="../../models/objects/coupling_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="numbers_mat" materialId="5" customShaderId="6">
+      <Emissivemap fileId="5"/>
+      <CustomParameter name="number" value="-1 0 0 0"/>
+      <CustomParameter name="numberColor" value="1 0.5 0.25 1"/>
+    </Material>
+    <Material name="liquidManure_mat" materialId="6">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
+    </Material>
+    <Material name="weightDisplay_mat" materialId="7">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="acmat_0" materialId="8" diffuseColor="0.6 0.6 0.6 1" customShaderId="9">
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="couplings_mat" materialId="9" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="9" customShaderVariation="colorMask">
+      <Normalmap fileId="7"/>
+      <Glossmap fileId="8"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="BGA.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="bga" nodeId="23">
+      <TransformGroup name="bunker" translation="32.523 0.771936 -10.091" nodeId="24">
+        <TransformGroup name="unloadingStation" translation="-0.775 -0.648206 -3.94195" nodeId="25">
+          <Shape shapeId="1" name="exactFillRootNode" translation="-3.791 -0.685273 -2.41321" static="true" trigger="true" collisionMask="1073741824" nodeId="26" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="2" name="baleTrigger" translation="0.0446397 0.373101 -6.71556" rotation="0 -90 0" static="true" trigger="true" collisionMask="16781312" nodeId="27" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </TransformGroup>
+        <Shape shapeId="3" name="weightDisplay" translation="-5.4984 -1.19525 -10.0706" static="true" clipDistance="300" nodeId="28" materialIds="7" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="4" name="numberPart01" translation="0.647401 3.04655 0.0365678" nodeId="29" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="numberPart02" translation="0.557401 3.04655 0.0365678" nodeId="30" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="numberPart03" translation="0.467362 3.04655 0.0365678" nodeId="31" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="numberPart04" translation="0.377362 3.04655 0.0365678" nodeId="32" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="numberPart05" translation="0.287362 3.04655 0.0365678" nodeId="33" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="numberPart06" translation="0.197362 3.04655 0.0365678" nodeId="34" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="numberPart07" translation="0.107362 3.04655 0.0365678" nodeId="35" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="numberPart08" translation="0.0173616 3.04655 0.0365678" nodeId="36" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="numberPart09" translation="-0.0726384 3.04655 0.0365678" nodeId="37" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="numberPart10" translation="-0.162638 3.04655 0.0365678" nodeId="38" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <TransformGroup name="soundNode" translation="-3.79626 -0.243007 -5.242" nodeId="39"/>
+        <Light name="light" translation="-4.19819 1.78727 -6.514" nodeId="40" type="point" color="1 0.2 0" emitDiffuse="true" emitSpecular="true" decayRate="4" range="1"/>
+      </TransformGroup>
+      <TransformGroup name="digestateSilo" translation="58.023 4.99466 8.17369" rotation="0 180 0" clipDistance="77" nodeId="41">
+        <TransformGroup name="loadingStation" translation="7.79259 -0.738611 -0.452104" nodeId="42">
+          <Shape shapeId="8" name="loadingTrigger" static="true" trigger="true" collisionMask="1073741824" nodeId="43" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="dischargeNode" translation="0 -4.4655 0" nodeId="44"/>
+        </TransformGroup>
+        <TransformGroup name="storage" translation="-1.17975 -5.12183 0.860499" nodeId="45"/>
+        <Shape shapeId="9" name="hose_connector" translation="1.90643 -4.90177 -0.566528" rotation="-3.25689e-12 -5.23996e-13 90" static="true" clipDistance="300" nodeId="46" materialIds="9" castsShadows="true" receiveShadows="true" skinBindNodeIds="46 47 48 49">
+          <TransformGroup name="handle_connector" translation="0.143933 0.132807 0.0384674" rotation="-1.01778e-12 -1.18062e-11 -125" clipDistance="300" nodeId="47"/>
+          <TransformGroup name="hose_clamp" translation="0.226611 -0.134366 1.52588e-05" rotation="-2.03555e-12 1.95413e-11 -12" clipDistance="300" nodeId="48">
+            <TransformGroup name="link" translation="0.00154766 0.249973 7.77346e-16" rotation="2.44267e-11 8.75289e-12 -15" clipDistance="300" nodeId="49"/>
+          </TransformGroup>
+          <TransformGroup name="connector_node" translation="0.165507 0 0" rotation="0 90 0" nodeId="50"/>
+          <Shape shapeId="10" name="Exn" translation="0.00962829 -3.73195e-17 -4.20866e-10" rotation="0 90 0" scale="0.075 0.075 0.075" static="true" clipDistance="500" nodeId="51" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="11" name="liquidManure" translation="75.5643 -4.717 40.037" kinematic="true" nodeId="52" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="12" name="interactionTrigger" translation="4.70673 -4.28215 -0.652593" rotation="0 90 0" scale="0.143166 0.395059 0.574231" static="true" trigger="true" collisionMask="15736832" nodeId="53" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+      <TransformGroup name="bunkerSilos" translation="3 0.454 49.965" rotation="-0 90 0" clipDistance="800" nodeId="54">
+        <TransformGroup name="bunkerSilo01" translation="7.4535 1.53 -5.59402" clipDistance="800" objectMask="65534" nodeId="55">
+          <Shape shapeId="12" name="interactionTrigger" translation="0 0 -0.362052" static="true" trigger="true" collisionMask="15736832" nodeId="56" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="bunkerSiloArea" translation="29.456 -1.89484 -5.943" nodeId="57">
+            <TransformGroup name="start" translation="0 0 1.695" nodeId="58"/>
+            <TransformGroup name="width" translation="0 0 9.58545" nodeId="59"/>
+            <TransformGroup name="height" translation="-58.5302 0 1.695" nodeId="60"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="bunkerSilo02" translation="7.4535 1.53 4.18515" clipDistance="800" objectMask="65534" nodeId="61">
+          <Shape shapeId="12" name="interactionTrigger" translation="0 0 -0.362052" static="true" trigger="true" collisionMask="15736832" nodeId="62" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="bunkerSiloArea" translation="29.456 -1.89484 -5.943" nodeId="63">
+            <TransformGroup name="start" translation="0 0 1.695" nodeId="64"/>
+            <TransformGroup name="width" translation="0 0 9.58545" nodeId="65"/>
+            <TransformGroup name="height" translation="-58.5302 0 1.695" nodeId="66"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="bunkerSilo03" translation="7.4535 1.53 13.925" clipDistance="800" objectMask="65534" nodeId="67">
+          <Shape shapeId="12" name="interactionTrigger" translation="0 0 -0.362052" static="true" trigger="true" collisionMask="15736832" nodeId="68" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="bunkerSiloArea" translation="29.456 -1.89484 -5.943" nodeId="69">
+            <TransformGroup name="start" translation="0 0 1.695" nodeId="70"/>
+            <TransformGroup name="width" translation="0 0 9.58545" nodeId="71"/>
+            <TransformGroup name="height" translation="-58.5302 0 1.695" nodeId="72"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="bunkerSilo04" translation="7.4535 1.53 23.7657" clipDistance="800" objectMask="65534" nodeId="73">
+          <Shape shapeId="12" name="interactionTrigger" translation="0 0 -0.362052" static="true" trigger="true" collisionMask="15736832" nodeId="74" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="bunkerSiloArea" translation="29.456 -1.89484 -5.943" nodeId="75">
+            <TransformGroup name="start" translation="0 0 1.695" nodeId="76"/>
+            <TransformGroup name="width" translation="0 0 9.58545" nodeId="77"/>
+            <TransformGroup name="height" translation="-58.5302 0 1.695" nodeId="78"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="bunkerSilo05" translation="7.4535 1.53 33.441" clipDistance="800" objectMask="65534" nodeId="79">
+          <Shape shapeId="12" name="interactionTrigger" translation="0 0 -0.362052" static="true" trigger="true" collisionMask="15736832" nodeId="80" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="bunkerSiloArea" translation="29.456 -1.89484 -5.943" nodeId="81">
+            <TransformGroup name="start" translation="0 0 1.695" nodeId="82"/>
+            <TransformGroup name="width" translation="0 0 9.58545" nodeId="83"/>
+            <TransformGroup name="height" translation="-58.5302 0 1.695" nodeId="84"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="46">
+      <Attribute name="connectorNode" type="string" value="2"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

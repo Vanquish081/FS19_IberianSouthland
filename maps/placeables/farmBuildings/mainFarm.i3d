@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="IberianSouthland" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="../../models/buildings/Brick_Rough_Dark.png"/>
+    <File fileId="5" filename="../../models/buildings/Concx.png"/>
+    <File fileId="3" filename="../../models/buildings/House2.png"/>
+    <File fileId="2" filename="../../models/buildings/grey_roof_slate.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="02 - Default" materialId="5">
+      <Texture fileId="4"/>
+    </Material>
+    <Material name="14 - Default" materialId="6">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="House2" materialId="7">
+      <Texture fileId="3"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="4" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="06 - Default" materialId="8">
+      <Texture fileId="5"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="mainFarm.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="mainFarm" nodeId="12">
+      <TransformGroup name="spawnPoint" translation="6.50652 0.510668 9.60436" nodeId="13">
+        <Camera name="camera" translation="11.8128 4.63808 0.0835735" rotation="164.874 83.9258 -180" nodeId="14" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+      </TransformGroup>
+      <Shape shapeId="1" name="sleepTrigger" translation="6.58704 1.46606 6.30946" scale="1.4387 1 1.49231" static="true" trigger="true" nodeId="15" materialIds="4" nonRenderable="true" distanceBlending="false"/>
+      <Camera name="sleepCamera" translation="4.05018 10.5437 -1.05387" rotation="170.374 82.6664 -180" nodeId="16" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+      <Shape shapeId="2" name="House3" translation="0 -5.01e-06 0" rotation="0 -5.00896e-06 0" static="true" clipDistance="500" nodeId="17" materialIds="6,7,5,8" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="area" nodeId="18">
+        <TransformGroup name="inicio" translation="-17.7766 0 -10.1645" nodeId="19">
+          <TransformGroup name="ancho" translation="34.9953 0 0" nodeId="20"/>
+          <TransformGroup name="alto" translation="0 0 19.5333" nodeId="21"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

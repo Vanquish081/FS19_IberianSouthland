@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Vanquish081, juf.de, Translator Google</translationContributors>
+
+<texts>
+        <text name="station_port03"							text="Nordwesthafen"/> <!-- Hafen-Nordwest works too -->
+        <text name="station_Matadero"						text="Schlachthof"/>
+        <text name="station_SiloGroup"						text="SiloGruppe"/>
+        <text name="station_farmShop"						text="Shop"/>
+        <text name="station_Destilery"						text="Brennerei"/>
+        <text name="station_Refineria"						text="Raffinerie"/>
+        <text name="station_freiyard"						text="Güterbahnhof"/>
+        <text name="station_StationBeer"					text="Brauerei"/>
+        <text name="action_opentailGate"					text="Heckklappe öffnen"/>
+        <text name="action_closetailGate"					text="Heckklappe schließen"/> <!-- Only show 1 text -->
+        <text name="action_lightSwitchON"					text="Licht an"/>
+        <text name="action_lightSwitchOFF"					text="Licht aus"/>
+        <text name="fillType_hop"							text="Hopfen"/>
+        <text name="fillType_beer"							text="Bier"/> <!-- last -->
+        <text name="fillType_compost"						text="Kompost"/>
+        <text name="fillType_biogas"						text="Biogas"/>
+        <text name="fillType_limestone"						text="Kalkstein"/> <!-- Kalkstein for a piece of rock, Kalk for the fine powder like substance -->
+        <text name="fillType_gravel"						text="Kies"/>
+        <text name="fillType_sand"							text="Sand"/>
+        <text name="fillType_hayPellets"					text="Heupellets"/>
+        <text name="fillType_strawPellets"					text="Strohpellets"/>
+        <text name="fillTypeGroup_pellets"					text="Pellets"/>
+        <text name="configuration_XS"						text="XS 525/65/R20.5"/>
+
+        <text name="input_MasterS"							text="Feststoff"/>
+        <text name="input_MasterL"							text="Flüssigkeit"/>
+        <text name="output_MasterF"							text="Endprodukt"/>
+        <text name="shopItem_farmSiloLLarge"				text="Großes Silo"/> <!-- last -->
+        <text name="shopItem_FertiMaster"					text="KunstdüngerMaster"/> <!-- Fabrik is the actual german word, but Master works fine  -->
+        <text name="shopItem_HerbiMaster"					text="HerbizidMaster"/> <!-- last -->
+        <text name="shopItem_SeedMaster"					text="SaatgutMaster"/>
+        <text name="shopItem_CompostMaster"					text="KompostMaster"/>
+        <text name="shopItem_pelletHMaster"					text="HeupelletsMaster"/>
+        <text name="shopItem_pelletSMaster"					text="StrohpelletsMaster"/>
+        <text name="shopItem_LimeMaster"					text="Kalkstein Fabrik"/>
+        <text name="shopItem_DaffMaster"					text="Bier Produktion"/> <!-- last -->
+        <text name="shopItem_gravelStation"					text="Schotter Silo"/>
+        <text name="shopItem_limestoneStation"				text="Kalkstein Silo"/>
+        <text name="shopItem_sandStation"					text="Sand Silo"/>
+        <text name="shopItem_foodStation"					text="Venta Alimentos"/> <!-- last -->
+        <text name="shopItem_farmStation"					text="Semillería"/> <!-- last -->
+	</texts>
+</l10n>

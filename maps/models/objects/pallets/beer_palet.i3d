@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="pioneerPallet" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/maps/textures/european/props/euroPallet01_diffuse.png"/>
+    <File fileId="3" filename="$data/maps/textures/european/props/euroPallet01_normal.png"/>
+    <File fileId="4" filename="$data/maps/textures/european/props/euroPallet01_specular.png"/>
+    <File fileId="6" filename="$data/shared/default_specular.dds"/>
+    <File fileId="7" filename="logo_beer.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="euroPallet01_mat" materialId="6">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="___Default" materialId="5" diffuseColor="0.2 0.2 0.2 1">
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="logo_beer" materialId="49" specularColor="0.2 1 0.2">
+      <Texture fileId="7"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="beer_palet.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="beerPallet_main_component1" dynamic="true" compound="true" collisionMask="25178120" clipDistance="300" nodeId="24" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="2" name="dynamicMountTrigger" translation="0 0.175 0" visibility="false" kinematic="true" trigger="true" collisionMask="8192" nodeId="25" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="3" name="tensionBeltNode" translation="-0.00275271 0.200271 -0.00841978" visibility="false" clipDistance="100" nodeId="26" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="4" name="dischargeTrigger" translation="1.42109e-16 0.554432 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1073741824" nodeId="27" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="5" name="euroPalletVis" clipDistance="300" nodeId="28" materialIds="6" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="6" name="beerBarrel01" translation="-0.45 0.199268 0.23" clipDistance="100" nodeId="29" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="beerLogo" nodeId="52" materialIds="49" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="6" name="beerBarrel02" translation="-0.45 0.199268 -0.23" clipDistance="100" nodeId="30" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="beerLogo" nodeId="53" materialIds="49" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="6" name="beerBarrel03" translation="0 0.199268 -0.23" clipDistance="100" nodeId="31" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="beerLogo" nodeId="54" materialIds="49" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="6" name="beerBarrel04" translation="0 0.199268 0.23" clipDistance="100" nodeId="32" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="beerLogo" nodeId="55" materialIds="49" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="6" name="beerBarrel05" translation="0.45 0.199268 0.23" clipDistance="100" nodeId="33" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="beerLogo" nodeId="56" materialIds="49" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="6" name="beerBarrel06" translation="0.45 0.199268 -0.23" clipDistance="100" nodeId="34" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="beerLogo" nodeId="57" materialIds="49" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <TransformGroup name="collisions" nodeId="35">
+        <Shape shapeId="8" name="solidColi" translation="0 0.175 0" visibility="false" compoundChild="true" collisionMask="16781314" density="0.7" nodeId="36" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="9" name="colPart01" translation="0.00271691 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="37" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="10" name="colPart02" translation="0.622586 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="38" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="11" name="colPart03" translation="-0.622301 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="39" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="12" name="colPart04" translation="0.00271691 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="40" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="13" name="colPart05" translation="0.00271691 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="41" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="14" name="colPart06" translation="0.622586 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="42" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="15" name="colPart07" translation="0.622586 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="43" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="16" name="colPart08" translation="-0.622301 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="44" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="17" name="colPart09" translation="-0.622301 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="45" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="24">
+      <Attribute name="deleteIfEmpty" type="boolean" value="true"/>
+      <Attribute name="dynamicMountForceLimitScale" type="float" value="1"/>
+      <Attribute name="dynamicMountTriggerIndex" type="string" value="0>0"/>
+      <Attribute name="fillType" type="string" value="beer"/>
+      <Attribute name="meshNodes" type="string" value="0 0|6"/>
+      <Attribute name="startFillLevel" type="integer" value="0"/>
+      <Attribute name="startScale" type="float" value="0.1"/>
+      <Attribute name="useRandomRot" type="boolean" value="false"/>
+      <Attribute name="visibilityNodesAdditive" type="boolean" value="true"/>
+      <Attribute name="visibilityNodesIndex" type="string" value="0>3"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map width="4096" height="4096" imageFilename="maps/pda_map.png">
+    <filename>maps/mapIS.i3d</filename>
+    <shop filename="scripts/shop.xml" />
+    <colorGrading filename="$data/maps/mapDE_colorGrading.xml" />
+    <storeItems filename="xml/storeItems.xml" />
+    <sounds filename="$data/maps/mapDE_sound.xml" />
+    <environment filename="$data/maps/mapDE_environment.xml" />
+    <wildlife filename="$dataS/character/wildlifeSpawner.xml" />
+    <helpline filename="$dataS/helpLine.xml" />
+    <gameplayHints filename="$dataS/gameplayHints.xml" />
+    <husbandryAnimals filename="$dataS/character/husbandryAnimals.xml" />
+    <animalNames filename="$dataS/character/animalNames.xml" />
+    <!-- <husbandryFood filename="$dataS/character/husbandryFoodDefinition.xml" /> -->
+    <husbandryFood filename="xml/husbandryFoodDefinition.xml" />
+    <!-- <transportMissions filename="$dataS/mapDE_transportMissions.xml" /> -->
+    <missionVehicles filename="$dataS/missionVehicles.xml" />
+    <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
+    <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
+    <textureMemoryUsage>0</textureMemoryUsage>
+    <culling xzOffset="100" />
+    <densityMap revision="1" />
+    <terrainLodTexture revision="1" />
+    <splitShapes revision="1" />
+    <tipCollision revision="1" />
+
+    <hotspots>
+        <hotspot name="Shop"		 fullName="$l10n_map_shop"			imageFilename="fillPlanes/huds/mapHotspots.dds"	imageUVs="538 792 205 205"	xMapPos="426.6" zMapPos="-281.97" blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
+        <hotspot name="AnimalDealer" fullName="$l10n_station_Matadero"	imageFilename="fillPlanes/huds/mapHotspots.dds"	imageUVs="538 530 205 205"	xMapPos="-1057.365"  zMapPos="1365.2" blinking="false" persistent="false" showName="true" hidable="true" renderLast="false" category="CATEGORY_TRIGGER"/>
+        <hotspot name="Limestone"	 fullName="$l10n_shopItem_limestoneStation"	imageFilename="fillPlanes/huds/mapHotspots.dds"	imageUVs="792 530 205 205"	xMapPos="1076.857"  zMapPos="1166.053" blinking="false" persistent="false" showName="true" hidable="true" renderLast="false" category="CATEGORY_TRIGGER"/>
+        <hotspot name="Gravel"		 fullName="$l10n_shopItem_gravelStation"	imageFilename="fillPlanes/huds/mapHotspots.dds"	imageUVs="792 530 205 205"  xMapPos="1117.983"  zMapPos="1178.857" blinking="false" persistent="false" showName="true" hidable="true" renderLast="false" category="CATEGORY_TRIGGER"/>
+        <hotspot name="Sand"		 fullName="$l10n_shopItem_sandStation"		imageFilename="fillPlanes/huds/mapHotspots.dds"	imageUVs="792 530 205 205"  xMapPos="1671.796"  zMapPos="1025.662" blinking="false" persistent="false" showName="true" hidable="true" renderLast="false" category="CATEGORY_TRIGGER"/>
+        <hotspot name="Food"		 fullName="$l10n_shopItem_foodStation"		imageFilename="fillPlanes/huds/mapHotspots.dds"	imageUVs="792 530 205 205"  xMapPos="-538.792"  zMapPos="-1245.479" blinking="false" persistent="false" showName="true" hidable="true" renderLast="false" category="CATEGORY_TRIGGER"/>
+        <hotspot name="FarmShop"	 fullName="$l10n_shopItem_farmStation"		imageFilename="fillPlanes/huds/mapHotspots.dds"	imageUVs="792 530 205 205"  xMapPos="-551.823"  zMapPos="-1375.207" blinking="false" persistent="false" showName="true" hidable="true" renderLast="false" category="CATEGORY_TRIGGER"/>
+    </hotspots>
+
+    <additionalFiles>
+        <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/glowEffectMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/mapTargetMarker.i3d" />
+        <additionalFile filename="$data/particleSystems/particle_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/effect_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/cutterEffect_materialHolder.i3d" />
+        <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />
+        <additionalFile filename="particleSystems/cutterEffect_materialHolder.i3d" />
+        <additionalFile filename="particleSystems/effect_materialHolder.i3d" />
+        <additionalFile filename="particleSystems/particle_materialHolder.i3d" />
+        <additionalFile filename="particleSystems/pelletsParticles.i3d" />
+        <additionalFile filename="fillPlanes/fillPlane_materialHolder.i3d" />
+        <additionalFile filename="fillPlanes/particle_materialHolder_compost.i3d" />
+    </additionalFiles>
+
+	<seasons>
+        <mask filename="maps/mapIS/seasonsMask.grle" />
+    </seasons>
+	
+	<mud>
+        <density filename="maps/mapIS/mud_weight.grle" />
+    </mud>
+	
+	<groundTypeMappings>
+    <!-- Base -->
+        <groundTypeMapping type="dirt"           layer="ROUGHDIRT" />
+        <groundTypeMapping type="asphalt"        layer="ASPHALT" />
+        <groundTypeMapping type="gravel"         layer="GRAVEL" />
+        <groundTypeMapping type="grass"          layer="GRASS" paintableFoliageId="1" />
+        <groundTypeMapping type="grassRough"     layer="GRASSROUGH" paintableFoliageId="1" />
+        <groundTypeMapping type="sand"           layer="SANDWET" />
+        <groundTypeMapping type="animalMud"      layer="ANIMALMUD" />        
+        <groundTypeMapping type="concrete"       layer="CONCRETE" />      
+        <groundTypeMapping type="plates"         layer="PLATE" />
+		<groundTypeMapping type="riverbank"		 layer="RIVERBANK" />
+		<groundTypeMapping type="waterPuddle"	 layer="PUDDLE" />
+    <!-- Special -->
+        <groundTypeMapping type="forestNeedles"   layer="FORESTNEEDLES" />
+        <groundTypeMapping type="grassTown"       layer="GRASSTOWN" />
+		<groundTypeMapping type="grass04"         layer="grass04" />
+		<groundTypeMapping type="grass03"         layer="grass03" />
+		<groundTypeMapping type="grass02"         layer="grass02" />
+		<groundTypeMapping type="grassRough02"    layer="grassRough02" />
+		<groundTypeMapping type="grassRough03"    layer="grassRough03" />
+		<groundTypeMapping type="grassRough04"    layer="grassRough04" />
+		<groundTypeMapping type="forestLeaves"    layer="FORESTLEAVES" />
+        <groundTypeMapping type="rock"            layer="MOUNTAINROCK" />
+        <groundTypeMapping type="rockdark"    	  layer="MOUNTAINROCKDARK" />
+        <groundTypeMapping type="sandwet"         layer="SANDWET" />
+    </groundTypeMappings>
+
+	<paintableFoliages>
+			<paintableFoliage id="1" layerName="grass" firstDensityMapChannel="0" numDensityMapChannels="4" value="4"/>
+	</paintableFoliages>
+	
+    <fillTypes filename="xml/mapIS_fillTypes.xml" />
+    <fruitTypes filename="xml/mapIS_fruitTypes.xml" />
+    <sprayTypes filename="xml/maps_sprayTypes.xml" />
+    <!-- <baleTypes filename="$data/maps/maps_baleTypes.xml" /> -->
+    <!-- <treeTypes filename="$data/maps/maps_treeTypes.xml" /> -->
+    <densityMapHeightTypes filename="xml/densityMapHeightTypes.xml" />
+    <npcs filename="$data/maps/mapDE_npcs.xml" />
+    <!-- <helpers filename="$data/maps/maps_helpers.xml" /> -->
+    <farmlands filename="xml/mapIS_farmlands.xml" />
+
+</map>

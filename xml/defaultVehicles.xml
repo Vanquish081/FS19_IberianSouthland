@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicles>
+
+    <vehicle filename="data/vehicles/rostselmash/161/161.xml" farmId="1" propertyState="1" xPosition="105.9" yOffset="0.5" zPosition="371.8" yRotation="90" dirtAmount="0.5" age="5" operatingTime="125000"/>
+    <vehicle filename="data/vehicles/rostselmash/rsmDS900/rsmDS900.xml" farmId="1" propertyState="1" xPosition="104.73" yOffset="0.5" zPosition="377.3" yRotation="0" dirtAmount="0.5" age="5" operatingTime="125000"/>
+
+    <vehicle filename="data/vehicles/johnDeere/pickUp1800/pickUp1800.xml" farmId="1" propertyState="1" xPosition="111" yOffset="0.5" zPosition="382.74" yRotation="90" dirtAmount="0.5" age="8" operatingTime="147000"/>
+    <vehicle filename="data/vehicles/johnDeere/series8R/series8R.xml" farmId="1" propertyState="1" xPosition="107" yOffset="0.5" zPosition="382.74" yRotation="90" dirtAmount="0.5" age="8" operatingTime="147000"/>
+    <vehicle filename="data/vehicles/agrisem/agrisemCombiplow4M/agrisemCombiplow4M.xml" farmId="1" propertyState="1" xPosition="103" yOffset="0.5" zPosition="382.38" yRotation="90" dirtAmount="0.5" age="8" operatingTime="96000"/>
+
+    <vehicle filename="data/vehicles/jcb/fastrac8330/fastrac8330.xml" farmId="1" propertyState="1" xPosition="109" yOffset="0.5" zPosition="390.8" yRotation="90" dirtAmount="0.5" age="2" operatingTime="106000"/>
+    <vehicle filename="data/vehicles/lemken/solitair12/solitair12.xml" farmId="1" propertyState="1" xPosition="103.2" yOffset="0.5" zPosition="390.8" yRotation="90" dirtAmount="0.5" age="2" operatingTime="26000"/>
+
+    <vehicle filename="$mapdir$/maps/placeables/vehiculos/tatra/tatraPhoenix.xml" farmId="1" propertyState="1" xPosition="108.975" yOffset="0.5" zPosition="400.5" yRotation="90" dirtAmount="0.5" age="4" operatingTime="111000">
+        <configuration name="baseMaterial" id="3"/>
+        <configuration name="rimColor" id="9"/>
+        <configuration name="wheel" id="2"/>
+		<configuration name="motor" id="5"/>
+	</vehicle>
+
+    <vehicle filename="data/vehicles/goldhofer/goldhoferStzVp3/goldhoferStzVp3Front.xml" farmId="1" propertyState="1" xPosition="102.652" yOffset="0.5" zPosition="400.5" yRotation="90" dirtAmount="0.5" age="4" operatingTime="111000"/>
+    <vehicle filename="data/vehicles/goldhofer/goldhoferStzVp3/goldhoferStzVp3Back.xml" farmId="1" propertyState="1" xPosition="105.9" yOffset="0.5" zPosition="404.2" yRotation="90" dirtAmount="0.5" age="4" operatingTime="111000"/>
+	
+    <vehicle filename="data/vehicles/krampe/KS950/KS950.xml" farmId="1" propertyState="1" xPosition="106.05" yOffset="0.5" zPosition="395.6" yRotation="90" dirtAmount="0.5" age="3" operatingTime="99000"/>
+	
+    <vehicle filename="$moddir$FS19_holmerPack/holmer/terraVariant585/terraVariant585.xml" farmId="1" propertyState="1" xPosition="105.5" yOffset="0.5" zPosition="410" yRotation="90" dirtAmount="0.5" age="4" operatingTime="111000">
+        <configuration name="wheel" id="2"/>
+	</vehicle>	
+    <vehicle filename="$moddir$FS19_holmerPack/annaburger/XM3/XM3.xml" farmId="1" propertyState="1" xPosition="105.5" yOffset="0.5" zPosition="415" yRotation="90" dirtAmount="0.5" age="3" operatingTime="99000"/>
+
+</vehicles>

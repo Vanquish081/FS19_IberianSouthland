@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<items>
+	<item mapBoundId="BuyingStationPlaceable" className="BuyingStationPlaceable" filename="$mapdir$/maps/placeables/limesquar/gravel.xml" position="1117.983 90.58 1178.857" rotation="0 0 0" />
+	<item mapBoundId="BuyingStationPlaceable" className="BuyingStationPlaceable" filename="$mapdir$/maps/placeables/limesquar/limestone.xml" position="1076.857 90.58 1166.053" rotation="0 0 0" />
+	<item mapBoundId="BuyingStationPlaceable" className="BuyingStationPlaceable" filename="$mapdir$/maps/placeables/limesquar/sand.xml" position="1671.796 68.986 1025.662" rotation="0 0 0" />
+	<item mapBoundId="BuyingStationPlaceable" className="BuyingStationPlaceable" filename="$mapdir$/maps/placeables/animalTrader/food01.xml" position="-543.63 114.746 -1240.835" rotation="0 50.639 0" />
+	<item mapBoundId="BuyingStationPlaceable" className="BuyingStationPlaceable" filename="$mapdir$/maps/placeables/animalTrader/food02.xml" position="-535.667 114.746 -1250.542" rotation="0 50.639 0" />
+	<item mapBoundId="BuyingStationPlaceable" className="BuyingStationPlaceable" filename="$mapdir$/maps/placeables/animalTrader/food03.xml" position="-538.792 115.269 -1245.479" rotation="0 50.639 0" />
+	<item mapBoundId="BuyingStationPlaceable" className="BuyingStationPlaceable" filename="$mapdir$/maps/placeables/animalTrader/food01.xml" position="-1080.998 43.477 1338.911" rotation="0 50.639 0" />
+	<item mapBoundId="BuyingStationPlaceable" className="BuyingStationPlaceable" filename="$mapdir$/maps/placeables/animalTrader/food02.xml" position="-1080.998 43.477 1324.36" rotation="0 50.639 0" />
+	<item mapBoundId="BuyingStationPlaceable" className="BuyingStationPlaceable" filename="$mapdir$/maps/placeables/animalTrader/food03.xml" position="-1079.300 44.514 1331.163" rotation="0 50.639 0" />
+	<item mapBoundId="BuyingStationPlaceable" className="BuyingStationPlaceable" filename="$mapdir$/maps/placeables/animalTrader/farmShop01.xml" position="-551.823 133.8 -1375.207" rotation="0 0 0" />
+
+    <item mapBoundId="gasStation01" className="BuyingStationPlaceable" filename="data/placeables/mapDE/gasStation/gasStation01.xml" position="386.172 70.840 -207.301" rotation="0 -5.272 0"  /> <!-- Gas Station S -->
+
+    <item mapBoundId="bga" className="BgaPlaceable" filename="$mapdir$/maps/placeables/sellpoints/bga.xml" position="-223.56 69.17 -510.4" rotation="0 0 0" />
+    <item mapBoundId="sellingStationVehicles" className="Workshop" filename="$mapdir$/maps/placeables/sellpoints/vehicleSellPoint.xml" position="466.6 70.52 -274.49" rotation="0 84.924 0" />
+	<item mapBoundId="GardenCenter" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationManureIS.xml" position="-317.416 100.480 -771.771" rotation="0 0 0" />
+	<item mapBoundId="GardenCenter" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationliquidManureIS.xml" position="-294.544 100.480 -805.003" rotation="0 90 0" />
+	<item mapBoundId="sellingStationRanch" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationRanchIS.xml" position="-551.251 133.8 -1388.067" rotation="0 90 0" />			<!-- Tienda Granja -->
+	<item mapBoundId="sellingStationBales" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellpointBalesIS.xml" position="-570.322 114.798 -1204.346" rotation="0 50.639 0" />			<!-- Pacas Animales -->
+    <item mapBoundId="sellingStationWool" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationWoolIS.xml" position="-1521.023 74.364 -1202.984" rotation="0 0 0" />				<!-- NikeFactory -->
+    <item mapBoundId="sellingStationPort01" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/grainSiloPortIS.xml" position="-1911.402 38.694 -1058.647" rotation="0 90 0" />				<!-- Port -->
+    <item mapBoundId="sellingStationPort02" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/grainSiloAgroPortIS.xml" position="-1915.262 38.694 -1261.462" rotation="0 90 0" />			<!-- AgroPort -->
+	<item mapBoundId="sellingStationMill01" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationMillplant.xml" position="-1765.84 79.166 241.926" rotation="0 3.956 0" />		<!-- SiloGroup -->
+    <item mapBoundId="sellingStationMill02" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationMill02.xml" position="-1922.103 71.710 1640.674" rotation="0 0 0" />			<!-- Molino -->
+    <item mapBoundId="sellingStationWood" className="WoodSellStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationWood.xml" position="-726.125 34.975 1696.898" rotation="0 -34.619 0" />			<!-- Aserradero -->
+    <item mapBoundId="sellingStationWoodChips" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationWoodChIpS.xml" position="-530.423 48.391 1519.551" rotation="0 -2.632 0" />	<!-- PaperBloc -->
+    <item mapBoundId="sellingStationWoodChips" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationPlasticor.xml" position="1046.931 148.105 -1513.188" rotation="0 -52.563 0" />	<!-- Plasticor -->
+    <item mapBoundId="sellingStationMill01" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationBeer.xml" position="-78.192 69.975 1899.015" rotation="0 0 0" />				<!-- Cerveceria -->
+    <item mapBoundId="sellingStationMill01" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationRefineria.xml" position="1067.406 56.699 698.976" rotation="-0 90 0"  />		<!-- Refineria -->
+    <item mapBoundId="sellingStationMill01" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationPansur.xml" position="799.434 85.339 40.762" rotation="-0 90 0"  />				<!-- Pansur -->
+	<item mapBoundId="sellingStationBales" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellpointStationDestilery.xml" position="833.384 71.438 -426.028" rotation="0 50.639 0" />		<!-- Destilery -->
+	<item mapBoundId="sellingStationBales" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellpointStationDia.xml" position="609.755 70.839 -575.563" rotation="0 16.817 0"/>			<!-- Dia -->
+	<item mapBoundId="sellingStationBales" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellpointStationCovap.xml" position="243.018 62.556 -370.344" rotation="0 -5 0"/>				<!-- Covap -->
+    <item mapBoundId="trainSilo1" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationMuelle.xml" position="1804.53 110.985 -1060.16" rotation="0 0 0" />						<!-- Muelle -->
+    <item mapBoundId="sellingStationPort01" className="SellingStationPlaceable" filename="$mapdir$/maps/placeables/sellpoints/sellingStationZugarfabrik.xml" position="1054.000 162.272 -1847.964" rotation="0 0 0" />		<!-- ZugarFabrik -->
+
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloIS.xml" position="147.85 88.03 313.64" rotation="0 0 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloIS.xml" position="-347.299 165.058 -1778.304" rotation="0 0 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloIS.xml" position="1779.040 144.043 -1906.7" rotation="0 0 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloIS.xml" position="-1173.658 42.418 -213.844" rotation="0 -90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloIS.xml" position="-1298.199 64.157 1050.164" rotation="0 0 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloIS.xml" position="756.881 82.062 1488.7" rotation="180 0 180" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloIS.xml" position="1983.758 121.534 -54.304" rotation="-180 0 -180" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloIS.xml" position="314.438 100 -1084.246" rotation="0 -90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloISL.xml" position="208.8 88.065 215.97" rotation="0 90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloISLsmall.xml" position="-227.730 165.120 -1786.650" rotation="-0 90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloISLsmall.xml" position="1839.274 143.885 -1878.705" rotation="0 -90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloISLsmall.xml" position="-1268.854 42.436 -202.045" rotation="180 0 180" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloISLsmall.xml" position="-1270.080 60.634 1115.023" rotation="0 -90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloISLsmall.xml" position="734.963 82.073 1524.214" rotation="-180 14.060 -180" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloISLsmall.xml" position="2003.645 120.582 19.105" rotation="-180 0 -180" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="SiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/farmSiloISLsmall.xml" position="315.505 100.126 -1150.280" rotation="0 -59.280 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	
+    <item className="AnimalHusbandry" filename="$mapdir$/maps/placeables/animalHusbandry/husbandryChickenIS.xml" position="129 85.844 448" rotation="0 180 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="AnimalHusbandry" filename="$mapdir$/maps/placeables/animalHusbandry/husbandryCowIS.xml" position="450.878 46.673 656.9" rotation="0 180 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="AnimalHusbandry" filename="$mapdir$/maps/placeables/animalHusbandry/husbandrySheepIS.xml" position="378 46.673 657" rotation="0 -90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="AnimalHusbandry" filename="$mapdir$/maps/placeables/animalHusbandry/husbandryHorseIS.xml" position="-90.56 57.43 862.84" rotation="-180 86.696 -180" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="AnimalHusbandry" filename="$mapdir$/maps/placeables/animalHusbandry/husbandryPigIS.xml" position="95.744 57.5 740.978" rotation="0 52.846 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/garageBig.xml" position="164.21 85.63 429.4" rotation="0 90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/garageBig.xml" position="-262.119 165.058 -1782.429" rotation="180 0 180" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/garageBig.xml" position="1791.458 144.043 -1934.438" rotation="180 0 180" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/garageBig.xml" position="-1256.707 42.357 -231.739" rotation="0 0 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/garageBig.xml" position="-1300.180 64.230 1126.508" rotation="0 90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/garageBig.xml" position="683.120 82.062 1441.344" rotation="0 -0.126 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/garageBig.xml" position="312.863 100 -1119.130" rotation="180 0 -180" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/garageBig.xml" position="219.113 72.390 -521.390" rotation="0 90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/garageBig.xml" position="395.045 46.617 602.795" rotation="0 -90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/vehicleShelterMedium.xml" position="75.86 88.183 313.65" rotation="0 180 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Workshop" filename="$mapdir$/maps/placeables/farmBuildings/garaje.xml" position="98.354 85.9 433.874" rotation="0 90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/shedMetalFS13.xml" position="184.95 85.68 392.1" rotation="0 270 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/shedFS13.xml" position="41.11 86.05 271.24" rotation="0 180 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/shedFS13.xml" position="76.89 88.18 279.03" rotation="0 90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="BunkerSiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/bunkerIS.xml" position="649.554 46.649 672.237" rotation="0 0 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+	<item className="BunkerSiloPlaceable" filename="$mapdir$/maps/placeables/farmBuildings/bunkerIS.xml" position="-1390.611 64.805 1121.976" rotation="0 -90 0" age="5" price="0" defaultFarmProperty="true" farmId="1" />
+    <item className="FarmhousePlaceable" filename="$mapdir$/maps/placeables/farmBuildings/mainFarm.xml" position="9.54 104.85 399.39" rotation="-180 0 -180" age="19740" price="0" defaultFarmProperty="true" farmId="1" />
+																																<!-- Beta PC -->
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Locomotora.xml" position="1810.930 107.240 -1106" rotation="0 180 0" age="5" price="0" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Vagon_Grano.xml" position="1810.930 107.240 -1074.784" rotation="0 0 0" age="5" price="0" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Vagon_Grano.xml" position="1810.930 107.240 -1058.542" rotation="0 0 0" age="5" price="0" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Vagon_Papas.xml" position="1810.930 107.240 -1037.776" rotation="0 0 0" age="5" price="0" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Vagon_Papas.xml" position="1810.930 107.240 -1017.066" rotation="0 0 0" age="5" price="0" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Locomotora.xml" position="1814.917 107.240 -1110.2" rotation="0 180 0" age="5" price="0" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Vagon_Virutas.xml" position="1814.917 107.240 -1080.639" rotation="0 0 0" age="5" price="0" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Vagon_Virutas.xml" position="1814.917 107.240 -1064.177" rotation="0 0 0" age="5" price="0" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Vagon_Troncos.xml" position="1814.917 107.240 -1038.35" rotation="0 0 0" age="5" price="0" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Vagon_Troncos.xml" position="1814.917 107.240 -1012" rotation="0 0 0" age="5" price="0" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/train/Vagon_Troncos.xml" position="1814.917 107.240 -985.72" rotation="0 0 0" age="5" price="0" />
+
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/vehicleShelterMedium.xml" position="-1912.176 53.65 -479.595" rotation="0 180 0" age="5" price="0" defaultFarmProperty="true" farmId="2" />
+	<item className="Placeable" filename="$mapdir$/maps/placeables/farmBuildings/shedFS13.xml" position="-1900.725 50.136 -453.974" rotation="0 90 0" age="5" price="0" defaultFarmProperty="true" farmId="2" />
+	
+    <item className="FS19_IberianSouthland.FillTypeConverter" filename="$moddir$FS19_IberianSouthland/maps/placeables/CompostMaster/Compost0Master.xml" position="-20.371 95.584 -444.518" rotation="0 0 0" age="1" price="0">
+        <fillTypeConverter updateMinute="0" statusUiEnabled="true" partsState="false">
+            <inputs>
+                <input1 lastFillType="STRAW" fillLevel="0.000000"/>
+                <input2 lastFillType="DIESEL" fillLevel="0.000000"/>
+            </inputs>
+            <outputs>
+                <output1 lastFillType="COMPOST" fillLevel="0.000000"/>
+            </outputs>
+        </fillTypeConverter>
+    </item>
+    <item className="FS19_IberianSouthland.FillTypeConverter" filename="$moddir$FS19_IberianSouthland/maps/placeables/PelletMaster/PelletH0Master.xml" position="114.911 85.327 -453.289" rotation="180 0 180" age="1" price="0">
+        <fillTypeConverter updateMinute="0" statusUiEnabled="true" partsState="false">
+            <inputs>
+                <input1 lastFillType="GRASS" fillLevel="0.000000"/>
+                <input2 lastFillType="DIESEL" fillLevel="0.000000"/>
+            </inputs>
+            <outputs>
+                <output1 lastFillType="HAYPELLETS" fillLevel="0.000000"/>
+            </outputs>
+        </fillTypeConverter>
+    </item>
+    <item className="FS19_IberianSouthland.FillTypeConverter" filename="$moddir$FS19_IberianSouthland/maps/placeables/PelletMaster/PelletS0Master.xml" position="114.911 85.327 -402.148" rotation="180 0 180" age="1" price="0">
+        <fillTypeConverter updateMinute="0" statusUiEnabled="true" partsState="false">
+            <inputs>
+                <input1 lastFillType="STRAW" fillLevel="0.000000"/>
+                <input2 lastFillType="DIESEL" fillLevel="0.000000"/>
+            </inputs>
+            <outputs>
+                <output1 lastFillType="STRAWPELLETS" fillLevel="0.000000"/>
+            </outputs>
+        </fillTypeConverter>
+    </item>
+    <item className="FS19_IberianSouthland.FillTypeConverter" filename="$moddir$FS19_IberianSouthland/maps/placeables/LimeMaster/LimeMaster.xml" position="-20.675 123.883 -1352.345" rotation="0 0 0" age="1" price="0">
+        <fillTypeConverter updateMinute="0" statusUiEnabled="true" partsState="false">
+            <inputs>
+                <input1 lastFillType="LIMESTONE" fillLevel="0.000000"/>
+                <input2 lastFillType="WOODCHIPS" fillLevel="0.000000"/>
+            </inputs>
+            <outputs>
+                <output1 lastFillType="LIME" fillLevel="0.000000"/>
+            </outputs>
+        </fillTypeConverter>
+    </item>
+</items>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<l10n>
+    <translationContributors>WeatherMan_ZA, Translator Google</translationContributors>
+
+    <texts>
+
+        <text name="station_port03"							text="Noord-wes Poort"/>
+        <text name="station_Matadero"						text="Matadero"/>
+        <text name="station_SiloGroup"						text="SiloGroup"/>
+        <text name="station_farmShop"						text="Plaas Winkel"/>
+        <text name="station_Destilery"						text="Destilery"/>
+        <text name="station_Refineria"						text="Refinery"/>
+        <text name="station_freiyard"						text="Vrag Werf"/>
+        <text name="station_StationBeer"					text="Bier Brouery"/>
+        <text name="action_opentailGate"					text="Maak agterklap oop"/>
+        <text name="action_closetailGate"					text="Maak agterklap toe"/> <!-- Only show 1 text -->
+        <text name="action_lightSwitchON"					text="Skakel ligte aan"/>
+        <text name="action_lightSwitchOFF"					text="Skakel ligte af"/>
+        <text name="fillType_hop"							text="Hop"/>
+        <text name="fillType_beer"							text="Bier"/> <!-- last -->
+        <text name="fillType_compost"						text="Kompos"/>
+        <text name="fillType_biogas"						text="Biogas"/>
+        <text name="fillType_limestone"						text="Kalksteen"/>
+        <text name="fillType_gravel"						text="Gruis"/>
+        <text name="fillType_sand"							text="Sand"/>
+        <text name="fillType_hayPellets"					text="Hooi korrels"/>
+        <text name="fillType_strawPellets"					text="Strooi korrels"/>
+        <text name="fillTypeGroup_pellets"					text="Korrels"/>
+        <text name="configuration_XS"						text="XS 525/65/R20.5"/>
+
+        <text name="input_MasterS"							text="Vastestowwe"/>
+        <text name="input_MasterL"							text="Vloeistowwe"/>
+        <text name="output_MasterF"							text="Vervaardig"/>
+        <text name="shopItem_HerbiMaster"					text="OnkruiddoderMeester"/>
+        <text name="shopItem_FertiMaster"					text="KunsmisMeester"/>
+        <text name="shopItem_SeedMaster"					text="SaadMeester"/>
+        <text name="shopItem_CompostMaster"					text="KomposMeester"/>
+        <text name="shopItem_pelletHMaster"					text="Hooi KorrelsMeester"/>
+        <text name="shopItem_pelletSMaster"					text="Strooi KorrelsMeester"/>
+        <text name="shopItem_LimeMaster"					text="Kalksteen Fabriek"/>
+        <text name="shopItem_DaffMaster"					text="Bier Produksie"/> <!-- last -->
+        <text name="shopItem_gravelStation"					text="Gruis Stasie"/>
+        <text name="shopItem_limestoneStation"				text="Kalksteen Stasie"/>
+        <text name="shopItem_sandStation"					text="Sand Stasie"/>
+        <text name="shopItem_foodStation"					text="Venta Alimentos"/> <!-- last -->
+        <text name="shopItem_farmStation"					text="Semillería"/> <!-- last -->
+	</texts>
+</l10n>

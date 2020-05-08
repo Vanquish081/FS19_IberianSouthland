@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<shop>
+    <filename>scripts/shop.i3d</filename>
+    <position xMapPos="0" yMapPos="-100" zMapPos="0" />
+
+    <colorGradings>
+        <colorGrading filename="$data/store/ui/shop_colorGrading.xml"  time="0*60" />
+    </colorGradings>  
+
+    <envMap basePath="$data/store/ui/envMaps">
+        <timeProbe timeHours="0" />
+    </envMap>
+
+    <autoExposure>
+        <key keyLuminance="0.18"  minExposure="-2.1" maxExposure="1.4" time="0*60" />
+        <key keyLuminance="0.18"  minExposure="-2.1" maxExposure="1.4" time="24*60" />
+    </autoExposure>
+
+    <sunRotation>
+        <key value="0"   time="0*60" />
+        <key value="0"   time="24*60" />
+    </sunRotation>
+
+    <lightScatteringRotation>
+        <key primary="0"    secondary="-180"   time="0*60" />
+        <key primary="0"    secondary="180"    time="24*60" />
+    </lightScatteringRotation>
+
+    <primaryDynamicLightingScale>
+        <key value="1" time="0*60" />
+        <key value="1" time="24*60" />
+    </primaryDynamicLightingScale>
+
+    <primaryExtraterrestrialColor>
+        <key values="0.015 0.015 0.015" time="0*60" />
+        <key values="0.015 0.015 0.015" time="24*60" />
+    </primaryExtraterrestrialColor>
+
+    <secondaryExtraterrestrialColor>
+        <key values="0.0 0.0 0.0" time="0*60" />
+        <key values="0.0 0.0 0.0" time="24*60" />
+    </secondaryExtraterrestrialColor>
+
+    <asymmetryFactor>
+        <key value="0.9" time="0*60" />
+        <key value="0.9" time="24*60" />
+    </asymmetryFactor>
+
+    <sunBrightnessScale>
+        <key value="0.08" time="0*60" />
+        <key value="0.08" time="24*60" />
+    </sunBrightnessScale>
+
+    <sunSizeScale>
+        <key value="6500" time="0*60" />
+        <key value="6500" time="24*60" />
+    </sunSizeScale>
+
+    <nightSkyBlendWeight>
+        <key value="1.0" time="0*60" />
+        <key value="1.0" time="24*60" />
+    </nightSkyBlendWeight>
+</shop>

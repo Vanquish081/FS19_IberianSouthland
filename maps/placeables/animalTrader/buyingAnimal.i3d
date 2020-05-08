@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/shared/default_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert2" materialId="565" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="lambert1" materialId="589" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="buyingAnimal.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="buyingStation" translation="0 0 4.7e-07" rotation="0 0 4.73031e-07" nodeId="99696">
+      <TransformGroup name="gameplay" nodeId="99697">
+        <TransformGroup name="loadingStation" translation="-0.4 0 0" nodeId="99698">
+          <TransformGroup name="loadingTriggers" translation="0 -1.38243 0" nodeId="99699">
+            <Shape shapeId="1" name="loadingTrigger" translation="0 5.1 0" static="true" trigger="true" collisionMask="1073741824" nodeId="99700" materialIds="589" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <TransformGroup name="dischargeNode" translation="0 5.1 0" nodeId="99701"/>
+            <TransformGroup name="dischargeEffect" translation="0 5.1 0" nodeId="99702">
+              <Shape shapeId="2" name="pipeEffect" rotation="90 0 0" clipDistance="300" nodeId="99703" materialIds="565" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="3" name="pipeEffectSmoke" translation="0 -1.84227 0" visibility="false" clipDistance="100" nodeId="99704" materialIds="565" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="mapPosition" translation="0 0.00891252 1.01016" nodeId="99705"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="99696">
+      <Attribute name="mapPositionIndex" type="string" value="0|1"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_station_vegetableBase</name>
+        <image>$data/placeables/mapSA/sellingStations/store_sellingStationWool.png</image>
+        <price>1</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+        <vertexBufferMemoryUsage>576</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>72</indexBufferMemoryUsage>
+        <textureMemoryUsage>64</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <placeableType>sellingStation</placeableType>
+    <filename>$data/placeables/mapDE/sellingStationGeneric/sellingStationGeneric.i3d</filename>
+    <placement testSizeX="15" testSizeZ="8" sizeX="4" sizeZ="3" useRandomYRotation="false" useManualYRotation="true" />
+
+    <sellingStation stationName="Botanic Center" appearsOnPDA="true" storageRadius="0" litersForFullPriceDrop="100000" fullPriceRecoverHours="48">  <!-- Beta PC -->
+        <unloadTrigger exactFillRootNode="0|0|0|0|0" baleTriggerNode="0|0|0|0|1" />
+        <fillType name="manure"			priceScale="1.5" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="compost"		priceScale="1.5"	supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="maize"            priceScale="1.1"   supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="potato"           priceScale="1.15"   supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="sugarBeet"        priceScale="1.15"   supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="sugarCane"        priceScale="1.15"   supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="straw"            priceScale="1.15" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="dryGrass_windrow" priceScale="1.15" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="grass_windrow"    priceScale="1.15" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="strawPellets"	priceScale="1.65" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="hayPellets"		priceScale="1.65" supportsGreatDemand="true" disablePriceDrop="false" />
+    </sellingStation>
+    
+</placeable>

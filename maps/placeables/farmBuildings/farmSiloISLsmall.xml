@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_farmSiloSmall</name>
+        <functions>
+            <function>$l10n_function_farmSilo</function>
+        </functions>
+        <specs>
+            <capacity>600000</capacity>
+            <fillTypeCategories>SLURRYTANK LIQUID</fillTypeCategories>
+        </specs>
+        <image>maps/placeables/farmBuildings/store_farmSiloISLsmall.png</image>
+        <price>180000</price>
+        <dailyUpkeep>60</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>silos</category>
+    </storeData>
+
+    <placeableType>silo</placeableType>
+    <filename>maps/placeables/farmBuildings/farmSiloISLsmall.i3d</filename>
+    <placement testSizeX="30" testSizeZ="30" sizeX="30" sizeZ="30" useRandomYRotation="false" useManualYRotation="true" />
+
+    <loadingStation stationName="$l10n_station_farmSilo" appearsOnPDA="false" storageRadius="10" fillSoundIdentifier="fillSound01">
+        <loadTrigger triggerNode="0|1|0|0|0" fillLitersPerSecond="3500" dischargeNode="0|1|0|0|1">
+            <effectNode effectClass="PipeEffect" effectNode="0|1|0|0|2|0" materialType="pipe" materialTypeId="1" fadeTime="0.5" maxBending="0" controlPoint="3.25 0 0 0"/>  <!-- Beta PC -->
+            <!-- <effectNode                          effectNode="0|1|0|0|2|1" materialType="smoke"     materialTypeId="1" fadeTime="0.5" /> -->
+        </loadTrigger>
+    </loadingStation>
+
+    <unloadingStation stationName="$l10n_station_farmSilo" appearsOnPDA="false" storageRadius="1">
+        <unloadTrigger exactFillRootNode="0|0|0|0|0" />
+    </unloadingStation>
+
+    <storages>
+        <storage node="0|2" fillTypeCategories="SLURRYTANK LIQUID" capacityPerFillType="600000" />
+    </storages>
+
+	<manureSystemConnectors rootNode="3">
+		<trigger node="3|4"/>
+		<connector type="COUPLING" node="3|2" lockAnimationIndex="1"/>
+	</manureSystemConnectors>
+
+	<animatedObjects>
+		<animatedObject>
+			<animation duration="0.25">
+				<part node="3|0">
+					<keyFrame time="0.0" rotation="0 0 0"/>
+					<keyFrame time="1" rotation="0 0 -125"/>
+				</part>            
+			</animation>
+		</animatedObject>
+		<animatedObject>
+			<animation duration="0.25">
+				<part node="3|1">
+					<keyFrame time="0.0" rotation="0 0 0"/>
+					<keyFrame time="1" rotation="0 0 -12"/>
+				</part>
+			</animation>
+		</animatedObject>
+	</animatedObjects>
+	
+    <clearAreas>
+        <clearArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1"/>
+    </clearAreas>
+
+    <hotspots>
+        <hotspot name="Farm silo" fullName="$l10n_station_farmSilo" imageName="SELLING_POINT" hidable="true" linkNode="0|3" category="CATEGORY_TRIGGERS" />
+    </hotspots>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1" groundType="concrete"/>
+        </levelAreas>
+    </leveling>
+    
+    <tipOcclusionUpdateArea sizeX="30" sizeZ="30" />
+
+</placeable>

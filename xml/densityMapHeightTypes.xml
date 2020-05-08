@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <densityMapHeightTypes>
+        <densityMapHeightType fillTypeName="hop" maxSurfaceAngle="30" fillToGroundScale="1.0" allowsSmoothing="false" >
+            <collision scale="1.0" baseOffset="0.08" minOffset="0.0" maxOffset="0.08" />
+            <textures diffuse="fillPlanes/hop_diffuse.png" normal="fillPlanes/hop_normal.png" distance="foliage/distance/foliage_hop_distance5_diffuse.png" />
+        </densityMapHeightType>
+        <densityMapHeightType fillTypeName="compost" maxSurfaceAngle="34" fillToGroundScale="1.0" allowsSmoothing="false" >
+            <collision scale="1.0" baseOffset="0.08" minOffset="0.0" maxOffset="0.08" />
+            <textures diffuse="fillPlanes/compost_diffuse.dds" normal="fillPlanes/compost_normal.dds" distance="foliage/distance/compostDistance_diffuse.dds" />
+        </densityMapHeightType>
+    </densityMapHeightTypes>
+</map>

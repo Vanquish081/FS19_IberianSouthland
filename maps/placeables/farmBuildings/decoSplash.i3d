@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="IberianSouthland" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="12" filename="$data/shaders/windShader.xml"/>
+    <File fileId="11" filename="../../models/buildings/treeBranch_diffuse.png"/>
+    <File fileId="1" filename="../../models/objects/aboveGroundPoolDeck_diffuse.png"/>
+    <File fileId="2" filename="../../models/objects/aboveGroundpoolDeck_normal.png"/>
+    <File fileId="9" filename="../../models/objects/chickenCoop_diffuse.png"/>
+    <File fileId="10" filename="../../models/objects/chickenCoop_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="aboveGroundPoolDeck_mat" materialId="820" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="chickenCoop_mat" materialId="54">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+    </Material>
+    <Material name="bushes_mat" materialId="104" customShaderId="12">
+      <Texture fileId="11"/>
+      <CustomParameter name="directionAndFrequency" value="0.06 0 0 1.2"/>
+      <CustomParameter name="speed" value="1 0 0 0"/>
+    </Material>
+    <Material name="groundPool" materialId="184">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="decoSplash.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="aboveGroundPoolDeck" translation="-136.359 104.282 86.1848" rotation="-7.0362e-07 1.583 -1.25583e-08" static="true" clipDistance="400" nodeId="7686" materialIds="820" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="groundPool" static="true" nodeId="7687" materialIds="184" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="planterBoxSquare" translation="-2.75449 -0.0591965 4.31443" rotation="-0 90 0" static="true" clipDistance="150" nodeId="7688" materialIds="54" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="4" name="bush03" translation="-0.608124 0.794189 0.0598755" rotation="0 60 0" scale="0.5 0.65 0.5" clipDistance="100" nodeId="7689" materialIds="104" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="bush01" translation="0.636368 0.794 0.133911" scale="0.6 0.8 0.6" clipDistance="100" nodeId="7690" materialIds="104" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="3" name="planterBoxSquare" translation="-2.75449 -0.0591965 7.36234" rotation="-0 90 0" static="true" clipDistance="150" nodeId="7691" materialIds="54" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="4" name="bush03" translation="-0.608124 0.794189 0.0598755" rotation="0 60 0" scale="0.5 0.65 0.5" clipDistance="100" nodeId="7692" materialIds="104" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="bush01" translation="0.636368 0.794 0.133911" scale="0.6 0.8 0.6" clipDistance="100" nodeId="7693" materialIds="104" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="3" name="planterBoxSquare" translation="0.0630191 -0.0591965 7.54104" static="true" clipDistance="150" nodeId="7694" materialIds="54" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="4" name="bush03" translation="-0.608124 0.794189 0.0598755" rotation="0 60 0" scale="0.5 0.65 0.5" clipDistance="100" nodeId="7695" materialIds="104" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="bush01" translation="0.636368 0.794 0.133911" scale="0.6 0.8 0.6" clipDistance="100" nodeId="7696" materialIds="104" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="7686">
+      <Attribute name="currentUVSet" type="string" value="map2"/>
+    </UserAttribute>
+    <UserAttribute nodeId="7687">
+      <Attribute name="currentUVSet" type="string" value="map2"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

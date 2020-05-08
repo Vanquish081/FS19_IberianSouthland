@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_pelletHMaster</name>
+		<image>maps/placeables/PelletMaster/store_pelletHMaster.png</image>
+        <specs>
+            <capacity>100000</capacity>
+            <fillTypes>GRASS DRYGRASS_WINDROW CHAFF HAYPELLETS</fillTypes>
+        </specs>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+		<price>145000</price>
+        <dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>ARTMECHANIC</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>fillTypeConverter</placeableType>
+    <filename>maps/placeables/PelletMaster/pelletHMaster.i3d</filename>
+
+    <placement testSizeX="26" testSizeZ="17" testSizeOffsetX="-2" testSizeOffsetZ="-0.5" sizeX="21" sizeZ="12" sizeOffsetX="-2" sizeOffsetZ="-0.5" useRandomYRotation="false" useManualYRotation="true" />
+
+    <dayNightObjects>
+        <dayNightObject node="4|6|0" visibleDay="false" visibleNight="true" />
+        <dayNightObject node="4|7|0" visibleDay="false" visibleNight="true" />
+        <dayNightObject node="4|8|0" visibleDay="false" visibleNight="true" />
+    </dayNightObjects>
+
+    <hotspots>
+        <hotspot name="PelletHMaster" fullName="$l10n_shopItem_pelletHMaster" imageFilename="fillPlanes/huds/mapHotspots.dds" imageUVs="534 226 230 230" linkNode="6" showName="true" hidable="true" renderLast="false" category="CATEGORY_TRIGGER"/>  <!-- Beta PC -->
+    </hotspots>
+
+    <clearAreas>
+        <clearArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="8" maxSlope="30" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+
+    <seasons>
+        <maskAreas>
+            <maskArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1"/>
+        </maskAreas>
+    </seasons>
+
+    <tipOcclusionUpdateArea sizeX="25" sizeZ="12"/>
+    
+	<fillTypeConverter stationName="$l10n_shopItem_pelletHMaster" updateInterval="5" combinedCapacity="false" adjustForSeasonsLength="false">
+		<inputs>
+            <input fillTypes="CHAFF GRASS DRYGRASS_WINDROW" perHour="10000" capacity="100000" displayName="input_MasterS" displayNameAddIndex="true">
+                <fillPlanes>
+                    <fillPlane node="3|1|0" minMaxY="0.634 3.119"  alwaysVisible="false"/>
+                </fillPlanes>
+
+                <displays>
+                    <display baseNode="0|0" type="FILL_LEVEL"	numberColor="WHITE" showZero="false"/>
+                    <display baseNode="0|3" type="FILL_LEVEL"	numberColor="BLACK" showZero="false"/>
+                </displays>
+            </input>
+			
+            <input fillTypes="DIESEL BIOGAS" perHour="2000" capacity="50000" displayName="input_MasterL" displayNameAddIndex="true">
+
+                <displays>
+                    <display baseNode="0|1" type="FILL_LEVEL"	numberColor="WHITE" showZero="false"/>
+                    <display baseNode="0|4" type="FILL_LEVEL"	numberColor="BLACK" showZero="false"/>
+                </displays>
+            </input>
+        </inputs>
+
+        <outputs>
+            <output fillType="HAYPELLETS" perHour="3000" capacity="100000" displayName="output_MasterF" displayNameAddIndex="false">
+
+                <displays>
+					<display baseNode="0|2" type="FILL_LEVEL"	numberColor="WHITE" showZero="false"/>
+                    <display baseNode="0|5" type="FILL_LEVEL"	numberColor="BLACK" showZero="false"/>
+                </displays>
+            </output>
+        </outputs>
+		
+        <loadTriggers>
+            <loadTrigger triggerNode="1|0" fillLitersPerSecond="1800" dischargeNode="1|1" autoStart="true" fillTypes="HAYPELLETS">
+                <effectNode effectNode="1|2|0" materialType="unloading" materialTypeId="3" fadeTime="0.5" maxBending="0" controlPoint="3.75 0 0 0"/>
+                <effectNode effectNode="1|2|1" materialType="smoke"     materialTypeId="1" fadeTime="0.5"/>
+            </loadTrigger>
+        </loadTriggers>
+
+        <unloadTriggers>
+            <unloadTrigger exactFillRootNode="2|1" baleTriggerNode="2|2" avoidFillTypeCategories="LIQUID"/>
+            <unloadTrigger exactFillRootNode="2|3"	avoidFillTypeCategories="BULK"/>
+        </unloadTriggers>
+		
+        <interactionTrigger node="2|0" startStopAction="TOGGLE_TIPSTATE"/>
+		
+		<parts sequence="20 10">
+            <animationNodeGroups>
+                <animationNodes useSequence="false">
+					<animationNode node="3|3|0|0"   rotSpeed="-200" rotAxis="1" turnOnFadeTime="1" turnOffFadeTime="3" />
+					<animationNode node="3|3|1|0"   rotSpeed="125" rotAxis="3" turnOnFadeTime="1" turnOffFadeTime="3" />
+					
+					<animationNode class="ScrollingAnimation" node="3|3|5|0"  shaderParameterComponent="2" scrollSpeed="-0.8" scrollLength="3.84" turnOnFadeTime="0.3" turnOffFadeTime="2.5" />
+					<animationNode class="ScrollingAnimation" node="3|3|4|0"  shaderParameterComponent="2" scrollSpeed="-0.8" scrollLength="3.98" turnOnFadeTime="0.4" turnOffFadeTime="3.5" /> 
+                </animationNodes>
+            </animationNodeGroups>
+
+            <changedParts>
+                <changedPart node="0|3" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="0|4" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="0|5" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="3|2|0" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="3|2|1" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="3|2|2" offVisibility="false" onVisibility="true" useSequence="true" invertSequence="true"/>
+                <changedPart node="3|2|3" offVisibility="false" onVisibility="true" useSequence="false"/>
+                <changedPart node="3|3|6|0" offVisibility="false" onVisibility="true" useSequence="false"/>
+			</changedParts>
+
+            <beaconLights>
+                <beaconLight rotatorNode="3|4|0" realLightNode="3|4|0|0" speed="0.015" intensity="80"/>
+            </beaconLights>
+
+            <effects>			
+                <effect fillTypes="CHAFF GRASS GRASS_WINDROW DRYGRASS_WINDROW" linkedInputId="1" useSequence="true" invertSequence="false">
+                    <effectNode effectClass="MorphPositionEffect" effectNode="3|0|4|0" materialType="belt"/>
+                    <effectNode effectClass="MorphPositionEffect" effectNode="3|0|4|1" materialType="belt"/>
+                    <effectNode effectClass="MorphPositionEffect" effectNode="3|0|4|2" materialType="belt"/>
+                    <effectNode effectClass="MorphPositionEffect" effectNode="3|0|4|3" materialType="belt"/>
+                </effect>
+                <effect fillType="HAYPELLETS" linkedOutputId="1" useSequence="true" invertSequence="true">
+                    <effectNode effectClass="MorphPositionEffect" effectNode="3|3|2|0" materialType="belt"	fadeTime="1.5" scrollSpeed="0.9" scrollLength="3.775"/>
+					<effectNode effectClass="MorphPositionEffect" effectNode="3|3|3|0" materialType="belt"	delay="1.5"/>
+                </effect>
+            </effects>
+			
+			<particleSystems>
+				<particleSystem node="3|0|0" file="maps/placeables/CompostMaster/particleSystems/smokeEmitter01.i3d" worldSpace="false" useSequence="true" invertSequence="true"/>
+				<particleSystem node="3|0|1" file="maps/placeables/CompostMaster/particleSystems/workEmitterH1.i3d" worldSpace="false" />
+				<particleSystem node="3|0|2" file="maps/placeables/CompostMaster/particleSystems/workEmitterH2.i3d" worldSpace="false" />
+				<particleSystem node="3|0|3" file="maps/placeables/CompostMaster/particleSystems/workEmitterH3.i3d" worldSpace="false" />
+			</particleSystems>			
+        </parts>
+    </fillTypeConverter>
+	
+</placeable>

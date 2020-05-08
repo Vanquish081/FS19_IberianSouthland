@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/psColorShader.xml"/>
+    <File fileId="2" filename="$data/particleSystems/fx_chaff4x1_normal.png"/>
+    <File fileId="1" filename="fx_unrat4x1_diffuse.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="fx_straw_mat" materialId="5" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="psColor" value="1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="workEmitter3.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+    <ParticleSystem name="chaffEmitter" dynamicId="1" type="sprite" rate="0.9" lifespan="720" maxCount="600" speed="0.001" speedRandom="0" tangentSpeed="0" normalSpeed="0" emitterShapeVelocityScale="0.75" damping="0.8" spriteScaleX="0.5" spriteScaleY="0.5" spriteScaleXGain="0.0008" spriteScaleYGain="0.0008" blendFactor="1" blendInFactor="0.15" blendOutFactor="1" randomInitRotation="true" deltaRotateMin="-0.0015708" deltaRotateMax="0.0015708" textureAtlasSizeX="4">
+      <Gravity force="0 -1.5 0"/>
+    </ParticleSystem>
+  </Dynamics>
+
+  <Scene>
+    <Dynamic dynamicId="1" emitterShapeNodeId="12" name="strawEmitter" clipDistance="100" nodeId="11" materialIds="5" distanceBlending="false">
+      <Shape shapeId="2" name="emitShape" translation="0 0 -0.0548008" rotation="0 -0 90" scale="1 1 29" nodeId="12" materialIds="4" nonRenderable="true"/>
+    </Dynamic>
+  </Scene>
+
+</i3D>
