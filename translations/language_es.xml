@@ -45,11 +45,18 @@
         <text name="shopItem_sandStation"					text="Venta Arena"/>
         <text name="shopItem_foodStation"					text="Venta Alimentos"/> <!-- last -->
         <text name="shopItem_farmStation"					text="Semillería"/> <!-- last -->
+        <text name="shopItem_Ramp"							text="Rampa"/> <!-- last -->
+        <text name="function_Ramp"							text="ArtMechanic ha preparado esta rampa para esos lugares donde tu maquinaria no alcanza a los remolques correctamente."/> <!-- last -->
         <text name="action_doSmartAttachGround"				text="Enganchar depósito móvil"/> <!-- last -->
         <text name="configuration_valueMan"					text="Enganche MAN"/> <!-- last -->
         <text name="configuration_valueTatra"				text="Enganche Tatra"/> <!-- last -->
         <text name="configuration_valueTruckS"				text="Enganche Warrior"/> <!-- last -->
         <text name="configuration_valueTruckM"				text="Enganche Hulk"/> <!-- last -->
         <text name="configuration_valueTruckL"				text="Enganche RoadRunner"/> <!-- last -->
+		
+        <text name="shopItem_palletStorage"					text="Almacén Palets"/> <!-- last -->
+        <text name="function_palletStorage"					text="Almacén para 122 palets de cerveza."/> <!-- last -->
+        <text name="unit_pallets"							text="Palets"/> <!-- last -->
+        <text name="ui_nextObjectLevel"						text="Siguiente Objecto"/> <!-- last -->
 	</texts>
 </l10n>

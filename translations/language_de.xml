@@ -45,11 +45,18 @@
         <text name="shopItem_sandStation"					text="Sand Silo"/>
         <text name="shopItem_foodStation"					text="Lebensmittelverkauf"/> <!-- last -->
         <text name="shopItem_farmStation"					text="Sämling"/> <!-- last -->
+        <text name="shopItem_Ramp"							text="Rampe"/> <!-- last -->
+        <text name="function_Ramp"							text="ArtMechanic hat diese Rampe für jene Orte vorbereitet, wo Ihre Maschine nicht richtig Anhänger zu."/> <!-- last -->
         <text name="action_doSmartAttachGround"				text="Mobiler Panzer einhaken"/> <!-- last -->
         <text name="configuration_valueMan"					text="Kupplung MAN"/> <!-- last -->
         <text name="configuration_valueTatra"				text="Kupplung Tatra"/> <!-- last -->
         <text name="configuration_valueTruckS"				text="Kupplung Warrior"/> <!-- last -->
         <text name="configuration_valueTruckM"				text="Kupplung Hulk"/> <!-- last -->
         <text name="configuration_valueTruckL"				text="Kupplung RoadRunner"/> <!-- last -->
+		
+        <text name="shopItem_palletStorage"					text="Paletten Lagerung"/> <!-- last -->
+        <text name="function_palletStorage"					text="Lagerung für 122 bier paletten."/> <!-- last -->
+        <text name="unit_pallets"							text="paletten"/> <!-- last -->
+        <text name="ui_nextObjectLevel"						text="Nächstes Objekt"/> <!-- last -->
 	</texts>
 </l10n>

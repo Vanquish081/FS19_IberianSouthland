@@ -45,11 +45,18 @@
         <text name="shopItem_sandStation"					text="Sand Stasie"/>
         <text name="shopItem_foodStation"					text="Kos verkoop"/> <!-- last -->
         <text name="shopItem_farmStation"					text="Sämling"/> <!-- last -->
+        <text name="shopItem_Ramp"							text="Rampa"/> <!-- last -->
+        <text name="function_Ramp"							text="ArtMechanic het hierdie oprit voorberei vir die plekke waar u masjinerie nie die sleepwaens korrek bereik nie."/> <!-- last -->
         <text name="action_doSmartAttachGround"				text="Haak mobiele tenk"/> <!-- last -->
         <text name="configuration_valueMan"					text="Hitch MAN"/> <!-- last -->
         <text name="configuration_valueTatra"				text="Hitch Tatra"/> <!-- last -->
         <text name="configuration_valueTruckS"				text="Hitch Warrior"/> <!-- last -->
         <text name="configuration_valueTruckM"				text="Hitch Hulk"/> <!-- last -->
         <text name="configuration_valueTruckL"				text="Hitch RoadRunner"/> <!-- last -->
+		
+        <text name="shopItem_palletStorage"					text="Paletten Lagerung"/> <!-- last -->
+        <text name="function_palletStorage"					text="Lagerung für 122 bier paletten."/> <!-- last -->
+        <text name="unit_pallets"							text="paletten"/> <!-- last -->
+        <text name="ui_nextObjectLevel"						text="Nächstes Objekt"/> <!-- last -->	
 	</texts>
 </l10n>
