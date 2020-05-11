@@ -24,6 +24,7 @@
         <text name="fillType_sand"							text="Sand"/>
         <text name="fillType_hayPellets"					text="Hooi korrels"/>
         <text name="fillType_strawPellets"					text="Strooi korrels"/>
+        <text name="fillType_paperBoard"					text="Karton"/> <!-- last -->
         <text name="fillTypeGroup_pellets"					text="Korrels"/>
         <text name="configuration_XS"						text="XS 525/65/R20.5"/>
 
@@ -39,6 +40,7 @@
         <text name="shopItem_pelletSMaster"					text="Strooi KorrelsMeester"/>
         <text name="shopItem_LimeMaster"					text="Kalksteen Fabriek"/>
         <text name="shopItem_DaffMaster"					text="Bier Produksie"/> <!-- last -->
+        <text name="shopItem_PaperBloc"						text="Papier Produktion"/> <!-- last -->
         <text name="shopItem_Viniedo"						text="Druiwe Produksie"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Gruis Stasie"/>
         <text name="shopItem_limestoneStation"				text="Kalksteen Stasie"/>
@@ -55,7 +57,7 @@
         <text name="configuration_valueTruckL"				text="Hitch RoadRunner"/> <!-- last -->
 		
         <text name="shopItem_palletStorage"					text="Paletten Lagerung"/> <!-- last -->
-        <text name="function_palletStorage"					text="Lagerung für 122 bier paletten."/> <!-- last -->
+        <text name="function_palletStorage"					text="Lagerung für 120 bier paletten."/> <!-- last -->
         <text name="unit_pallets"							text="paletten"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Nächstes Objekt"/> <!-- last -->	
 	</texts>

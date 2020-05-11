@@ -24,6 +24,7 @@
         <text name="fillType_sand"							text="Sand"/>
         <text name="fillType_hayPellets"					text="Hay Pellets"/>
         <text name="fillType_strawPellets"					text="Straw Pellets"/>
+        <text name="fillType_paperBoard"					text="Paperboard"/> <!-- last -->
         <text name="fillTypeGroup_pellets"					text="Pellets"/>
         <text name="configuration_XS"						text="XS 525/65/R20.5"/>
 		
@@ -38,7 +39,8 @@
         <text name="shopItem_pelletHMaster"					text="Hay PelletMaster"/>
         <text name="shopItem_pelletSMaster"					text="Straw PelletMaster"/>
         <text name="shopItem_LimeMaster"					text="Factory Lime"/>
-        <text name="shopItem_DaffMaster"					text="Production Beer"/> <!-- last -->
+        <text name="shopItem_DaffMaster"					text="Factory Beer"/> <!-- last -->
+        <text name="shopItem_PaperBloc"						text="Factory Paper"/> <!-- last -->
         <text name="shopItem_Viniedo"						text="Production Grapes"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Gravel Station"/>
         <text name="shopItem_limestoneStation"				text="Limestone Station"/>
@@ -55,7 +57,7 @@
         <text name="configuration_valueTruckL"				text="Hitch RoadRunner"/> <!-- last -->
 
         <text name="shopItem_palletStorage"					text="Pallets Storage"/> <!-- last -->
-        <text name="function_palletStorage"					text="Storage for 122 pallet beer."/> <!-- last -->
+        <text name="function_palletStorage"					text="Storage for 120 pallet beer."/> <!-- last -->
         <text name="unit_pallets"							text="Pallets"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Next Object"/> <!-- last -->
 	</texts>

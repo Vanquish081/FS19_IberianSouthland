@@ -24,6 +24,7 @@
         <text name="fillType_sand"							text="Arena"/>
         <text name="fillType_hayPellets"					text="Pellets Heno"/>
         <text name="fillType_strawPellets"					text="Pellets Paja"/>
+        <text name="fillType_paperBoard"					text="Cartón"/> <!-- last -->
         <text name="fillTypeGroup_pellets"					text="Pellets"/>
         <text name="configuration_XS"						text="XS 525/65/R20.5"/>
 		
@@ -39,6 +40,7 @@
         <text name="shopItem_pelletSMaster"					text="PelletMaster Paja"/>
         <text name="shopItem_LimeMaster"					text="Fábrica Cal"/>
         <text name="shopItem_DaffMaster"					text="Producción Cerveza"/> <!-- last -->
+        <text name="shopItem_PaperBloc"						text="Producción Papel"/> <!-- last -->
         <text name="shopItem_Viniedo"						text="Producción Uvas"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Venta Grava"/>
         <text name="shopItem_limestoneStation"				text="Venta Caliza"/>
@@ -55,7 +57,7 @@
         <text name="configuration_valueTruckL"				text="Enganche RoadRunner"/> <!-- last -->
 		
         <text name="shopItem_palletStorage"					text="Almacén Palets"/> <!-- last -->
-        <text name="function_palletStorage"					text="Almacén para 122 palets de cerveza."/> <!-- last -->
+        <text name="function_palletStorage"					text="Almacén para 120 palets de cerveza."/> <!-- last -->
         <text name="unit_pallets"							text="Palets"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Siguiente Objecto"/> <!-- last -->
 	</texts>
