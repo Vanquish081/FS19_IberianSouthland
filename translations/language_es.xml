@@ -2,6 +2,83 @@
 <l10n>
 
     <texts>
+		<!-- helpLine -->
+        <text name="helpCategory_IS01"						text="¡¡Bienvenido a Tierras Del Sur Ibérico!!"/>
+        <text name="helpTitle_IS01"							text="Leyenda y Consejos"/>
+		<text name="helpText_IS01_part01"					text="Este mapa tiene servicios de venta adicional, así como algunos puntos de venta donde podrás realizar la producción de algunos materiales necesarios para la fabricación de otros productos con un mayor beneficio."/>
+		<text name="helpText_IS01_part02"					text="Este panel (imagen 1) lo podrás ver en los puntos de venta donde poder fabricar otros materiales o productos."/>
+		<text name="helpText_IS01_part03"					text="La imagen 2 indica la ubicación de silos donde se venden productos, por el nombre del mismo sobre el mapa, puedes intuir que se vende."/>
+		<text name="helpText_IS01_part04"					text="La imagen 3 indica la ubicación y acceso directo mediante 'Visitar' al punto de fabricación de dicho punto de venta."/>
+		<text name="helpText_IS01_part05"					text="El mapa dispone de 8 lugares preparados para alojar una granja, en nivel fácil incluye sus respectivos silos y nave. También puedes encontrar estos silos para grano o líquidos así como las naves en la tienda en su sección correspondiente."/>
+		<text name="helpText_IS01_part06"					text="Esta incluido en el mapa también algunos vehículos, colocables y útiles que te facilitarán la labor en tus tareas diarias."/>
+        <text name="helpTitle_IS02"							text="Fábricas - Producciones / Parte 1"/>
+		<text name="helpText_IS02_part01"					text="El punto de venta que tenga en algún lugar un panel como el de la imagen 1 dispone de un sistema de producción, al cual podrás acceder comprando la parcela, este pago es el impuesto por manejar y circular dentro del punto de venta."/>
+		<text name="helpText_IS02_part02"					text="Una vez comprada la parcela podrás 'Visitar' (imagen 2) directamente la producción y también tendrás visible una interface visual (imagen 3) en la zona del punto de venta donde se indica los recursos necesarios y el/los productos resultantes de la producción."/>
+		<text name="helpText_IS02_part03"					text="Hay varios tipos de productos:
+- Para venta directa.
+- Para recursos de otras producciones.
+- Para las dos anteriores."/>
+		<text name="helpText_IS02_part04"					text="Algunos están disponibles para su instalación en tu terreno (colocables) y otros solo en el punto de venta, piensa bien donde empiezas a invertir tu dinero.... "/>
+        <text name="helpTitle_IS03"							text="Fábricas - Producciones / Parte 2"/>
+		<text name="helpText_IS03_part01"					text="Si no quieres explorar el mapa, a continuación se indica las fábricas disponibles y su localización en el juego así como su disponibilidad en la tienda:"/>
+		<text name="helpText_IS03_part02"					text="- BiogasMaster - ------ > 1745 - 1280
+- CompostMaster- ---- > 2045 - 1600 (Tienda) 
+- DaffMaster - - -------- > 1895 - 3975
+- LimeMaster - - ------- > 3150 -  255
+- NordicSugar Mol- -- > 3150 -  255
+- NordicSugar Sug- -- > 3205 -  230
+- PaperBloc- - - - ------ > 1525 - 3540
+- PelletMaster Heno- > 2140 - 1595
+- PelletMaster Paja ---> 2140 - 1645
+- PlatiCor - - ------------ > 3090 -  570
+- Huerto Uvas- - ------ > 1495 -  440 (Tienda)"/>
+		<text name="helpText_IS03_part03"					text="Aquí están indicadas las que hay incluidas a disposición de los usuarios en esta versión del mapa, si alguna no esta disponible, se irá ampliando o corrigiendo esta ayuda con dicha información."/>
+        <text name="helpTitle_IS04"							text="Fábricas - Producciones / Parte 3"/>
+		<text name="helpText_IS04_part01"					text="Si has leido hasta aquí puede que en algún momento te hayas preguntado '¿Cuál compro si no se que necesita ni produce?', bien pues a continuación se indican los recursos que requiere cada punto de producción o fábrica y lo más importante,"/>
+		<text name="helpText_IS04_part02"					text="su producto y en que formato, palets (P) o a granel (B):
+- BiogasMaster - ------ > Estiércol o Compost + Agua = Biogas + Fertilizante (P)
+- CompostMaster- ---- > Estiércol, Patata, Remolacha, Paja, etc... + Diesel o Biogas = Compost (B)
+- DaffMaster - - -------- > Cebada + Lúpulo + Agua = Cerveza (P)
+- LimeMaster - - ------- > Caliza + Virutas o Pellets Paja = Cal (B)
+- NordicSugar Mol- -- > Caña Azúcar + Agua = Melaza (B) + Azúcar Moreno (B)
+- NordicSugar Sug- -- > Remolacha + Agua = Melaza (B) + Azúcar (B)
+- PaperBloc- - - - ------ > Virutas o Troncos o Pellets Paja + Agua = Cartón (P)
+- PelletMaster Heno- > Paja Picada o Hierba o Heno + Diesel o Biogas + Melaza = Pellets de Heno (B)
+- PelletMaster Paja ---> Paja + Diesel o Biogas + Melaza = Pellets de Paja (B)
+- PlatiCor - - ------------ > Virutas o Troncos + Arena + Biogas = Botellas (P)
+- Huerto Uvas- - ------ > Estiércol o Compost + Agua + Fertilizante Líquido = Uva (P) (Tienda)"/>
+		<text name="helpText_IS04_part03"					text="En la tienda también puedes visualizar el ICONO de los productos que trabaja esa máquina."/>
+		<text name="helpTitle_IS09"							text="Créditos"/>
+		<text name="helpText_IS09_part01"					text="Modelo, Diseño, Mods, Testeo: Vanquish081
+Textures: Google, cgtextures.
+Hud Fruit: Jakob Tischler
+SeedMaster2k15, - Marhu
+Medianera - Germany Community Group / martinbigM500
+Puente Tubo - Pisty
+DistanceHills - Mailman (ModsWatend)
+High Watchtower - Hawkeye
+Edificios - ysup12
+Inland - Himmi
+Deljanka - Myjaki (Carretera vieja)
+Montantes - TracMax and Inmanuel
+Señales - Nick98_1
+fabric beer and cement - Pleasant Valley Mods
+Grain Bin Pack - ThompsonM06
+wohnblock - admin
+Graffitis - dafont.com, Vanquish081
+Pogruzka - Vorota, Alexx79, VAHA
+Dekalb SeedCompany - MBJ, Süsswassermatrose (for quarry by vanquish081)
+Compost Soil - Idee und Modelle: Andy1978
+Hallenset - Modelle, Texturen, Ingame: Katsuo Script: Xentro
+Script for door opening hours - Desperados93
+Huge Mill: container yard: Zippo, Silo: Sim3.09S 
+Housing High Low Poly - GoldFox
+Base building for Harinsur - möchtegernbauer
+Base building for Polvillo - Pucksta – PMP, Gebäude and Objekte von Giants (LS13+15)
+Script FilltypeConverter - GTX
+Splines - Prom
+Irish Farm Shed Pack - My-self (Sean6920s)"/>
+
         <text name="station_port03"							text="Puerto Noroeste"/>
         <text name="station_Matadero"						text="Matadero"/>
         <text name="station_SiloGroup"						text="SiloGroup"/>
@@ -25,6 +102,10 @@
         <text name="fillType_hayPellets"					text="Pellets Heno"/>
         <text name="fillType_strawPellets"					text="Pellets Paja"/>
         <text name="fillType_paperBoard"					text="Cartón"/> <!-- last -->
+        <text name="fillType_bottles"						text="Botellas"/> <!-- last -->
+        <text name="fillType_molasses"						text="Melaza"/> <!-- last -->
+        <text name="fillType_brownSugar"					text="Azúcar Moreno"/> <!-- last -->
+        <text name="fillType_sugar"							text="Azúcar"/> <!-- last -->
         <text name="fillTypeGroup_pellets"					text="Pellets"/>
         <text name="configuration_XS"						text="XS 525/65/R20.5"/>
 		
@@ -40,7 +121,11 @@
         <text name="shopItem_pelletSMaster"					text="PelletMaster Paja"/>
         <text name="shopItem_LimeMaster"					text="Fábrica Cal"/>
         <text name="shopItem_DaffMaster"					text="Producción Cerveza"/> <!-- last -->
+        <text name="shopItem_BiogasMaster"					text="Producción Biogas"/> <!-- last -->
+        <text name="shopItem_NordicMasterMol"				text="Producción Melaza"/> <!-- last -->
+        <text name="shopItem_NordicMasterSug"				text="Producción Azúcar"/> <!-- last -->
         <text name="shopItem_PaperBloc"						text="Producción Papel"/> <!-- last -->
+        <text name="shopItem_Plasticor"						text="Producción Botellas"/> <!-- last -->
         <text name="shopItem_Viniedo"						text="Producción Uvas"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Venta Grava"/>
         <text name="shopItem_limestoneStation"				text="Venta Caliza"/>

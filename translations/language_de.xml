@@ -2,6 +2,58 @@
 <l10n>
     <translationContributors>Vanquish081, juf.de, Translator Google</translationContributors>
 	<texts>
+		<!-- helpLine -->
+        <text name="helpCategory_IS01"						text="¡¡Welcome to Iberian South Lands!!"/>
+        <text name="helpTitle_IS01"							text="Need_translation"/>
+		<text name="helpText_IS01_part01"					text="Need_translation"/>
+		<text name="helpText_IS01_part02"					text="Need_translation"/>
+		<text name="helpText_IS01_part03"					text="Need_translation"/>
+		<text name="helpText_IS01_part04"					text="Need_translation"/>
+		<text name="helpText_IS01_part05"					text="Need_translation"/>
+		<text name="helpText_IS01_part06"					text="Need_translation"/>
+        <text name="helpTitle_IS02"							text="Need_translation"/>
+		<text name="helpText_IS02_part01"					text="Need_translation"/>
+		<text name="helpText_IS02_part02"					text="Need_translation"/>
+		<text name="helpText_IS02_part03"					text="Need_translation"/>
+		<text name="helpText_IS02_part04"					text="Need_translation"/>
+        <text name="helpTitle_IS03"							text="Need_translation"/>
+		<text name="helpText_IS03_part01"					text="Need_translation"/>
+		<text name="helpText_IS03_part02"					text="Need_translation"/>
+		<text name="helpText_IS03_part03"					text="Need_translation"/>
+        <text name="helpTitle_IS04"							text="Need_translation"/>
+		<text name="helpText_IS04_part01"					text="Need_translation"/>
+		<text name="helpText_IS04_part02"					text="Need_translation"/>
+		<text name="helpText_IS04_part03"					text="Need_translation"/>
+		<text name="helpTitle_IS09"							text="Credits"/>
+		<text name="helpText_IS09_part01"					text="Model, Design, Mods, Tester: Vanquish081
+Textures: Google, cgtextures.
+Hud Fruit: Jakob Tischler
+SeedMaster2k15, - Marhu
+Medianera - Germany Community Group / martinbigM500
+Puente Tubo - Pisty
+DistanceHills - Mailman (ModsWatend)
+High Watchtower - Hawkeye
+Edificios - ysup12
+Inland - Himmi
+Deljanka - Myjaki (Carretera vieja)
+Montantes - TracMax and Inmanuel
+Señales - Nick98_1
+fabric beer and cement - Pleasant Valley Mods
+Grain Bin Pack - ThompsonM06
+wohnblock - admin
+Graffitis - dafont.com, Vanquish081
+Pogruzka - Vorota, Alexx79, VAHA
+Dekalb SeedCompany - MBJ, Süsswassermatrose (for quarry by vanquish081)
+Compost Soil - Idee und Modelle: Andy1978
+Hallenset - Modelle, Texturen, Ingame: Katsuo Script: Xentro
+Script for door opening hours - Desperados93
+Huge Mill: container yard: Zippo, Silo: Sim3.09S 
+Housing High Low Poly - GoldFox
+Base building for Harinsur - möchtegernbauer
+Base building for Polvillo - Pucksta – PMP, Gebäude and Objekte von Giants (LS13+15)
+Script FilltypeConverter - GTX
+Splines - Prom
+Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="station_port03"							text="Nordwesthafen"/> <!-- Hafen-Nordwest works too -->
         <text name="station_Matadero"						text="Schlachthof"/>
         <text name="station_SiloGroup"						text="SiloGruppe"/>
@@ -25,6 +77,10 @@
         <text name="fillType_hayPellets"					text="Heupellets"/>
         <text name="fillType_strawPellets"					text="Strohpellets"/>
         <text name="fillType_paperBoard"					text="Karton"/> <!-- last -->
+        <text name="fillType_bottles"						text="Flaschen"/> <!-- last -->
+        <text name="fillType_molasses"						text="Melasse"/> <!-- last -->
+        <text name="fillType_brownSugar"					text="brauner Zucker"/> <!-- last -->
+        <text name="fillType_sugar"							text="Zucker"/> <!-- last -->
         <text name="fillTypeGroup_pellets"					text="Pellets"/>
         <text name="configuration_XS"						text="XS 525/65/R20.5"/>
 
@@ -40,7 +96,11 @@
         <text name="shopItem_pelletSMaster"					text="StrohpelletsMaster"/>
         <text name="shopItem_LimeMaster"					text="Kalkstein Fabrik"/>
         <text name="shopItem_DaffMaster"					text="Bier Produktion"/> <!-- last -->
+        <text name="shopItem_BiogasMaster"					text="Biogas Produktion"/> <!-- last -->
+        <text name="shopItem_NordicMasterMol"				text="Melasse Produktion"/> <!-- last -->
+        <text name="shopItem_NordicMasterSug"				text="Zucker Produktion"/> <!-- last -->
         <text name="shopItem_PaperBloc"						text="Papier Produktion"/> <!-- last -->
+        <text name="shopItem_Plasticor"						text="Pulle Produktion"/> <!-- last -->
         <text name="shopItem_Viniedo"						text="Trauben Produktion"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Schotter Silo"/>
         <text name="shopItem_limestoneStation"				text="Kalkstein Silo"/>
