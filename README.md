@@ -13,3 +13,7 @@ Some factories are already included and are fully functional:
 Any suggestion is welcome and once published the help in locating errors is appreciated.
 
 If you can't upload new file, send me to mp in official discord Farming Simulator.
+
+The firts version is release in official website Farming Simulator
+
+Direct URL: https://farming-simulator.com/mod.php?mod_id=162447
