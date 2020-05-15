@@ -127,6 +127,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="shopItem_PaperBloc"						text="Producción Papel"/> <!-- last -->
         <text name="shopItem_Plasticor"						text="Producción Botellas"/> <!-- last -->
         <text name="shopItem_Viniedo"						text="Producción Uvas"/> <!-- last -->
+        <text name="shopItem_biogasStation"					text="Venta BioGas"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Venta Grava"/>
         <text name="shopItem_limestoneStation"				text="Venta Caliza"/>
         <text name="shopItem_sandStation"					text="Venta Arena"/>
@@ -145,5 +146,6 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="function_palletStorage"					text="Almacén para 120 palets de cerveza."/> <!-- last -->
         <text name="unit_pallets"							text="Palets"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Siguiente Objecto"/> <!-- last -->
+        <text name="category_factory"						text="Fábricas"/> <!-- last -->
 	</texts>
 </l10n>

@@ -4,9 +4,9 @@
     <texts>
 		<!-- helpLine -->
         <text name="helpCategory_IS01"						text="¡¡Welcome to Iberian South Lands!!"/>
-        <text name="helpTitle_IS01"							text="Need_translation"/>
-		<text name="helpText_IS01_part01"					text="Need_translation"/>
-		<text name="helpText_IS01_part02"					text="Need_translation"/>
+        <text name="helpTitle_IS01"							text="Need translation"/>
+		<text name="helpText_IS01_part01"					text="Would you like to help users? Well, go to this address and help translate your language."/>
+		<text name="helpText_IS01_part02"					text="https://github.com/Vanquish081/FS19_IberianSouthland"/>
 		<text name="helpText_IS01_part03"					text="Need_translation"/>
 		<text name="helpText_IS01_part04"					text="Need_translation"/>
 		<text name="helpText_IS01_part05"					text="Need_translation"/>
@@ -103,6 +103,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="shopItem_PaperBloc"						text="Factory Paper"/> <!-- last -->
         <text name="shopItem_Plasticor"						text="Production Bottles"/> <!-- last -->
         <text name="shopItem_Viniedo"						text="Production Grapes"/> <!-- last -->
+        <text name="shopItem_biogasStation"					text="BioGas Station"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Gravel Station"/>
         <text name="shopItem_limestoneStation"				text="Limestone Station"/>
         <text name="shopItem_sandStation"					text="Sand Station"/>
@@ -121,5 +122,6 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="function_palletStorage"					text="Storage for 120 pallet beer."/> <!-- last -->
         <text name="unit_pallets"							text="Pallets"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Next Object"/> <!-- last -->
+        <text name="category_factory"						text="Factories"/> <!-- last -->
 	</texts>
 </l10n>

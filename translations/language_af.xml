@@ -5,8 +5,8 @@
 		<!-- helpLine -->
         <text name="helpCategory_IS01"						text="¡¡Welcome to Iberian South Lands!!"/>
         <text name="helpTitle_IS01"							text="Need_translation"/>
-		<text name="helpText_IS01_part01"					text="Need_translation"/>
-		<text name="helpText_IS01_part02"					text="Need_translation"/>
+		<text name="helpText_IS01_part01"					text="Would you like to help users? Well, go to this address and help translate your language."/>
+		<text name="helpText_IS01_part02"					text="https://github.com/Vanquish081/FS19_IberianSouthland"/>
 		<text name="helpText_IS01_part03"					text="Need_translation"/>
 		<text name="helpText_IS01_part04"					text="Need_translation"/>
 		<text name="helpText_IS01_part05"					text="Need_translation"/>
@@ -102,6 +102,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="shopItem_PaperBloc"						text="Papier Produksie"/> <!-- last -->
         <text name="shopItem_Plasticor"						text="Bottels Produksie"/> <!-- last -->
         <text name="shopItem_Viniedo"						text="Druiwe Produksie"/> <!-- last -->
+        <text name="shopItem_biogasStation"					text="BioGas Stasie"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Gruis Stasie"/>
         <text name="shopItem_limestoneStation"				text="Kalksteen Stasie"/>
         <text name="shopItem_sandStation"					text="Sand Stasie"/>
@@ -120,5 +121,6 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="function_palletStorage"					text="Lagerung für 120 bier paletten."/> <!-- last -->
         <text name="unit_pallets"							text="paletten"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Nächstes Objekt"/> <!-- last -->	
+        <text name="category_factory"						text="Fabrieke"/> <!-- last -->
 	</texts>
 </l10n>
