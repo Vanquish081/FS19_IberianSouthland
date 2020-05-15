@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="47">
     <author>Vanquish081</author>
-    <version>1.0.0.0</version>
+    <version>1.0.2.0</version>
 	
     <title>
         <en>Iberians South Lands</en>
@@ -11,8 +11,8 @@
     <description>
 <en><![CDATA[Welcome to an imaginary zone the earth of sur of Spain.
 
-Firts conversion of this map from FS2013 -> FS2015 -> FS17 and let's go to FS19, ready your Big Bud,
-9RX, Quadtrac...will need something like this. You have the next features:- Pigs.
+Firts conversion of this map from FS2013 -> FS2015 -> FS17 and let's go to FS19, ready your Big Bud, 9RX, Quadtrac... will need something like this. You have the next features:
+- Pigs.
 - Cow.
 - Sheeps.
 - Horses.
@@ -20,7 +20,27 @@ Firts conversion of this map from FS2013 -> FS2015 -> FS17 and let's go to FS19,
 - Train Wood.
 - 20 sell points.
 - 89 fields.
-- 4 forest.]]></en>
+- 4 forest.
+
+Changes 1.0.2.0:
+- Added PaperBloc factory.
+- Added PlastiCor factory.
+- Added Biogas factory.
+- Added Molasses and Sugar factory(s).
+- Added Biogas factory.
+- New category in Paceables area.
+- Added lighting to the Mill.
+- Various improved designs.
+
+Changes 1.0.1.0:
+- Fixed sales point floor to visit.
+- Changed vehicle store chairs texture.
+- Remodeled field field 2-3.
+- Including brewery.
+- Remade part of the Brewery building.
+- Including storage system for beer pallets.
+- Changed hop density on the ground.
+- Added design of the coupling to the TankTender for each truck.]]></en>
 <de><![CDATA[Willkommen in einer imaginären Gegend im Süden Spaniens.
 
 Konvertierung dieser Karte von FS2013 -> FS15 -> FS17 Lass uns nun zu FS19 gehen. Mach schon mal deinen Big Bud, 9RX, Quadtrac... startklar Sie werden diese brauchen. Folgende Features sind verbaut:
@@ -31,18 +51,57 @@ Konvertierung dieser Karte von FS2013 -> FS15 -> FS17 Lass uns nun zu FS19 gehen
 - Pferd
 - 20 Verkaufsstellen.
 - 89 Felder.
-- 4 Wälder]]></de>
+- 4 Wälder
+
+Änderungen 1.0.2.0:
+- PaperBloc-Fabrik hinzugefügt.
+- PlastiCor Fabrik hinzugefügt.
+- Biogasfabrik hinzugefügt.
+- Melasse und Zuckerfabrik hinzugefügt.
+- Biogasfabrik hinzugefügt.
+- Neue Kategorie im Bereich Angenehm.
+- Die Mühle wurde beleuchtet.
+- Verschiedene verbesserte Designs.
+
+Änderungen 1.0.1.0:
+- Feste Verkaufsstelle zu besuchen.
+- Geänderte Textur der Fahrzeuglagerstühle.
+- Umgestaltetes Feldfeld 2-3.
+- Einschließlich Brauerei.
+- Teil des Brauereigebäudes neu gemacht.
+- Einschließlich Lagersystem für Bierpaletten.
+- Veränderte Hopfendichte am Boden.
+- Design der Kupplung zum TankTender für jeden LKW hinzugefügt.]]></de>
 <es><![CDATA[Bienvenido a una zona imaginaria del sur de España.
 
-Primera conversión de este mapa desde FS2013 -> FS2015 -> FS17 y vamos a FS19, prepara tu Big Bud,
-9RX, Quadtrac... necesitarás alguno de estos. Dispones de las siguientes características:
+Primera conversión de este mapa desde FS2013 -> FS2015 -> FS17 y vamos a FS19, prepara tu Big Bud, 9RX, Quadtrac... necesitarás alguno de estos. Dispones de las siguientes características:
 - Cerdos.
 - Vacas.
 - Ovejas.
 - Caballos.
 - 20 puntos de venta.
 - 89 Campos.
-- 4 Bosques.]]></es>
+- 4 Bosques.
+
+Cambios 1.0.2.0:
+- Añadida fábrica PaperBloc.
+- Añadida fábrica PlastiCor.
+- Añadida fábrica Biogas.
+- Añadida fábrica Melaza y Azúcar(es).
+- Añadida fábrica Biogas.
+- Nueva categoria en zona de Colocables.
+- Añadida iluminación al Molino.
+- Varios diseños mejorados.
+
+Cambios 1.0.1.0:
+- Arreglado suelo punto de ventas para visitar.
+- Cambiada textura sillas tienda vehiculos.
+- Remodelado terreno campo 2-3.
+- Incluida fábrica de cerveza.
+- Rehecho parte edificio Fábrica cerveza.
+- Incluido sistema de almacenaje para palets de cerveza.
+- Cambiada densidad de lúpulo sobre el terreno.
+- Añadido diseño del acople al TankTender para cada camión.]]></es>
     </description>
 	
     <iconFilename>icon.png</iconFilename>
@@ -56,15 +115,23 @@ Primera conversión de este mapa desde FS2013 -> FS2015 -> FS17 y vamos a FS19, 
 		<sourceFile filename="scripts/I3DLoadingFix.lua"/>
 		<sourceFile filename="scripts/timeControlledBusiness.lua"/>
 		<sourceFile filename="scripts/timeControlledconcession.lua"/>
+		<sourceFile filename="scripts/ObjectStorageLoader.lua"/>
         <sourceFile filename="scripts/PlaceableLoader.lua" />
         <sourceFile filename="scripts/SprayerFix.lua" />
-        <!-- <sourceFile filename="scripts/DynamicMud.lua" /> --> <!-- Votan muchísimo los vehículos en el campo -->
+		<sourceFile filename="scripts/AddStoreCategory.lua" />
+        <!-- <sourceFile filename="scripts/DynamicMud.lua" /> --> <!-- Barro, Votan muchísimo los vehículos en el campo -->
         <sourceFile filename="scripts/RegisterSpecialization.lua" />
 	</extraSourceFiles>
 	
+    <objectStorageLoader filePath="scripts/" eventsPath="scripts/events/" guiPath="scripts/gui/"/>
+
     <registerSpecializations>
 		<registerSpecialization name="sprayerFix" className="SprayerFix" filename="scripts/SprayerFix.lua" searchedSpecializations="sprayer"/> <!-- helpers use compost -->
     </registerSpecializations>
+
+    <placeables>
+        <placeable typeName="fillTypeConverter" className="FillTypeConverter" filename="scripts/FillTypeConverter.lua"/>
+    </placeables>
 
     <vehicleTypes>
         <type name="sprayers_smartAttach" parent="fillableImplement" filename="$dataS/scripts/vehicles/Vehicle.lua">
@@ -88,11 +155,13 @@ Primera conversión de este mapa desde FS2013 -> FS2015 -> FS17 y vamos a FS19, 
         </map>
     </maps>
 
-    <placeables>
-        <placeable typeName="fillTypeConverter" className="FillTypeConverter" filename="scripts/FillTypeConverter.lua"/>
-    </placeables>
-
 	<storeItems>
+		<newStoreCategories>
+			<!-- <newStoreCategory type="OBJECT" name="crates" title="$l10n_category_crates" image="store/store_fillableBigBox.dds" /> -->
+            <newStoreCategory type="PLACEABLE" name="factories" title="$l10n_category_factory" image="fillPlanes/huds/producciones.dds" />
+			<!-- <newStoreCategory type="VEHICLE" name="flieglAnimalTransportPack" title="$l10n_category_flieglAnimalTransportPack" image="store/store_tgx26000Animal.dds" /> -->
+        </newStoreCategories>
+	
         <storeItem xmlFilename="maps/placeables/sellpoints/bga.xml" />		
         <storeItem xmlFilename="maps/placeables/farmBuildings/bunkerIS.xml" />		
         <storeItem xmlFilename="maps/placeables/farmBuildings/bunkerISsmall.xml" />		
@@ -102,6 +171,7 @@ Primera conversión de este mapa desde FS2013 -> FS2015 -> FS17 y vamos a FS19, 
 		<storeItem xmlFilename="maps/placeables/farmBuildings/garageBig.xml" />
 		<storeItem xmlFilename="maps/placeables/farmBuildings/garaje.xml" />
 		<storeItem xmlFilename="maps/placeables/farmBuildings/mainFarm.xml" />
+		<storeItem xmlFilename="maps/placeables/farmBuildings/rampa.xml" />
 		<storeItem xmlFilename="maps/placeables/farmBuildings/shedFS13.xml" />
 		<storeItem xmlFilename="maps/placeables/farmBuildings/shedMetalFS13.xml" />
 		<storeItem xmlFilename="maps/placeables/farmBuildings/vehicleShelterMedium.xml" />
@@ -118,14 +188,25 @@ Primera conversión de este mapa desde FS2013 -> FS2015 -> FS17 y vamos a FS19, 
 		<storeItem xmlFilename="maps/placeables/train/Vagon_Virutas.xml" />
         <storeItem xmlFilename="maps/models/objects/pallets/beer_palet.xml"/>
         <storeItem xmlFilename="maps/models/objects/pallets/eggPallet.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/grapes_palet.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/paperBoard_palet.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/bottles_palet.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/bioFertilizer.xml"/>
         <storeItem xmlFilename="maps/placeables/vehiculos/tatra/tatraPhoenix.xml"/>
         <storeItem xmlFilename="maps/placeables/vehiculos/man/tgs18500.xml"/>
         <storeItem xmlFilename="maps/placeables/vehiculos/tankTender/tankTender.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/ArtMaster/fertiMaster.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/ArtMaster/herbiMaster.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/ArtMaster/seedMaster.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/DaffMaster/DaffMaster.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/BiogasMaster/BiogasMaster.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/NordicSugar/NordicMasterMol.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/NordicSugar/NordicMasterSug.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/CompostMaster/Compost0Master.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/CompostMaster/Compost1Master.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/palletStorage/palletStorage.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/PaperBloc/PaperBloc.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/PlastiCor/Plasticor.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/PelletMaster/PelletH0Master.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/PelletMaster/PelletH1Master.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/PelletMaster/PelletS0Master.xml"/>
@@ -135,5 +216,6 @@ Primera conversión de este mapa desde FS2013 -> FS2015 -> FS17 y vamos a FS19, 
 		
     <brands>
         <brand name="ARTMECHANIC" title="ArtMechanic" image="maps/placeables/ArtMaster/brand_ArtMechanic.dds"/>
+        <brand name="FARMING_INNOVATIONS" title="Farming Innovations" image="maps/placeables/palletStorage/brand_farmingInnovations.dds"/>
     </brands>
 </modDesc>
