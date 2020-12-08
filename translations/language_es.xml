@@ -23,7 +23,7 @@
 		<text name="helpText_IS03_part01"					text="Si no quieres explorar el mapa, a continuación se indica las fábricas disponibles y su localización en el juego así como su disponibilidad en la tienda:"/>
 		<text name="helpText_IS03_part02"					text="- BiogasMaster - ------ > 1745 - 1280
 - CompostMaster- ---- > 2045 - 1600 (Tienda) 
-- DaffMaster - - -------- > 1895 - 3975
+- NaturDrin - - --------- > 1895 - 3975
 - LimeMaster - - ------- > 3150 -  255
 - NordicSugar Mol- -- > 3150 -  255
 - NordicSugar Sug- -- > 3205 -  230
@@ -38,11 +38,11 @@
 		<text name="helpText_IS04_part02"					text="su producto y en que formato, palets (P) o a granel (B):
 - BiogasMaster - ------ > Estiércol o Compost + Agua = Biogas + Fertilizante (P)
 - CompostMaster- ---- > Estiércol, Patata, Remolacha, Paja, etc... + Diesel o Biogas = Compost (B)
-- DaffMaster - - -------- > Cebada + Lúpulo + Agua = Cerveza (P)
-- LimeMaster - - ------- > Caliza + Virutas o Pellets Paja = Cal (B)
+- NaturDrin - - --------- > Cebada + Lúpulo + Agua = Zumo Cebada (P)
+- LimeMaster - - ------- > Caliza + Virutas = Cal (B)
 - NordicSugar Mol- -- > Caña Azúcar + Agua = Melaza (B) + Azúcar Moreno (B)
 - NordicSugar Sug- -- > Remolacha + Agua = Melaza (B) + Azúcar (B)
-- PaperBloc- - - - ------ > Virutas o Troncos o Pellets Paja + Agua = Cartón (P)
+- PaperBloc- - - - ------ > Virutas o Troncos + Agua = Cartón (P)
 - PelletMaster Heno- > Paja Picada o Hierba o Heno + Diesel o Biogas + Melaza = Pellets de Heno (B)
 - PelletMaster Paja ---> Paja + Diesel o Biogas + Melaza = Pellets de Paja (B)
 - PlatiCor - - ------------ > Virutas o Troncos + Arena + Biogas = Botellas (P)
@@ -86,14 +86,14 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="station_Destilery"						text="Destilería"/>
         <text name="station_Refineria"						text="Refinería"/>
         <text name="station_freiyard"						text="Muelle de Carga"/>
-        <text name="station_StationBeer"					text="Fábrica Cerveza"/>
+        <text name="station_StationBeer"					text="Fábrica Zumo"/>
         <text name="action_opentailGate"					text="Abrir Reja"/>
         <text name="action_closetailGate"					text="Abrir Reja"/>
         <text name="action_lightSwitchON"					text="Encender Luces"/>
         <text name="action_lightSwitchOFF"					text="Apagar Luces"/>
         <text name="fillType_hop"							text="Lúpulo"/>
         <text name="fillType_grapes"						text="Uvas"/> <!-- last -->
-        <text name="fillType_beer"							text="Cerveza"/> <!-- last -->
+        <text name="fillType_juice"							text="Zumo"/> <!-- last -->
         <text name="fillType_compost"						text="Compost"/>
         <text name="fillType_biogas"						text="Biogas"/>
         <text name="fillType_limestone"						text="Caliza"/>
@@ -120,7 +120,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="shopItem_pelletHMaster"					text="PelletMaster Heno"/>
         <text name="shopItem_pelletSMaster"					text="PelletMaster Paja"/>
         <text name="shopItem_LimeMaster"					text="Fábrica Cal"/>
-        <text name="shopItem_DaffMaster"					text="Producción Cerveza"/> <!-- last -->
+        <text name="shopItem_DaffMaster"					text="Producción Zumo"/> <!-- last -->
         <text name="shopItem_BiogasMaster"					text="Producción Biogas"/> <!-- last -->
         <text name="shopItem_NordicMasterMol"				text="Producción Melaza"/> <!-- last -->
         <text name="shopItem_NordicMasterSug"				text="Producción Azúcar"/> <!-- last -->
@@ -143,7 +143,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="configuration_valueTruckL"				text="Enganche RoadRunner"/> <!-- last -->
 		
         <text name="shopItem_palletStorage"					text="Almacén Palets"/> <!-- last -->
-        <text name="function_palletStorage"					text="Almacén para 120 palets de cerveza."/> <!-- last -->
+        <text name="function_palletStorage"					text="Almacén para 120 palets de zumo."/> <!-- last -->
         <text name="unit_pallets"							text="Palets"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Siguiente Objecto"/> <!-- last -->
         <text name="category_factory"						text="Fábricas"/> <!-- last -->
