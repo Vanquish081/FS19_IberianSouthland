@@ -38,7 +38,7 @@ Inland - Himmi
 Deljanka - Myjaki (Carretera vieja)
 Montantes - TracMax and Inmanuel
 Señales - Nick98_1
-fabric beer and cement - Pleasant Valley Mods
+fabric and cement - Pleasant Valley Mods
 Grain Bin Pack - ThompsonM06
 wohnblock - admin
 Graffitis - dafont.com, Vanquish081
@@ -61,14 +61,14 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="station_Destilery"						text="Destilery"/>
         <text name="station_Refineria"						text="Refinery"/>
         <text name="station_freiyard"						text="Vrag Werf"/>
-        <text name="station_StationBeer"					text="Bier Brouery"/>
+        <text name="station_Stationjuice"					text="Sap Brouery"/>
         <text name="action_opentailGate"					text="Maak agterklap oop"/>
         <text name="action_closetailGate"					text="Maak agterklap toe"/> <!-- Only show 1 text -->
         <text name="action_lightSwitchON"					text="Skakel ligte aan"/>
         <text name="action_lightSwitchOFF"					text="Skakel ligte af"/>
         <text name="fillType_hop"							text="Hop"/>
         <text name="fillType_grapes"						text="Druiwe"/> <!-- last -->
-        <text name="fillType_beer"							text="Bier"/> <!-- last -->
+        <text name="fillType_juice"							text="Sap"/> <!-- last -->
         <text name="fillType_compost"						text="Kompos"/>
         <text name="fillType_biogas"						text="Biogas"/>
         <text name="fillType_limestone"						text="Kalksteen"/>
@@ -95,7 +95,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="shopItem_pelletHMaster"					text="Hooi KorrelsMeester"/>
         <text name="shopItem_pelletSMaster"					text="Strooi KorrelsMeester"/>
         <text name="shopItem_LimeMaster"					text="Kalksteen Fabriek"/>
-        <text name="shopItem_DaffMaster"					text="Bier Produksie"/> <!-- last -->
+        <text name="shopItem_DaffMaster"					text="Sap Produksie"/> <!-- last -->
         <text name="shopItem_BiogasMaster"					text="Biogas Produksie"/> <!-- last -->
         <text name="shopItem_NordicMasterMol"				text="Melasse Produktion"/> <!-- last -->
         <text name="shopItem_NordicMasterSug"				text="suiker Produktion"/> <!-- last -->
@@ -118,7 +118,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="configuration_valueTruckL"				text="Hitch RoadRunner"/> <!-- last -->
 		
         <text name="shopItem_palletStorage"					text="Paletten Lagerung"/> <!-- last -->
-        <text name="function_palletStorage"					text="Lagerung für 120 bier paletten."/> <!-- last -->
+        <text name="function_palletStorage"					text="Lagerung für 120 Sap paletten."/> <!-- last -->
         <text name="unit_pallets"							text="paletten"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Nächstes Objekt"/> <!-- last -->	
         <text name="category_factory"						text="Fabrieke"/> <!-- last -->

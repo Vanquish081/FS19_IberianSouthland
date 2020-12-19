@@ -62,7 +62,7 @@ Inland - Himmi
 Deljanka - Myjaki (Carretera vieja)
 Montantes - TracMax and Inmanuel
 Señales - Nick98_1
-fabric beer and cement - Pleasant Valley Mods
+fabric and cement - Pleasant Valley Mods
 Grain Bin Pack - ThompsonM06
 wohnblock - admin
 Graffitis - dafont.com, Vanquish081
@@ -86,7 +86,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="station_Destilery"						text="Destilería"/>
         <text name="station_Refineria"						text="Refinería"/>
         <text name="station_freiyard"						text="Muelle de Carga"/>
-        <text name="station_StationBeer"					text="Fábrica Zumo"/>
+        <text name="station_Stationjuice"					text="Fábrica Zumo"/>
         <text name="action_opentailGate"					text="Abrir Reja"/>
         <text name="action_closetailGate"					text="Abrir Reja"/>
         <text name="action_lightSwitchON"					text="Encender Luces"/>

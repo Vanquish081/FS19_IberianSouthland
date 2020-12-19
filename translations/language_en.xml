@@ -38,7 +38,7 @@ Inland - Himmi
 Deljanka - Myjaki (Carretera vieja)
 Montantes - TracMax and Inmanuel
 Señales - Nick98_1
-fabric beer and cement - Pleasant Valley Mods
+fabric and cement - Pleasant Valley Mods
 Grain Bin Pack - ThompsonM06
 wohnblock - admin
 Graffitis - dafont.com, Vanquish081
@@ -62,14 +62,14 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="station_Destilery"						text="Destilery"/>
         <text name="station_Refineria"						text="Refinery"/>
         <text name="station_freiyard"						text="Freight Yard"/>
-        <text name="station_StationBeer"					text="Factory Beer"/>
+        <text name="station_Stationjuice"					text="Factory Juice"/>
         <text name="action_opentailGate"					text="Open Gate"/>
         <text name="action_closetailGate"					text="Open Gate"/> <!-- Only show 1 text -->
         <text name="action_lightSwitchON"					text="Turn On Lights"/>
         <text name="action_lightSwitchOFF"					text="Turn Off Lights"/>
         <text name="fillType_hop"							text="Hop"/>
         <text name="fillType_grapes"						text="Grapes"/> <!-- last -->
-        <text name="fillType_beer"							text="Beer"/> <!-- last -->
+        <text name="fillType_juice"							text="Juice"/> <!-- last -->
         <text name="fillType_compost"						text="Compost"/>
         <text name="fillType_biogas"						text="Biogas"/>
         <text name="fillType_limestone"						text="Limestone"/>
@@ -96,7 +96,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="shopItem_pelletHMaster"					text="Hay PelletMaster"/>
         <text name="shopItem_pelletSMaster"					text="Straw PelletMaster"/>
         <text name="shopItem_LimeMaster"					text="Factory Lime"/>
-        <text name="shopItem_DaffMaster"					text="Factory Beer"/> <!-- last -->
+        <text name="shopItem_DaffMaster"					text="Factory juice"/> <!-- last -->
         <text name="shopItem_BiogasMaster"					text="Factory Biogas"/> <!-- last -->
         <text name="shopItem_NordicMasterMol"				text="Factory Molasses"/> <!-- last -->
         <text name="shopItem_NordicMasterSug"				text="Factory Sugar"/> <!-- last -->
@@ -119,7 +119,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="configuration_valueTruckL"				text="Hitch RoadRunner"/> <!-- last -->
 
         <text name="shopItem_palletStorage"					text="Pallets Storage"/> <!-- last -->
-        <text name="function_palletStorage"					text="Storage for 120 pallet beer."/> <!-- last -->
+        <text name="function_palletStorage"					text="Storage for 120 pallet juice."/> <!-- last -->
         <text name="unit_pallets"							text="Pallets"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Next Object"/> <!-- last -->
         <text name="category_factory"						text="Factories"/> <!-- last -->
