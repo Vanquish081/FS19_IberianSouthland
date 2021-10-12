@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<helpLines>
+    <category title="$l10n_helpCategory_IS01">
+        <page title="$l10n_helpTitle_IS01">
+            <item type="text" value="$l10n_helpText_IS01_part01"/>				<!-- Columna  Fila  Ancho  Alto -->
+            <item type="image" value="scripts/helpLine/helplineImages01.png" imageUVs="0px 0px 1024px 195px"/>
+            <item type="text" value="$l10n_helpText_IS01_part02"/>
+            <item type="text" value="$l10n_helpText_IS01_part03"/>
+            <item type="text" value="$l10n_helpText_IS01_part04"/>
+            <item type="text" value="$l10n_helpText_IS01_part05"/>
+            <item type="text" value="$l10n_helpText_IS01_part06"/>
+        </page>
+        <page title="$l10n_helpTitle_IS02">
+            <item type="text" value="$l10n_helpText_IS02_part01"/>
+            <item type="image" value="scripts/helpLine/helplineImages01.png" imageUVs="0px 200px 1024px 214px"/>
+            <item type="text" value="$l10n_helpText_IS02_part02"/>
+            <item type="text" value="$l10n_helpText_IS02_part03"/>
+            <item type="text" value="$l10n_helpText_IS02_part04"/>
+        </page>
+        <page title="$l10n_helpTitle_IS03">
+            <item type="text" value="$l10n_helpText_IS03_part01"/>
+            <item type="image" value="scripts/helpLine/helplineImages01.png" imageUVs="0px 410px 1024px 214px"/>
+            <item type="text" value="$l10n_helpText_IS03_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_IS04">
+            <item type="image" value="scripts/helpLine/helplineImages02.png" imageUVs="0px 0px 1024px 200px"/>
+            <item type="text" value="$l10n_helpText_IS04_part01"/>
+            <item type="text" value="$l10n_helpText_IS04_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_IS05">
+            <item type="text" value="$l10n_helpText_IS05_part01"/>
+            <item type="image" value="scripts/helpLine/helplineImages01.png" imageUVs="0px 615px 1024px 200px"/>
+            <item type="text" value="$l10n_helpText_IS05_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_IS06">
+            <item type="image" value="scripts/helpLine/helplineImages02.png" imageUVs="0px 215px 1024px 200px"/>
+            <item type="text" value="$l10n_helpText_IS06_part01"/>
+            <item type="text" value="$l10n_helpText_IS06_part02"/>
+            <item type="text" value="$l10n_helpText_IS06_part03"/>
+            <item type="image" value="scripts/helpLine/helplineImages02.png" imageUVs="0px 824px 1024px 200px"/>
+        </page>
+        <page title="$l10n_helpTitle_IS09">
+            <item type="text" value="$l10n_helpText_IS09_part01"/>
+        </page>
+        <!--page title="$l10n_helpTitle_CS">
+            <item type="text" value="$l10n_helpText_58_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_CS">
+            <item type="text" value="$l10n_helpText_59_part01"/>
+            <item type="text" value="$l10n_helpText_59_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_CS">
+            <item type="text" value="$l10n_helpText_60_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_CS">
+            <item type="text" value="$l10n_helpText_61_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages09.png" imageUVs="0px 820px 1024px 102px" heightScale="0.5"/>
+            <item type="text" value="$l10n_helpText_61_part02"/>
+            <item type="text" value="$l10n_helpText_61_part03"/>
+            <item type="text" value="$l10n_helpText_61_part04"/>
+            <item type="text" value="$l10n_helpText_61_part05"/>
+            <item type="text" value="$l10n_helpText_61_part06"/>
+            <item type="text" value="$l10n_helpText_61_part07"/>
+            <item type="text" value="$l10n_helpText_61_part08"/>
+        </page>
+        <page title="$l10n_helpTitle_CS">
+            <item type="text" value="$l10n_helpText_66_part01"/>
+        </page-->
+    </category>
+    <category title="$l10n_helpCategory_01">
+        <page title="$l10n_helpTitle_02">
+            <item type="text" value="$l10n_helpText_02_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages01.png" imageUVs="0px 0px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_02_part02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages01.png" imageUVs="0px 205px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_03">
+            <item type="text" value="$l10n_helpText_03_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages01.png" imageUVs="0px 410px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_03_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_04">
+            <item type="text" value="$l10n_helpText_04_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages01.png" imageUVs="0px 615px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_04_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_05">
+            <item type="text" value="$l10n_helpText_05_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages01.png" imageUVs="0px 820px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_05_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_06">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages02.png" imageUVs="0px 0px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_06_part01"/>
+            <item type="text" value="$l10n_helpText_06_part02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages02.png" imageUVs="0px 205px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_07">
+            <item type="text" value="$l10n_helpText_07_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages02.png" imageUVs="0px 410px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_07_part02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages02.png" imageUVs="0px 615px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_08">
+            <item type="text" value="$l10n_helpText_08_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages02.png" imageUVs="0px 820px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_08_01">
+            <item type="text" value="$l10n_helpText_08_01_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages03.png" imageUVs="0px 0px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_08_01_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_09">
+            <item type="text" value="$l10n_helpText_09_part01"/>
+            <item type="text" value="$l10n_helpText_09_part02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages03.png" imageUVs="0px 205px 1024px 205px"/>
+        </page>
+    </category>
+    <category title="$l10n_helpCategory_02">
+        <page title="$l10n_helpTitle_10">
+            <item type="text" value="$l10n_helpText_10_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages03.png" imageUVs="0px 410px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_10_part02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages03.png" imageUVs="0px 615px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_11">
+            <item type="text" value="$l10n_helpText_11_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages03.png" imageUVs="0px 820px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_11_part02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages04.png" imageUVs="0px 0px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_12">
+            <item type="text" value="$l10n_helpText_12_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages04.png" imageUVs="0px 205px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_13">
+            <item type="text" value="$l10n_helpText_13_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages04.png" imageUVs="0px 410px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_13_part02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages04.png" imageUVs="0px 615px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_14">
+            <item type="text" value="$l10n_helpText_14_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages04.png" imageUVs="0px 820px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_15">
+            <item type="text" value="$l10n_helpText_15_part01"/>
+            <item type="text" value="$l10n_helpText_15_part02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages05.png" imageUVs="0px 0px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_15_part03"/>
+        </page>
+        <page title="$l10n_helpTitle_46">
+            <item type="text" value="$l10n_helpText_46_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages05.png" imageUVs="0px 205px 1024px 205px"/>
+        </page>
+    </category>
+    <category title="$l10n_helpCategory_03">
+        <page title="$l10n_helpTitle_17">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages05.png" imageUVs="0px 410px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_17_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_18">
+            <item type="text" value="$l10n_helpText_18_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages05.png" imageUVs="0px 615px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_19">
+            <item type="text" value="$l10n_helpText_19_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_19_01">
+            <item type="text" value="$l10n_helpText_19_01_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_20">
+            <item type="text" value="$l10n_helpText_20_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_21">
+            <item type="text" value="$l10n_helpText_21_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_16">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages05.png" imageUVs="0px 820px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_16_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_22">
+            <item type="text" value="$l10n_helpText_22_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_23">
+            <item type="text" value="$l10n_helpText_23_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_24">
+            <item type="text" value="$l10n_helpText_24_part01"/>
+            <item type="text" value="$l10n_helpText_24_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_25">
+            <item type="text" value="$l10n_helpText_25_part01"/>
+        </page>
+    </category>
+    <category title="$l10n_helpCategory_04">
+        <page title="$l10n_helpTitle_26">
+            <item type="text" value="$l10n_helpText_26_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages06.png" imageUVs="0px 0px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_26_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_27">
+            <item type="text" value="$l10n_helpText_27_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages06.png" imageUVs="0px 205px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_28">
+            <item type="text" value="$l10n_helpText_28_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages06.png" imageUVs="0px 410px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_28_part02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages06.png" imageUVs="0px 615px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_29">
+            <item type="text" value="$l10n_helpText_29_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages06.png" imageUVs="0px 820px 1024px 205px"/>
+        </page>
+    </category>
+    <category title="$l10n_helpCategory_05">
+        <page title="$l10n_helpTitle_31">
+            <item type="text" value="$l10n_helpText_31_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_32">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages07.png" imageUVs="0px 0px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_31_part02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages07.png" imageUVs="0px 205px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_32_01">
+            <item type="text" value="$l10n_helpText_32_01_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages07.png" imageUVs="0px 410px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_33">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages07.png" imageUVs="0px 615px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_32_part02"/>
+            <item type="text" value="$l10n_helpText_33_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_34">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages07.png" imageUVs="0px 820px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_33_part02"/>
+            <item type="text" value="$l10n_helpText_34_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_35">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages08.png" imageUVs="0px 0px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_34_part02"/>
+            <item type="text" value="$l10n_helpText_35_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_36">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages08.png" imageUVs="0px 205px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_35_part02"/>
+            <item type="text" value="$l10n_helpText_35_part03"/>
+        </page>
+        <page title="$l10n_helpTitle_36_01">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages08.png" imageUVs="0px 410px 1024px 205px"/>
+           <item type="text" value="$l10n_helpText_36_01_part01"/>
+            <item type="text" value="$l10n_helpText_36_01_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_67">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages08.png" imageUVs="0px 615px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_36_part01"/>
+            <item type="text" value="$l10n_helpText_36_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_37">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages08.png" imageUVs="0px 820px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_37_part01"/>
+            <item type="text" value="$l10n_helpText_37_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_38">
+            <item type="text" value="$l10n_helpText_38_part01"/>
+            <item type="text" value="$l10n_helpText_38_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_39">
+            <item type="text" value="$l10n_helpText_39_part01"/>
+            <item type="text" value="$l10n_helpText_39_part02"/>
+        </page>
+    </category>
+
+    <category title="$l10n_helpCategory_SA_01">
+        <page title="$l10n_helpTitle_SA_01">
+            <item type="text" value="$l10n_helpText_SA_01"/>
+        </page>
+        <page title="$l10n_helpTitle_SA_02">
+            <item type="text" value="$l10n_helpText_SA_02"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages10.png" imageUVs="0px 0px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_SA_03">
+            <item type="text" value="$l10n_helpText_SA_03"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages10.png" imageUVs="0px 205px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_SA_04">
+            <item type="text" value="$l10n_helpText_SA_04"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages10.png" imageUVs="0px 410px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_SA_05">
+            <item type="text" value="$l10n_helpText_SA_05"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages10.png" imageUVs="0px 615px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_SA_06">
+            <item type="text" value="$l10n_helpText_SA_06"/>
+        </page>
+    </category>
+
+    <category title="$l10n_helpCategory_06">
+        <page title="$l10n_helpTitle_40">
+            <item type="text" value="$l10n_helpText_40_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_41">
+            <item type="text" value="$l10n_helpText_41_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_42">
+            <item type="text" value="$l10n_helpText_42_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_57">
+            <item type="text" value="$l10n_helpText_57_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_44">
+            <item type="text" value="$l10n_helpText_44_part01"/>
+        </page>
+    </category>
+    <category title="$l10n_helpCategory_07">
+        <page title="$l10n_helpTitle_47">
+            <item type="text" value="$l10n_helpText_47_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_68">
+            <item type="text" value="$l10n_helpText_47_part02"/>
+            <item type="text" value="$l10n_helpText_47_part03"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages09.png" imageUVs="0px 0px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_49">
+            <item type="text" value="$l10n_helpText_49_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_50">
+            <item type="text" value="$l10n_helpText_50_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_51">
+            <item type="text" value="$l10n_helpText_51_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_52">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages09.png" imageUVs="0px 205px 1024px 102px" heightScale="0.5"/>
+            <item type="text" value="$l10n_helpText_52_part01"/>
+            <item type="text" value="$l10n_helpText_52_part02"/>
+            <item type="text" value="$l10n_helpText_52_part03"/>
+            <item type="text" value="$l10n_helpText_52_part04"/>
+            <item type="text" value="$l10n_helpText_52_part05"/>
+            <item type="text" value="$l10n_helpText_52_part06"/>
+            <item type="text" value="$l10n_helpText_52_part07"/>
+            <item type="text" value="$l10n_helpText_52_part08"/>
+        </page>
+        <page title="$l10n_helpTitle_53">
+            <item type="image" value="$dataS2/menu/helpline/helplineImages09.png" imageUVs="0px 308px 1024px 102px" heightScale="0.5"/>
+            <item type="text" value="$l10n_helpText_53_part01"/>
+            <item type="text" value="$l10n_helpText_53_part02"/>
+            <item type="text" value="$l10n_helpText_53_part03"/>
+            <item type="text" value="$l10n_helpText_53_part04"/>
+            <item type="text" value="$l10n_helpText_53_part09"/>
+            <item type="text" value="$l10n_helpText_53_part05"/>
+            <item type="text" value="$l10n_helpText_53_part06"/>
+            <item type="text" value="$l10n_helpText_53_part07"/>
+            <item type="text" value="$l10n_helpText_53_part08"/>
+            <item type="text" value="$l10n_helpText_53_part09"/>
+        </page>
+    </category>
+    <category title="$l10n_helpCategory_08">
+        <page title="$l10n_helpTitle_30">
+            <item type="text" value="$l10n_helpText_30_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages09.png" imageUVs="0px 410px 1024px 205px"/>
+        </page>
+        <page title="$l10n_helpTitle_69">
+            <item type="text" value="$l10n_helpText_69_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages09.png" imageUVs="0px 615px 1024px 205px"/>
+            <item type="text" value="$l10n_helpText_69_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_54">
+            <item type="text" value="$l10n_helpText_54_part01"/>
+            <item type="text" value="$l10n_helpText_55_part01"/>
+            <item type="text" value="$l10n_helpText_55_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_56">
+            <item type="text" value="$l10n_helpText_56_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_58">
+            <item type="text" value="$l10n_helpText_58_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_59">
+            <item type="text" value="$l10n_helpText_59_part01"/>
+            <item type="text" value="$l10n_helpText_59_part02"/>
+        </page>
+        <page title="$l10n_helpTitle_60">
+            <item type="text" value="$l10n_helpText_60_part01"/>
+        </page>
+        <page title="$l10n_helpTitle_61">
+            <item type="text" value="$l10n_helpText_61_part01"/>
+            <item type="image" value="$dataS2/menu/helpline/helplineImages09.png" imageUVs="0px 820px 1024px 102px" heightScale="0.5"/>
+            <item type="text" value="$l10n_helpText_61_part02"/>
+            <item type="text" value="$l10n_helpText_61_part03"/>
+            <item type="text" value="$l10n_helpText_61_part04"/>
+            <item type="text" value="$l10n_helpText_61_part05"/>
+            <item type="text" value="$l10n_helpText_61_part06"/>
+            <item type="text" value="$l10n_helpText_61_part07"/>
+            <item type="text" value="$l10n_helpText_61_part08"/>
+        </page>
+        <page title="$l10n_helpTitle_66">
+            <item type="text" value="$l10n_helpText_66_part01"/>
+        </page>
+    </category>
+</helpLines>
