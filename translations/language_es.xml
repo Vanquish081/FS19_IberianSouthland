@@ -19,35 +19,43 @@
 - Para recursos de otras producciones.
 - Para las dos anteriores."/>
 		<text name="helpText_IS02_part04"					text="Algunos están disponibles para su instalación en tu terreno (colocables) y otros solo en el punto de venta, piensa bien donde empiezas a invertir tu dinero.... "/>
-        <text name="helpTitle_IS03"							text="Fábricas - Producciones / Parte 2"/>
+        <text name="helpTitle_IS03"							text="Fábricas - Producciones / Parte 2.1"/>
 		<text name="helpText_IS03_part01"					text="Si no quieres explorar el mapa, a continuación se indica las fábricas disponibles y su localización en el juego así como su disponibilidad en la tienda:"/>
 		<text name="helpText_IS03_part02"					text="- BiogasMaster - ------ > 1745 - 1280
-- CompostMaster- ---- > 2045 - 1600 (Tienda) 
-- NaturDrin - - --------- > 1895 - 3975
+- CompostMaster- ---- > 2045 - 1600 (+ Colocable) 
+- Cervecería - - --------- > 1895 - 3975
+- Harinsur - - ------------ > 1550 -  1910
 - LimeMaster - - ------- > 3150 -  255
 - NordicSugar Mol- -- > 3150 -  255
-- NordicSugar Sug- -- > 3205 -  230
+- NordicSugar Sug- -- > 3205 -  230"/>
+        <text name="helpTitle_IS04"							text="Fábricas - Producciones / Parte 2.2"/>
+		<text name="helpText_IS04_part01"					text="- Pansur ----- - - - ------ > 2780 - 2090
 - PaperBloc- - - - ------ > 1525 - 3540
-- PelletMaster Heno- > 2140 - 1595
-- PelletMaster Paja ---> 2140 - 1645
+- PelletMaster Heno- > 2140 - 1595 (+ Colocable) 
+- PelletMaster Paja ---> 2140 - 1645 (+ Colocable) 
 - PlatiCor - - ------------ > 3090 -  570
-- Huerto Uvas- - ------ > 1495 -  440 (Tienda)"/>
-		<text name="helpText_IS03_part03"					text="Aquí están indicadas las que hay incluidas a disposición de los usuarios en esta versión del mapa, si alguna no esta disponible, se irá ampliando o corrigiendo esta ayuda con dicha información."/>
-        <text name="helpTitle_IS04"							text="Fábricas - Producciones / Parte 3"/>
-		<text name="helpText_IS04_part01"					text="Si has leido hasta aquí puede que en algún momento te hayas preguntado '¿Cuál compro si no se que necesita ni produce?', bien pues a continuación se indican los recursos que requiere cada punto de producción o fábrica y lo más importante,"/>
-		<text name="helpText_IS04_part02"					text="su producto y en que formato, palets (P) o a granel (B):
-- BiogasMaster - ------ > Estiércol o Compost + Agua = Biogas + Fertilizante (P)
+- Campo Uvas- - ------- > 1500 -  440 (+ Colocable)
+- Vino y Se Fue- - ------ > 665 -  2550"/>
+		<text name="helpText_IS04_part02"					text="Aquí están indicadas las que hay incluidas a disposición de los usuarios en esta versión del mapa, si alguna no esta disponible, se irá ampliando o corrigiendo esta ayuda con dicha información."/>
+        <text name="helpTitle_IS05"							text="Fábricas - Producciones / Parte 3.1"/>
+		<text name="helpText_IS05_part01"					text="Si has leido hasta aquí puede que en algún momento te hayas preguntado '¿Cuál compro si no se que necesita ni produce?', bien pues a continuación se indican los recursos que requiere cada punto de producción o fábrica y lo más importante, su producto y en que formato, palets (P) o a granel (B):"/>
+		<text name="helpText_IS05_part02"					text="- BiogasMaster - ------ > Estiércol o Compost + Agua = Biogas + Fertilizante (P)
 - CompostMaster- ---- > Estiércol, Patata, Remolacha, Paja, etc... + Diesel o Biogas = Compost (B)
-- NaturDrin - - --------- > Cebada + Lúpulo + Agua = Zumo Cebada (P)
+- Cervecería - - ------- > Cebada + Lúpulo + Agua = Cerveza (P)
+- Harinsur - - ---------- > Trigo = H. Trigo (P) / Cebada = H. Cebada (P)
 - LimeMaster - - ------- > Caliza + Virutas = Cal (B)
 - NordicSugar Mol- -- > Caña Azúcar + Agua = Melaza (B) + Azúcar Moreno (B)
-- NordicSugar Sug- -- > Remolacha + Agua = Melaza (B) + Azúcar (B)
+- NordicSugar Sug- -- > Remolacha + Agua = Melaza (B) + Azúcar (B)"/>
+        <text name="helpTitle_IS06"							text="Fábricas - Producciones / Parte 3.2"/>
+		<text name="helpText_IS06_part01"					text="- Pansur - --- --- -------> H. Cebada + H. Trigo + Agua = Pan (P)
 - PaperBloc- - - - ------ > Virutas o Troncos + Agua = Cartón (P)
 - PelletMaster Heno- > Paja Picada o Hierba o Heno + Diesel o Biogas + Melaza = Pellets de Heno (B)
 - PelletMaster Paja ---> Paja + Diesel o Biogas + Melaza = Pellets de Paja (B)
 - PlatiCor - - ------------ > Virutas o Troncos + Arena + Biogas = Botellas (P)
-- Huerto Uvas- - ------ > Estiércol o Compost + Agua + Fertilizante Líquido = Uva (P) (Tienda)"/>
-		<text name="helpText_IS04_part03"					text="En la tienda también puedes visualizar el ICONO de los productos que trabaja esa máquina."/>
+- Campo Uvas- - ------- > Estiércol o Compost + Agua (imprescindible) + Fertilizante Líquido = Uva (P) (Tienda)
+- Vino y Se Fue- - ---- > Uvas + Cartón + Botellas = Vino (P)"/>
+		<text name="helpText_IS06_part02"					text="En la tienda también puedes visualizar el ICONO de los productos que trabaja esa máquina."/>
+		<text name="helpText_IS06_part03"					text="¡Consejo! Para cargar las cajas grandes de plástico de Pansur necesitaras la horquilla de VSR-Technology."/>
 		<text name="helpTitle_IS09"							text="Créditos"/>
 		<text name="helpText_IS09_part01"					text="Modelo, Diseño, Mods, Testeo: Vanquish081
 Textures: Google, cgtextures.
@@ -86,26 +94,31 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="station_Destilery"						text="Destilería"/>
         <text name="station_Refineria"						text="Refinería"/>
         <text name="station_freiyard"						text="Muelle de Carga"/>
-        <text name="station_Stationjuice"					text="Fábrica Zumo"/>
+        <text name="station_Stationjuice"					text="Fábrica Cerveza"/>
+        <text name="station_Harinsur"						text="Harinsur"/>
         <text name="action_opentailGate"					text="Abrir Reja"/>
         <text name="action_closetailGate"					text="Abrir Reja"/>
         <text name="action_lightSwitchON"					text="Encender Luces"/>
         <text name="action_lightSwitchOFF"					text="Apagar Luces"/>
         <text name="fillType_hop"							text="Lúpulo"/>
         <text name="fillType_grapes"						text="Uvas"/> <!-- last -->
-        <text name="fillType_juice"							text="Zumo"/> <!-- last -->
+        <text name="fillType_beer"							text="Cerveza"/> <!-- last -->
         <text name="fillType_compost"						text="Compost"/>
         <text name="fillType_biogas"						text="Biogas"/>
         <text name="fillType_limestone"						text="Caliza"/>
         <text name="fillType_gravel"						text="Grava"/>
         <text name="fillType_sand"							text="Arena"/>
-        <text name="fillType_hayPellets"					text="Pellets Heno"/>
-        <text name="fillType_strawPellets"					text="Pellets Paja"/>
+        <text name="fillType_hayPellets"					text="Pel. Heno"/>
+        <text name="fillType_strawPellets"					text="Pel. Paja"/>
         <text name="fillType_paperBoard"					text="Cartón"/> <!-- last -->
         <text name="fillType_bottles"						text="Botellas"/> <!-- last -->
         <text name="fillType_molasses"						text="Melaza"/> <!-- last -->
         <text name="fillType_brownSugar"					text="Azúcar Moreno"/> <!-- last -->
         <text name="fillType_sugar"							text="Azúcar"/> <!-- last -->
+        <text name="fillType_wine"							text="Vino"/> <!-- last -->
+        <text name="fillType_wheat_flour"					text="Harina Trigo"/> <!-- last -->
+        <text name="fillType_barley_flour"					text="Harina Cebada"/> <!-- last -->
+        <text name="fillType_bread"							text="Pan"/> <!-- last -->
         <text name="fillTypeGroup_pellets"					text="Pellets"/>
         <text name="configuration_XS"						text="XS 525/65/R20.5"/>
 		
@@ -115,26 +128,36 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="shopItem_farmSiloLLarge"				text="Silo de Líquidos grande"/> <!-- last -->
         <text name="shopItem_FertiMaster"					text="FertiMaster"/>
         <text name="shopItem_HerbiMaster"					text="HerbiMaster"/> <!-- last -->
+        <text name="shopItem_LiqFertMaster"					text="LiqFertMaster"/> <!-- last -->
         <text name="shopItem_SeedMaster"					text="SeedMaster"/>
         <text name="shopItem_CompostMaster"					text="CompostMaster"/>
+        <text name="shopItem_Pansur"						text="Pansur"/>
+        <text name="shopItem_produccionPan"					text="Producción Pan"/>
+        <text name="shopItem_produccion"					text="Producción"/>
         <text name="shopItem_pelletHMaster"					text="PelletMaster Heno"/>
         <text name="shopItem_pelletSMaster"					text="PelletMaster Paja"/>
         <text name="shopItem_LimeMaster"					text="Fábrica Cal"/>
-        <text name="shopItem_DaffMaster"					text="Producción Zumo"/> <!-- last -->
+        <text name="shopItem_DaffMaster"					text="Producción Cerveza"/> <!-- last -->
         <text name="shopItem_BiogasMaster"					text="Producción Biogas"/> <!-- last -->
         <text name="shopItem_NordicMasterMol"				text="Producción Melaza"/> <!-- last -->
         <text name="shopItem_NordicMasterSug"				text="Producción Azúcar"/> <!-- last -->
         <text name="shopItem_PaperBloc"						text="Producción Papel"/> <!-- last -->
         <text name="shopItem_Plasticor"						text="Producción Botellas"/> <!-- last -->
         <text name="shopItem_Viniedo"						text="Producción Uvas"/> <!-- last -->
+        <text name="function_Viniedo"						text="Podrás cultivar y producir tus propias uvas en pequeñas parcelas, eso sí, asegurate de que no falte agua o no podrás abonarlas."/> <!-- last -->
+        <text name="shopItem_ViniedoFijo"					text="Viña Sin Piña"/> <!-- last -->
+        <text name="function_ViniedoFijo"					text="Podrás cultivar y producir una gran cantidad de uvas en este extenso viñedo, eso sí, asegurate de que no falte agua o no podrás abonarlas."/> <!-- last -->
+        <text name="shopItem_VinoYSeFue"					text="Vino Y Se Fue"/> <!-- last -->
         <text name="shopItem_biogasStation"					text="Venta BioGas"/> <!-- last -->
         <text name="shopItem_gravelStation"					text="Venta Grava"/>
         <text name="shopItem_limestoneStation"				text="Venta Caliza"/>
         <text name="shopItem_sandStation"					text="Venta Arena"/>
         <text name="shopItem_foodStation"					text="Venta Alimentos"/> <!-- last -->
         <text name="shopItem_farmStation"					text="Semillería"/> <!-- last -->
+        <text name="shopItem_harinaC"						text="Producción Harina"/> <!-- last -->
+        <text name="shopItem_harinaT"						text="Trigo Y Cebada"/> <!-- last -->
         <text name="shopItem_Ramp"							text="Rampa"/> <!-- last -->
-        <text name="function_Ramp"							text="ArtMechanic ha preparado esta rampa para esos lugares donde tu maquinaria no alcanza a los remolques correctamente."/> <!-- last -->
+        <text name="function_VSRloaderPallet"				text="VSR-Technology presenta estas horquillas más estrechas para las cajas grandes (BB) de plástico."/> <!-- last -->
         <text name="action_doSmartAttachGround"				text="Enganchar depósito móvil"/> <!-- last -->
         <text name="configuration_valueMan"					text="Enganche MAN"/> <!-- last -->
         <text name="configuration_valueTatra"				text="Enganche Tatra"/> <!-- last -->
@@ -143,9 +166,82 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="configuration_valueTruckL"				text="Enganche RoadRunner"/> <!-- last -->
 		
         <text name="shopItem_palletStorage"					text="Almacén Palets"/> <!-- last -->
-        <text name="function_palletStorage"					text="Almacén para 120 palets de zumo."/> <!-- last -->
+        <text name="function_palletStorage"					text="Almacén para 120 palets de cerveza."/> <!-- last -->
         <text name="unit_pallets"							text="Palets"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Siguiente Objecto"/> <!-- last -->
         <text name="category_factory"						text="Fábricas"/> <!-- last -->
+		
+        <!-- Alfalfa -->
+        <text name="fillType_wetAlfalfa"                   text="Alfalfa Fresca" />
+        <text name="fillType_wetAlfalfa_windrow"           text="Alfalfa Fresca" />
+        <text name="fillType_alfalfa"                      text="Alfalfa" />
+        <text name="fillType_alfalfa_windrow"              text="Alfalfa" />
+        <text name="fillType_semiDryAlfalfa"               text="Alfalfa Semi-seca" />
+        <text name="fillType_semiDryAlfalfa_windrow"       text="Alfalfa Semi-seca" />
+        <text name="fillType_dryAlfalfa"                   text="Heno de Alfalfa" />
+        <text name="fillType_dryAlfalfa_windrow"           text="Heno de Alfalfa" />
+        <text name="fillType_alfalfa_fermented"            text="Ensilaje de Alfalfa" />
+        <!-- Clover -->
+        <text name="fillType_wetClover"                    text="Trebol Fresco" />
+        <text name="fillType_wetClover_windrow"            text="Trebol Fresco" />
+        <text name="fillType_clover"                       text="Trebol" />
+        <text name="fillType_clover_windrow"               text="Trebol" />
+        <text name="fillType_semiDryClover"                text="Trebol Semi-seco" />
+        <text name="fillType_semiDryClover_windrow"        text="Trebol Semi-seco" />
+        <text name="fillType_dryClover"                    text="Heno de Trebol" />
+        <text name="fillType_dryClover_windrow"            text="Heno de Trebol" />
+        <text name="fillType_clover_fermented"             text="Ensilaje de Trebol" />
+        <!-- HorseGrass -->
+        <text name="fillType_wetHorseGrass"                text="Hierba de Caballo Fresca" />
+        <text name="fillType_wetHorseGrass_windrow"        text="Hierba de Caballo Fresca" />
+        <text name="fillType_horseGrass"                   text="Hierba de Caballo" />
+        <text name="fillType_horseGrass_windrow"           text="Hierba de Caballo" />
+        <text name="fillType_semiDryHorseGrass"            text="Hierba de Caballo Semi-seca" />
+        <text name="fillType_semiDryHorseGrass_windrow"    text="Hierba de Caballo Semi-seca" />
+        <text name="fillType_dryHorseGrass"                text="Heno de Hierba de Caballo" />
+        <text name="fillType_dryHorseGrass_windrow"        text="Heno de Hierba de Caballo" />
+        <text name="fillType_horseGrass_fermented"         text="Ensilaje de H. Caballo" />
+        <!-- Grass -->
+        <text name="fillType_pastureGrass"                 text="Hierba de Pasto" />
+        <text name="fillType_wetGrass"                     text="Hierba Fresca" />
+        <text name="fillType_wetGrass_windrow"             text="Hierba Fresca" />
+        <text name="fillType_semiDryGrass"                 text="Hierba Semi-seca" />
+        <text name="fillType_semiDryGrass_windrow"         text="Hierba Semi-seca" />
+        <text name="fillType_grass_fermented"              text="Ensilaje de Hierba" />
+        <!-- Grains -->
+        <text name="fillType_rye"                          text="Centeno" />
+        <text name="fillType_triticale"                    text="Triticale" />
+        <text name="fillType_spelt"                        text="Espelta" />
+        <text name="fillType_field_grass"                  text="Hierba de Campo" />
+        <!-- Root crops -->
+        <text name="fillType_carrot"                       text="Zanahoria" />
+        <text name="fillType_onion"                        text="Cebolla" />
+        <!-- Forage -->
+        <text name="fillType_crop_windrow"                 text="Hilera de Grano" />
+        <text name="fillType_miscanthus"                   text="Miscanthus" />
+		<text name="fillType_ccmraw"                       text="Maíz Molido (Harina Maíz)" />
+        <text name="fillType_ccm"                          text="CCM" />
+		<!-- Mods -->
+        <text name="function_multiPalletPacker"            text="Con esta máquina las patatas, la remolacha, las cebollas o las zanahorias se pueden envasar en palets para la venta, o se cargan en cintas transportadoras." />
+        <text name="function_multiWrapper"                 text="La embaladora de pacas encinta pacas de todas las hierbas en papel de aluminio para que puedan fermentar y convertirse en ensilaje." />
+        <text name="function_multiBaler"                   text="Esta empacadora prensa la paja, así como todas las hierbas y su heno en pacas." />
+        <text name="function_multiStacker"                 text="Este recogedor de pacas carga todo tipo de pacas redondas y facilita su transporte." />
+        <text name="configuration_carrot"                  text="para zanahorias" />
+        <text name="configuration_onion"                   text="para cebollas" />
+        <text name="name_HR_12_Carrot"                     text="HR 12 para zanahorias" />
+        <text name="name_HR_12_Onion"                      text="HR 12 para cebollas" />
+        <text name="name_KS_75-4_Carrot"                   text="KS 75-4 para zanahorias" />
+        <text name="name_KS_75-4_Onion"                    text="KS 75-4 para cebollas" />
+        <text name="name_SE_260_Carrot"                    text="SE 260 para zanahorias" />
+        <text name="name_SE_260_Onion"                     text="SE 260 para cebollas" />
+        <text name="function_haulmTopperCarrot"            text="Esta máquina quita las puntas antes de que se puedan cosechar las zanahorias." />
+        <text name="function_haulmTopperOnion"             text="Esta máquina quita las puntas antes de que se puedan cosechar las cebollas." />
+        <text name="function_harvestingCarrotWithoutPreparer" text="Esta cosechadora extrae las zanahorias del suelo. Esta máquina solo se puede utilizar después de que se hayan cortado las puntas." />
+        <text name="function_harvestingOnionWithoutPreparer"  text="Esta cosechadora extrae las cebollas del suelo. Esta máquina solo se puede utilizar después de que se hayan cortado las puntas" />
+        <text name="function_mowerConditioner"             text="Esta segadora tiene instalado un acondicionador. Esto significa que lo segado se seca inmediatamente." />
+		<!-- Compost additions -->
+        <!-- <text name="fillType_compost"                           text="Compost" /> -->
+        <text name="shopItem_buyingStation_compost"             text="Venta de Compost" />
+        <text name="function_buyingStation_compost"             text="El compost puede ser comprado aquí." />
 	</texts>
 </l10n>
