@@ -16,4 +16,4 @@ If you can't upload new file, send me to mp in official discord Farming Simulato
 
 The firts version is release in official website Farming Simulator
 
-Direct URL: https://farming-simulator.com/mod.php?mod_id=162447
+Only available in Discord's Channel
