@@ -22,14 +22,16 @@
         <text name="helpTitle_IS03"							text="Fábricas - Producciones / Parte 2.1"/>
 		<text name="helpText_IS03_part01"					text="Si no quieres explorar el mapa, a continuación se indica las fábricas disponibles y su localización en el juego así como su disponibilidad en la tienda:"/>
 		<text name="helpText_IS03_part02"					text="- BiogasMaster - ------ > 1745 - 1280
-- CompostMaster- ---- > 2045 - 1600 (+ Colocable) 
+- CleanerMaster- ---- > 1655 - 2465
+- CompostMaster- ---- > 2045 - 1600 (+ Colocable)
 - Cervecería - - --------- > 1895 - 3975
 - Harinsur - - ------------ > 1550 -  1910
 - LimeMaster - - ------- > 3150 -  255
 - NordicSugar Mol- -- > 3150 -  255
 - NordicSugar Sug- -- > 3205 -  230"/>
         <text name="helpTitle_IS04"							text="Fábricas - Producciones / Parte 2.2"/>
-		<text name="helpText_IS04_part01"					text="- Pansur ----- - - - ------ > 2780 - 2090
+		<text name="helpText_IS04_part01"					text="- Olivasa - Cooperativa -> 400 - 1090
+- Pansur ----- - - - ------ > 2780 - 2090
 - PaperBloc- - - - ------ > 1525 - 3540
 - PelletMaster Heno- > 2140 - 1595 (+ Colocable) 
 - PelletMaster Paja ---> 2140 - 1645 (+ Colocable) 
@@ -40,14 +42,16 @@
         <text name="helpTitle_IS05"							text="Fábricas - Producciones / Parte 3.1"/>
 		<text name="helpText_IS05_part01"					text="Si has leido hasta aquí puede que en algún momento te hayas preguntado '¿Cuál compro si no se que necesita ni produce?', bien pues a continuación se indican los recursos que requiere cada punto de producción o fábrica y lo más importante, su producto y en que formato, palets (P) o a granel (B):"/>
 		<text name="helpText_IS05_part02"					text="- BiogasMaster - ------ > Estiércol o Compost + Agua = Biogas + Fertilizante (P)
+- CleanerMaster- ---- > Olivas Sucias + Diesel o Biogas + Agua = Olivas (B)
 - CompostMaster- ---- > Estiércol, Patata, Remolacha, Paja, etc... + Diesel o Biogas = Compost (B)
 - Cervecería - - ------- > Cebada + Lúpulo + Agua = Cerveza (P)
 - Harinsur - - ---------- > Trigo = H. Trigo (P) / Cebada = H. Cebada (P)
-- LimeMaster - - ------- > Caliza + Virutas = Cal (B)
+- LimeMaster - - ------- > Caliza + Virutas ó Pellet Paja = Cal (B)
 - NordicSugar Mol- -- > Caña Azúcar + Agua = Melaza (B) + Azúcar Moreno (B)
 - NordicSugar Sug- -- > Remolacha + Agua = Melaza (B) + Azúcar (B)"/>
         <text name="helpTitle_IS06"							text="Fábricas - Producciones / Parte 3.2"/>
-		<text name="helpText_IS06_part01"					text="- Pansur - --- --- -------> H. Cebada + H. Trigo + Agua = Pan (P)
+		<text name="helpText_IS06_part01"					text="- Olivasa - Cooperativa -> Oliva + Botellas + Cartón = Aceite Oliva (P) + Purín (L)
+- Pansur - --- --- -------> H. Cebada + H. Trigo + Agua = Pan (P)
 - PaperBloc- - - - ------ > Virutas o Troncos + Agua = Cartón (P)
 - PelletMaster Heno- > Paja Picada o Hierba o Heno + Diesel o Biogas + Melaza = Pellets de Heno (B)
 - PelletMaster Paja ---> Paja + Diesel o Biogas + Melaza = Pellets de Paja (B)
@@ -61,6 +65,7 @@
 Textures: Google, cgtextures.
 Hud Fruit: Jakob Tischler
 SeedMaster2k15, - Marhu
+Script FilltypeConverter - GTX
 Medianera - Germany Community Group / martinbigM500
 Puente Tubo - Pisty
 DistanceHills - Mailman (ModsWatend)
@@ -83,9 +88,9 @@ Huge Mill: container yard: Zippo, Silo: Sim3.09S
 Housing High Low Poly - GoldFox
 Base building for Harinsur - möchtegernbauer
 Base building for Polvillo - Pucksta – PMP, Gebäude and Objekte von Giants (LS13+15)
-Script FilltypeConverter - GTX
 Splines - Prom
-Irish Farm Shed Pack - My-self (Sean6920s)"/>
+Irish Farm Shed Pack - My-self (Sean6920s)
+-xBlazejeWx-"/>
 
         <text name="station_port03"							text="Puerto Noroeste"/>
         <text name="station_Matadero"						text="Matadero"/>
@@ -119,6 +124,10 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="fillType_wheat_flour"					text="Harina Trigo"/> <!-- last -->
         <text name="fillType_barley_flour"					text="Harina Cebada"/> <!-- last -->
         <text name="fillType_bread"							text="Pan"/> <!-- last -->
+        <text name="fillType_dirty_Olive"					text="Oliva Sucia"/> <!-- last -->
+        <text name="fillType_olive"							text="Oliva"/> <!-- last -->
+        <text name="fillType_olive_oil"						text="Aceite Oliva"/> <!-- last -->
+        <text name="fillType_sunflower_oil"					text="Aceite Girasol"/> <!-- last -->
         <text name="fillTypeGroup_pellets"					text="Pellets"/>
         <text name="configuration_XS"						text="XS 525/65/R20.5"/>
 		
@@ -134,6 +143,11 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="shopItem_Pansur"						text="Pansur"/>
         <text name="shopItem_produccionPan"					text="Producción Pan"/>
         <text name="shopItem_produccion"					text="Producción"/>
+        <text name="shopItem_Campo"							text="Recogida"/>
+        <text name="shopItem_Campo01"						text="Campo 1 Olivasa"/> <!-- last -->
+        <text name="shopItem_Campo02"						text="Campo 2 Olivasa"/> <!-- last -->
+        <text name="shopItem_Campo03"						text="Campo 3 Olivasa"/> <!-- last -->
+        <text name="shopItem_Olivasa"						text="Olivasa - Cooperativa"/> <!-- last -->
         <text name="shopItem_pelletHMaster"					text="PelletMaster Heno"/>
         <text name="shopItem_pelletSMaster"					text="PelletMaster Paja"/>
         <text name="shopItem_LimeMaster"					text="Fábrica Cal"/>
@@ -156,6 +170,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="shopItem_farmStation"					text="Semillería"/> <!-- last -->
         <text name="shopItem_harinaC"						text="Producción Harina"/> <!-- last -->
         <text name="shopItem_harinaT"						text="Trigo Y Cebada"/> <!-- last -->
+        <text name="shopItem_CleanerMaster"					text="CleanerMaster"/> <!-- last -->
         <text name="shopItem_Ramp"							text="Rampa"/> <!-- last -->
         <text name="function_VSRloaderPallet"				text="VSR-Technology presenta estas horquillas más estrechas para las cajas grandes (BB) de plástico."/> <!-- last -->
         <text name="action_doSmartAttachGround"				text="Enganchar depósito móvil"/> <!-- last -->
@@ -170,6 +185,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="unit_pallets"							text="Palets"/> <!-- last -->
         <text name="ui_nextObjectLevel"						text="Siguiente Objecto"/> <!-- last -->
         <text name="category_factory"						text="Fábricas"/> <!-- last -->
+        <text name="ui_vehicleReset"						text="Vehículo En La Granja Central"/> <!-- last -->
 		
         <!-- Alfalfa -->
         <text name="fillType_wetAlfalfa"                   text="Alfalfa Fresca" />
@@ -243,5 +259,33 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <!-- <text name="fillType_compost"                           text="Compost" /> -->
         <text name="shopItem_buyingStation_compost"             text="Venta de Compost" />
         <text name="function_buyingStation_compost"             text="El compost puede ser comprado aquí." />
+		<!-- Autoloader -->
+		<text name="workModeOn" text="AL: Modo Trabajo: Encender"/>
+		<text name="workModeOff" text="AL: Modo Trabajo: Apagar"/>
+		<text name="unload" text="Descargar"/>
+		<text name="center" text="Descargar al Centro"/>
+		<text name="left" text="Descargar a la Izquierda"/>
+		<text name="right" text="Descargar a la Derecha"/>
+		<text name="back" text="Descargar Detrás"/>
+		<text name="squareBales" text="AL: Trabajar Con Pacas Cuadradas"/>
+		<text name="strawAddonSquareBales" text="AL: Trabajar Con Pacas Cuadradas StrawAddon"/>
+		<text name="strawAddonSmallRound" text="AL: Trabajar Con Pacas Redondas StrawAddon 1.1m"/>
+		<text name="roundBales" text="AL: Trabajar Con Pacas Redondas 1.3m"/>
+		<text name="pallets" text="AL: Trabajar Con Palets"/>
+		<text name="pelletPallets" text="AL: Trabajar Con Palets de Pellet"/>
+		<text name="ultima14" text="AL: Trabajar Con Pacas Redondas 1.4m"/>
+		<text name="ultima15" text="AL: Trabajar Con Pacas Redondas 1.5m"/>
+		<text name="strawAddon155" text="AL: Trabajar Con Pacas Redondas StrawAddon 1.55m"/>
+		<text name="smallSquareBales" text="AL: Trabajar Con Pacas Cuadradas Pequeñas"/>
+		<text name="jd18bales" text="AL: Trabajar Con Pacas Redondas 1.8m"/>
+		<text name="boardPallets" text="AL: Trabajar Con Palets de Tablones"/>
+		<text name="eggBoxes" text="AL: Trabajar Con Cajas Huevos"/>
+		<text name="cottonModules" text="AL: Trabajar Con Módulos Algodón"/>
+		<text name="missionPallets" text="AL: Trabajar Con Palets de Misiones"/>
+		<text name="jdCottonBale" text="AL: Trabajar Con Pacas Redondas Algodón"/>
+		<text name="hesstonBales" text="AL: Trabajar Con Pacas Grandes de Hesston"/>
+		<text name="function_easyAutoLoader" text="Easy AutoLoader activado. Permite cargar automáticamente pacas y palets."/>
+		<text name="configuration_valueBalloon" text="Globo"/>
+		<text name="Flatdecks" text="Equipamiento Autoload"/>
 	</texts>
 </l10n>

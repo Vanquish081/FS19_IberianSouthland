@@ -29,6 +29,7 @@
 Textures: Google, cgtextures.
 Hud Fruit: Jakob Tischler
 SeedMaster2k15, - Marhu
+Script FilltypeConverter - GTX
 Medianera - Germany Community Group / martinbigM500
 Puente Tubo - Pisty
 DistanceHills - Mailman (ModsWatend)
@@ -51,9 +52,9 @@ Huge Mill: container yard: Zippo, Silo: Sim3.09S
 Housing High Low Poly - GoldFox
 Base building for Harinsur - möchtegernbauer
 Base building for Polvillo - Pucksta – PMP, Gebäude and Objekte von Giants (LS13+15)
-Script FilltypeConverter - GTX
 Splines - Prom
-Irish Farm Shed Pack - My-self (Sean6920s)"/>
+Irish Farm Shed Pack - My-self (Sean6920s)
+-xBlazejeWx-"/>
 
         <text name="station_port03"							text="Northwest Port"/>
         <text name="station_Matadero"						text="Matadero"/>
@@ -87,6 +88,8 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="fillType_wheat_flour"					text="Wheat Flour"/> <!-- last -->
         <text name="fillType_barley_flour"					text="Barley Flour"/> <!-- last -->
         <text name="fillType_bread"							text="Bread"/> <!-- last -->
+        <text name="fillType_dirty_Olive"					text="Dirty Olive"/> <!-- last -->
+        <text name="fillType_olive"							text="Olive"/> <!-- last -->
         <text name="fillTypeGroup_pellets"					text="Pellets"/>
         <text name="configuration_XS"						text="XS 525/65/R20.5"/>
 		
@@ -118,6 +121,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <text name="shopItem_farmStation"					text="Farm Shop Station"/> <!-- last -->
         <text name="shopItem_harinaT"						text="Production"/> <!-- last -->
         <text name="shopItem_harinaC"						text="             Flour"/> <!-- last -->
+        <text name="shopItem_CleanerMaster"					text="CleanerMaster"/> <!-- last -->
         <text name="shopItem_Ramp"							text="Ramp"/> <!-- last -->
         <text name="function_Ramp"							text="ArtMechanic has prepared this ramp for those places where your machinery does not reach the trailers correctly."/> <!-- last -->
         <text name="action_doSmartAttachGround"				text="Hook mobile tank"/> <!-- last -->
@@ -204,5 +208,33 @@ Irish Farm Shed Pack - My-self (Sean6920s)"/>
         <!-- <text name="fillType_compost"                           text="Compost" /> -->
         <text name="shopItem_buyingStation_compost"             text="Compost Loading Point" />
         <text name="function_buyingStation_compost"             text="Compost can be bought here." />
+		<!-- Autoload -->
+		<text name="workModeOn" text="AutoLoader: Work mode: turn on"/>
+		<text name="workModeOff" text="AutoLoader: Work mode: turn off"/>
+		<text name="unload" text="Unload"/>
+		<text name="center" text="Unload to Center"/>
+		<text name="left" text="Unload to Left"/>
+		<text name="right" text="Unload to Right"/>
+		<text name="back" text="Unload to Back"/>
+		<text name="squareBales" text="AutoLoader: Select: Large Square Bales"/>
+		<text name="strawAddonSquareBales" text="AutoLoader: Select: StrawAddon Square Bales"/>
+		<text name="strawAddonSmallRound" text="AutoLoader: Select: 1.1m Round Bales"/>
+		<text name="roundBales" text="AutoLoader: Select: 1.3m Round Bales"/>
+		<text name="pallets" text="AutoLoader: Select: Pallets"/>
+		<text name="pelletPallets" text="AutoLoader: Select: Pellet Pallets"/>
+		<text name="ultima14" text="AutoLoader: Select: 1.4m Round Bales"/>
+		<text name="ultima15" text="AutoLoader: Select: 1.5m Round Bales"/>
+		<text name="strawAddon155" text="AutoLoader: Select: 1.55m Round Bales"/>
+		<text name="smallSquareBales" text="AutoLoader: Select: Small Square Bales"/>
+		<text name="jd18bales" text="AutoLoader: Select: 1.8m Round Bales"/>
+		<text name="boardPallets" text="AutoLoader: Select: Lumber Pallets"/>
+		<text name="eggBoxes" text="AutoLoader: Select: Egg Boxes"/>
+		<text name="cottonModules" text="AutoLoader: Select: Cotton Modules"/>
+		<text name="missionPallets" text="AutoLoader: Select: Mission Pallets"/>
+		<text name="jdCottonBale" text="AutoLoader: Select: Round Cotton Bales"/>
+		<text name="hesstonBales" text="AutoLoader: Select: Hesston Big Bales"/>
+		<text name="function_easyAutoLoader" text="Easy AutoLoader enabled. Allows bales and pallets to be loaded automatically"/>
+		<text name="configuration_valueBalloon" text="Balloon"/>
+		<text name="Flatdecks" text="Autoload Equipment"/>
 	</texts>
 </l10n>
