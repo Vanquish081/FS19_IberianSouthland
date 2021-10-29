@@ -171,6 +171,7 @@ Irish Farm Shed Pack - My-self (Sean6920s)
         <text name="shopItem_harinaC"						text="Producción Harina"/> <!-- last -->
         <text name="shopItem_harinaT"						text="Trigo Y Cebada"/> <!-- last -->
         <text name="shopItem_CleanerMaster"					text="CleanerMaster"/> <!-- last -->
+        <text name="shopItem_Molinsur"						text="Molinsur"/> <!-- last -->
         <text name="shopItem_Ramp"							text="Rampa"/> <!-- last -->
         <text name="function_VSRloaderPallet"				text="VSR-Technology presenta estas horquillas más estrechas para las cajas grandes (BB) de plástico."/> <!-- last -->
         <text name="action_doSmartAttachGround"				text="Enganchar depósito móvil"/> <!-- last -->
