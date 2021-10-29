@@ -1,17 +1,119 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="47">
+<modDesc descVersion="53">
     <author>Vanquish081</author>
-    <version>1.0.2.0</version>
+    <version>1.0.8.0</version>
 	
     <title>
-        <en>Iberians South Lands</en>
-        <de>Im Süden Der Iberischen Halbinsel</de>
         <es>Tierras Del Sur Iberico</es>
+        <de>Tierras Del Sur Iberico</de>
+        <en>Tierras Del Sur Iberico</en>
     </title>
     <description>
-<en><![CDATA[Welcome to an imaginary zone the earth of sur of Spain.
+<en><![CDATA[Bienvenido a una zona imaginaria del sur de España.
 
-Firts conversion of this map from FS2013 -> FS2015 -> FS17 and let's go to FS19, ready your Big Bud, 9RX, Quadtrac... will need something like this. You have the next features:
+Última conversión de este mapa para Farming Simulator desde FS2013, prepara tu Big Bud, 9RX, Quadtrac... necesitarás alguno de estos. Dispones de las siguientes características:
+- Cerdos.
+- Vacas.
+- Ovejas.
+- Caballos.
+- 20 puntos de venta.
+- 89 Campos.
+- 4 Bosques.
+
+Mods para disfrutar de la partida:
+- FS19_manureSystem  		 		(Obligatorio)
+- FS19_MaizePlus	 		 		(Obligatorio)
+- FS19_AnimalPenExtension	 		(Recomendado+)
+- FS19_PlaceAnywhere 		 		(Recomendado++++)
+- FS19_RYC_120				 		(Recomendado++)
+- FS19_Pack_Tank_Trans_120			(Recomendado+++)
+- FS19_Pack_Side_Tipper_Trans_120	(Recomendado+++)
+- FS19_lsfmUniversalTankPack		(Recomendado++)
+
+Cambios 1.0.8.0:
+- Añadidos campos de producción de aceitunas (olivas)
+- Añadida venta oliva sin limpiar a puntos de venta.
+- Añadida producción de aceite de oliva.
+- Añadida venta de aceite de oliva a puntos de venta.
+- Añadida producción de aceite de girasol.
+- Añadida venta de aceite de girasol a puntos de venta.
+- Retocados bunkers de BGA, zona de vacas y granja cerca de MolinSur.
+- Arreglado descarga en palets de harina (v1.0.7.5).
+- Añadida VSTR Plataform (v.Plus) con Autoload (Tecnología de Embalado)(v1.0.7.5).
+- Ajustado precio venta del Pan (v1.0.7.5).
+- Ajustado consumo agua en Pansur (v1.0.7.5).
+- Corregidos algunos errores y objetos sueltos (v1.0.7.5).
+
+Cambios 1.0.7.0:
+- Añadido punto de venta para cereales en Harinsur.
+- Añadida fábrica harina (Harinsur).
+- Añadida fábrica pan (Pansur).
+- Añadida melaza a puntos de venta.
+- Añadida pan a puntos de venta.
+- Añadida harinas a puntos de venta.
+- Añadida ázucar a puntos de venta.
+- Añadida ázucar moreno a puntos de venta.
+- Ajustados tiggers y producción viñedo.
+- Actualizada información de las fábricas en el menú de ayuda del juego.
+
+Cambios 1.0.6.0:
+- Añadido zona de viña para producción de uva.
+- Añadida producción de vino.
+- Añadida Uva a puntos de venta.
+- Añadido Vino a puntos de venta.
+- Ajustada producción viñedo (v1.0.6.5).
+- Ajustada producción fábrica vino (v1.0.6.5).
+- Revisada animación puertas parcela viñas (v1.0.6.6)
+
+Cambios 1.0.5.0:
+- Ajustados items para partidas multijugador.
+- Arreglado venta cerveza.
+- Arreglada visualización tejados con nieve.
+- Añadidas nuevas zonas para su compra.
+
+Cambios 1.0.4.5:
+- Toda la hierba visible es decorativa.
+- Nueva decoración del terreno.
+- Más árboles por el mapa.
+- Animales prefijados requieren compra de terreno.
+- Se añade el HerbiMaster, producción de herbicida con purín y caliza.
+- Se añade LiqFerMaster, producción de abono líquido con digestato y fertilizante sólido.
+- Soporte MaizePlus y sus extensiones.
+- Soporte AnimalPenExtension.
+- Soporte manureSystem en animales y BGA.
+- Eliminados algunos carteles para optimizar.
+- Correcida colisión lagos para Season. (1.0.4.6)
+
+Cambios 1.0.3.0:
+- Añadida colocable producción uvas.
+- Añadida colocable producción pellet de heno.
+- Añadida colocable producción pellet de paja.
+- Añadida fábrica Cal.
+- Revisada iluminación en edificios.
+- Modificada altura tienda de vehículos.
+
+Cambios 1.0.2.0:
+- Añadida fábrica PaperBloc.
+- Añadida fábrica PlastiCor.
+- Añadida fábrica Biogas.
+- Añadida fábrica Melaza y Azúcar(es).
+- Añadida fábrica Biogas.
+- Nueva categoria en zona de Colocables.
+- Añadida iluminación al Molino.
+- Varios edificios mejorados.
+
+Cambios 1.0.1.0:
+- Arreglado suelo punto de ventas para visitar.
+- Cambiada textura sillas tienda vehiculos.
+- Remodelado terreno campo 2-3.
+- Incluida fábrica de zumo.
+- Rehecho parte edificio Fábrica zumo.
+- Incluido sistema de almacenaje para palets de zumo.
+- Cambiada densidad de lúpulo sobre el terreno.
+- Añadido diseño del acople al TankTender para cada camión.]]></en>
+<es><![CDATA[Welcome to an imaginary zone the earth of sur of Spain.
+
+Last conversion of this map for Farming Simulator from FS2013, ready your Big Bud, 9RX, Quadtrac... will need something like this. You have the next features:
 - Pigs.
 - Cow.
 - Sheeps.
@@ -22,6 +124,52 @@ Firts conversion of this map from FS2013 -> FS2015 -> FS17 and let's go to FS19,
 - 89 fields.
 - 4 forest.
 
+Mods to enjoy the game:
+- FS19_manureSystem				(Required)
+- FS19_MaizePlus				(Required)
+- FS19_AnimalPenExtension		(Recommended +)
+- FS19_PlaceAnywhere			(Recommended +++)
+- FS19_lsfmUniversalTankPack	(Recommended ++)
+
+Changes 1.0.7.0:
+- Added flour factory.
+- Adjusted tiggers and vineyard production.
+
+Changes 1.0.6.0:
+- Added vineyard area for grape production.
+- Added wine production.
+- Added Grape to points of sale.
+- Added Wine to points of sale.
+- Adjusted vineyard production (v1.0.6.5).
+- Adjusted wine factory production (v1.0.6.5).
+- Revised vineyard plot gates animation (v1.0.6.6)
+
+Changes 1.0.5.0:
+- Adjusted items for multiplayer games.
+- Fixed sale of beer.
+- Fixed snow roof display.
+- Added new areas for purchase.
+
+Changes 1.0.4.5:
+- All visible grass is decorative.
+- New decoration of the land.
+- More trees on the map.
+- Preset animals require purchase of land.
+- The HerbiMaster is added, production of herbicide with slurry and limestone.
+- LiqFerMaster is added, production of liquid fertilizer with digestate and solid fertilizer.
+- MaizePlus support and its extensions.
+- AnimalPenExtension support.
+- Support manureSystem in animals and BGA.
+- Removed some posters to optimize.
+
+Changes 1.0.3.0:
+- Added placeable grape production.
+- Added placeable hay pellet production.
+- Added placeable straw pellet production.
+- Added factory Cal.
+- Revised lighting in buildings.
+- Modified vehicle store height.
+
 Changes 1.0.2.0:
 - Added PaperBloc factory.
 - Added PlastiCor factory.
@@ -30,17 +178,17 @@ Changes 1.0.2.0:
 - Added Biogas factory.
 - New category in Paceables area.
 - Added lighting to the Mill.
-- Various improved designs.
+- Various improved buildings.
 
 Changes 1.0.1.0:
 - Fixed sales point floor to visit.
 - Changed vehicle store chairs texture.
 - Remodeled field field 2-3.
-- Including brewery.
-- Remade part of the Brewery building.
-- Including storage system for beer pallets.
+- Including juice.
+- Remade part of the Juice building.
+- Including storage system for juice pallets.
 - Changed hop density on the ground.
-- Added design of the coupling to the TankTender for each truck.]]></en>
+- Added design of the coupling to the TankTender for each truck.]]></es>
 <de><![CDATA[Willkommen in einer imaginären Gegend im Süden Spaniens.
 
 Konvertierung dieser Karte von FS2013 -> FS15 -> FS17 Lass uns nun zu FS19 gehen. Mach schon mal deinen Big Bud, 9RX, Quadtrac... startklar Sie werden diese brauchen. Folgende Features sind verbaut:
@@ -53,6 +201,14 @@ Konvertierung dieser Karte von FS2013 -> FS15 -> FS17 Lass uns nun zu FS19 gehen
 - 89 Felder.
 - 4 Wälder
 
+Änderungen 1.0.3.0:
+- Platzierbare Traubenproduktion hinzugefügt.
+- Produktion von platzierbaren Heupellets hinzugefügt.
+- Produktion von platzierbaren Strohpellets hinzugefügt.
+- Werkskal.
+- Überarbeitete Beleuchtung in Gebäuden.
+- Geänderte Fahrzeuglagerhöhe.
+
 Änderungen 1.0.2.0:
 - PaperBloc-Fabrik hinzugefügt.
 - PlastiCor Fabrik hinzugefügt.
@@ -61,47 +217,17 @@ Konvertierung dieser Karte von FS2013 -> FS15 -> FS17 Lass uns nun zu FS19 gehen
 - Biogasfabrik hinzugefügt.
 - Neue Kategorie im Bereich Angenehm.
 - Die Mühle wurde beleuchtet.
-- Verschiedene verbesserte Designs.
+- Verschiedene verbesserte Gebäude.
 
 Änderungen 1.0.1.0:
 - Feste Verkaufsstelle zu besuchen.
 - Geänderte Textur der Fahrzeuglagerstühle.
 - Umgestaltetes Feldfeld 2-3.
-- Einschließlich Brauerei.
-- Teil des Brauereigebäudes neu gemacht.
-- Einschließlich Lagersystem für Bierpaletten.
+- Einschließlich Saft.
+- Teil des Saftgebäudes neu gemacht.
+- Einschließlich Lagersystem für Saftpaletten.
 - Veränderte Hopfendichte am Boden.
 - Design der Kupplung zum TankTender für jeden LKW hinzugefügt.]]></de>
-<es><![CDATA[Bienvenido a una zona imaginaria del sur de España.
-
-Primera conversión de este mapa desde FS2013 -> FS2015 -> FS17 y vamos a FS19, prepara tu Big Bud, 9RX, Quadtrac... necesitarás alguno de estos. Dispones de las siguientes características:
-- Cerdos.
-- Vacas.
-- Ovejas.
-- Caballos.
-- 20 puntos de venta.
-- 89 Campos.
-- 4 Bosques.
-
-Cambios 1.0.2.0:
-- Añadida fábrica PaperBloc.
-- Añadida fábrica PlastiCor.
-- Añadida fábrica Biogas.
-- Añadida fábrica Melaza y Azúcar(es).
-- Añadida fábrica Biogas.
-- Nueva categoria en zona de Colocables.
-- Añadida iluminación al Molino.
-- Varios diseños mejorados.
-
-Cambios 1.0.1.0:
-- Arreglado suelo punto de ventas para visitar.
-- Cambiada textura sillas tienda vehiculos.
-- Remodelado terreno campo 2-3.
-- Incluida fábrica de cerveza.
-- Rehecho parte edificio Fábrica cerveza.
-- Incluido sistema de almacenaje para palets de cerveza.
-- Cambiada densidad de lúpulo sobre el terreno.
-- Añadido diseño del acople al TankTender para cada camión.]]></es>
     </description>
 	
     <iconFilename>icon.png</iconFilename>
@@ -110,17 +236,25 @@ Cambios 1.0.1.0:
     <l10n filenamePrefix="translations/language"/>
 
 	<extraSourceFiles>
+		<sourceFile filename="scripts/register.lua" />
 		<sourceFile filename="scripts/ChangeMaxAnimals.lua" />
 		<sourceFile filename="scripts/l10nFix.lua"/>
 		<sourceFile filename="scripts/I3DLoadingFix.lua"/>
+		<sourceFile filename="scripts/PuertasOlivasa.lua"/>
+		<sourceFile filename="scripts/timeControlledVLYSF.lua"/>
 		<sourceFile filename="scripts/timeControlledBusiness.lua"/>
 		<sourceFile filename="scripts/timeControlledconcession.lua"/>
+		<sourceFile filename="scripts/ShowGrassOnStart.lua"/>
 		<sourceFile filename="scripts/ObjectStorageLoader.lua"/>
         <sourceFile filename="scripts/PlaceableLoader.lua" />
         <sourceFile filename="scripts/SprayerFix.lua" />
+        <sourceFile filename="scripts/ManureSystemAvailabilityCheck.lua" />
 		<sourceFile filename="scripts/AddStoreCategory.lua" />
         <!-- <sourceFile filename="scripts/DynamicMud.lua" /> --> <!-- Barro, Votan muchísimo los vehículos en el campo -->
         <sourceFile filename="scripts/RegisterSpecialization.lua" />
+		<sourceFile filename="HorseExtension/scripts/fruitDestructionReloaded.lua"/>
+		<!-- big thank you to Ifko[nator]© for granting permission to include fix for FieldManager.lua:541+564 errors -->
+		<sourceFile filename="HorseExtension/scripts/FieldManagerFix.lua"/>
 	</extraSourceFiles>
 	
     <objectStorageLoader filePath="scripts/" eventsPath="scripts/events/" guiPath="scripts/gui/"/>
@@ -140,7 +274,7 @@ Cambios 1.0.1.0:
 	</vehicleTypes>
 	
     <maps>
-        <map id="SampleModMap" className="ModMap" filename="xml/ModMap.lua" configFilename="xml/mapIS.xml" defaultVehiclesXMLFilename="xml/defaultVehicles.xml" defaultItemsXMLFilename="xml/defaultItems.xml">
+        <map id="SampleModMap" className="ModMap" filename="HorseExtension/scripts/ModMap.lua" configFilename="xml/mapIS.xml" defaultVehiclesXMLFilename="xml/defaultVehicles.xml" defaultItemsXMLFilename="xml/defaultItemsMP.xml" defaultSingleplayerItemsXMLFilename="xml/defaultItems.xml">
             <title>
 				<en>Iberians South Lands</en>
 				<de>Im Süden Der Iberischen Halbinsel</de>
@@ -187,16 +321,27 @@ Cambios 1.0.1.0:
 		<storeItem xmlFilename="maps/placeables/train/Vagon_Troncos.xml" />
 		<storeItem xmlFilename="maps/placeables/train/Vagon_Virutas.xml" />
         <storeItem xmlFilename="maps/models/objects/pallets/beer_palet.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/bread_palet.xml"/>
         <storeItem xmlFilename="maps/models/objects/pallets/eggPallet.xml"/>
         <storeItem xmlFilename="maps/models/objects/pallets/grapes_palet.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/grapes_palet0.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/olive_oil_palet.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/sunflowerOil_palet.xml"/>
         <storeItem xmlFilename="maps/models/objects/pallets/paperBoard_palet.xml"/>
         <storeItem xmlFilename="maps/models/objects/pallets/bottles_palet.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/wine_palet.xml"/>
         <storeItem xmlFilename="maps/models/objects/pallets/bioFertilizer.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/wflourPallet.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/bflourPallet.xml"/>
+        <storeItem xmlFilename="maps/models/objects/pallets/dirtyOlive_palet.xml"/>
         <storeItem xmlFilename="maps/placeables/vehiculos/tatra/tatraPhoenix.xml"/>
+        <storeItem xmlFilename="maps/placeables/vehiculos/tools/Horquilla_Caja.xml"/>
         <storeItem xmlFilename="maps/placeables/vehiculos/man/tgs18500.xml"/>
         <storeItem xmlFilename="maps/placeables/vehiculos/tankTender/tankTender.xml"/>
+        <storeItem xmlFilename="maps/placeables/vehiculos/Vstr_Platfom/VStR_PlattformPlus.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/ArtMaster/fertiMaster.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/ArtMaster/herbiMaster.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/ArtMaster/LiqFertMaster.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/ArtMaster/seedMaster.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/DaffMaster/DaffMaster.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/BiogasMaster/BiogasMaster.xml"/>
@@ -205,6 +350,12 @@ Cambios 1.0.1.0:
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/CompostMaster/Compost0Master.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/CompostMaster/Compost1Master.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/palletStorage/palletStorage.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Olivasa/Campo_01_Olivasa.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Olivasa/Campo_02_Olivasa.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Olivasa/Campo_03_Olivasa.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Olivasa/CleanerMaster.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Molinsur/Molinsur.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Olivasa/Olivasa.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/PaperBloc/PaperBloc.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/PlastiCor/Plasticor.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/PelletMaster/PelletH0Master.xml"/>
@@ -212,10 +363,47 @@ Cambios 1.0.1.0:
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/PelletMaster/PelletS0Master.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/PelletMaster/PelletS1Master.xml"/>
         <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/LimeMaster/LimeMaster.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Viniedos/Viniedo.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Viniedos/Viniedo_Fijo.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/VinoYSeFue/VinoYSeFue.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Harinsur/Harinsur_Cebada.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Harinsur/Harinsur_Trigo.xml"/>
+        <storeItem rootNode="FillTypeConverter" xmlFilename="maps/placeables/Pansur/Pansur.xml"/>
+		<!--Bales-->
+		<storeItem xmlFilename="HorseExtension/vehicles/Bales/SW_4014/kuhnSW4014.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Bales/FBP_3135/kuhnFBP3135.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Bales/Ursus_Wrapper/z586.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Bales/Ursus_Stacker/ursusT127.xml"/>
+		<!--Carrot-->
+		<storeItem xmlFilename="HorseExtension/vehicles/Carrot/maus5.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Carrot/panther2.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Carrot/terraDosT4_40.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Carrot/terraFelis2.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Carrot/tiger6.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Carrot/holmerHR12.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Carrot/rr6x45.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Carrot/rrXL9.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Carrot/SE260.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Carrot/grimmeKS75.xml"/>
+		<!--Cutters Etc-->
+		<storeItem xmlFilename="HorseExtension/vehicles/CuttersEtc/grimmeRH2460/grimmeRH2460.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/CuttersEtc/bigM450/bigM450.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/CuttersEtc/poettingerNovaCatX8/poettingerNovaCatX8.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/CuttersEtc/poettingerNovaCat301/poettingerNovaCat301.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/CuttersEtc/newHollandDiscbine313/newHollandDiscbine313.xml"/>
+		<!--Onion-->
+		<storeItem xmlFilename="HorseExtension/vehicles/Onion/rootster604.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Onion/varitron470.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Onion/keiler2.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Onion/SE260.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Onion/grimmeFT300.xml"/>
+		<storeItem xmlFilename="HorseExtension/vehicles/Onion/grimmeKS75-4.xml"/>
 	</storeItems>
 		
     <brands>
         <brand name="ARTMECHANIC" title="ArtMechanic" image="maps/placeables/ArtMaster/brand_ArtMechanic.dds"/>
+        <brand name="RYC_ONE" title="RYC-One" image="maps/placeables/vehiculos/brand_RYC-ONE.dds"/>
+        <brand name="VSRTECH" title="VSR-Tech" image="maps/placeables/vehiculos/brand_VSRtech.dds"/>
         <brand name="FARMING_INNOVATIONS" title="Farming Innovations" image="maps/placeables/palletStorage/brand_farmingInnovations.dds"/>
     </brands>
 </modDesc>
