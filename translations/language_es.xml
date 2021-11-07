@@ -25,39 +25,51 @@
 - CleanerMaster- ---- > 1655 - 2465
 - CompostMaster- ---- > 2045 - 1600 (+ Colocable)
 - Cervecería - - --------- > 1895 - 3975
+- FreshDrink - - --------- > 2420 - 490
 - Harinsur - - ------------ > 1550 -  1910
 - LimeMaster - - ------- > 3150 -  255
+- Molinsur - - ------------ > 80 -  3780
 - NordicSugar Mol- -- > 3150 -  255
 - NordicSugar Sug- -- > 3205 -  230"/>
         <text name="helpTitle_IS04"							text="Fábricas - Producciones / Parte 2.2"/>
 		<text name="helpText_IS04_part01"					text="- Olivasa - Cooperativa -> 400 - 1090
 - Pansur ----- - - - ------ > 2780 - 2090
+- Pansur Ind. -- - - ------ > 2845 - 2080
 - PaperBloc- - - - ------ > 1525 - 3540
 - PelletMaster Heno- > 2140 - 1595 (+ Colocable) 
 - PelletMaster Paja ---> 2140 - 1645 (+ Colocable) 
 - PlatiCor - - ------------ > 3090 -  570
+- Refineria - ------------- > 3130 - 2760
+- Vino y Se Fue- - ------ > 665 -  2550
 - Campo Uvas- - ------- > 1500 -  440 (+ Colocable)
-- Vino y Se Fue- - ------ > 665 -  2550"/>
+- Campo 1 Olivasa- - ---> 2140 - 1645
+- Campo 2 Olivasa- - ---> 2140 - 1645
+- Campo 3 Olivasa- - ---> 2140 - 1645"/>
 		<text name="helpText_IS04_part02"					text="Aquí están indicadas las que hay incluidas a disposición de los usuarios en esta versión del mapa, si alguna no esta disponible, se irá ampliando o corrigiendo esta ayuda con dicha información."/>
         <text name="helpTitle_IS05"							text="Fábricas - Producciones / Parte 3.1"/>
 		<text name="helpText_IS05_part01"					text="Si has leido hasta aquí puede que en algún momento te hayas preguntado '¿Cuál compro si no se que necesita ni produce?', bien pues a continuación se indican los recursos que requiere cada punto de producción o fábrica y lo más importante, su producto y en que formato, palets (P) o a granel (B):"/>
 		<text name="helpText_IS05_part02"					text="- BiogasMaster - ------ > Estiércol o Compost + Agua = Biogas + Fertilizante (P)
-- CleanerMaster- ---- > Olivas Sucias + Diesel o Biogas + Agua = Olivas (B)
+- CleanerMaster- ---- > Oliva Sucia + Diesel o Biogas + Agua = Oliva (B)
 - CompostMaster- ---- > Estiércol, Patata, Remolacha, Paja, etc... + Diesel o Biogas = Compost (B)
 - Cervecería - - ------- > Cebada + Lúpulo + Agua = Cerveza (P)
+- FreshDrink - - ------- > Agua + Arena + Azúcar + A. Moreno = Refrescos (P)
 - Harinsur - - ---------- > Trigo = H. Trigo (P) / Cebada = H. Cebada (P)
 - LimeMaster - - ------- > Caliza + Virutas ó Pellet Paja = Cal (B)
-- NordicSugar Mol- -- > Caña Azúcar + Agua = Melaza (B) + Azúcar Moreno (B)
-- NordicSugar Sug- -- > Remolacha + Agua = Melaza (B) + Azúcar (B)"/>
+- Molinsur - - ---------- > Girasol = Aceite Girasol (P) + Compost (B)
+- NordicSugar Mol- -- > Caña Azúcar + Agua = Melaza Cruda (B) + Azúcar Moreno (B)
+- NordicSugar Sug- -- > Remolacha + Agua = Melaza Cruda (B) + Azúcar (B)"/>
         <text name="helpTitle_IS06"							text="Fábricas - Producciones / Parte 3.2"/>
 		<text name="helpText_IS06_part01"					text="- Olivasa - Cooperativa -> Oliva + Botellas + Cartón = Aceite Oliva (P) + Purín (L)
 - Pansur - --- --- -------> H. Cebada + H. Trigo + Agua = Pan (P)
+- Pansur Ind. -- - -------> A. Moreno + A. Oliva o Girasol + Avena o Trigo o Cebada + Zanahoria + Huevos + Leche = Pasteles (P) + Bollería Ind. (P)
 - PaperBloc- - - - ------ > Virutas o Troncos + Agua = Cartón (P)
 - PelletMaster Heno- > Paja Picada o Hierba o Heno + Diesel o Biogas + Melaza = Pellets de Heno (B)
 - PelletMaster Paja ---> Paja + Diesel o Biogas + Melaza = Pellets de Paja (B)
 - PlatiCor - - ------------ > Virutas o Troncos + Arena + Biogas = Botellas (P)
+- Refinería - ------------- > Agua + Aceite Motor + Aceite Crudo + Colza = Diesel (B)
+- Vino y Se Fue- - ---- > Uvas + Cartón + Botellas = Vino (P)
 - Campo Uvas- - ------- > Estiércol o Compost + Agua (imprescindible) + Fertilizante Líquido = Uva (P) (Tienda)
-- Vino y Se Fue- - ---- > Uvas + Cartón + Botellas = Vino (P)"/>
+- Campos Olivasa - ---- > Agua + Purín = Oliva Sucia (P)"/>
 		<text name="helpText_IS06_part02"					text="En la tienda también puedes visualizar el ICONO de los productos que trabaja esa máquina."/>
 		<text name="helpText_IS06_part03"					text="¡Consejo! Para cargar las cajas grandes de plástico de Pansur necesitaras la horquilla de VSR-Technology."/>
 		<text name="helpTitle_IS09"							text="Créditos"/>
@@ -111,13 +123,12 @@ Irish Farm Shed Pack - My-self (Sean6920s)
         <text name="fillType_compost"						text="Compost"/>
         <text name="fillType_biogas"						text="Biogas"/>
         <text name="fillType_limestone"						text="Caliza"/>
-        <text name="fillType_gravel"						text="Grava"/>
         <text name="fillType_sand"							text="Arena"/>
         <text name="fillType_hayPellets"					text="Pel. Heno"/>
         <text name="fillType_strawPellets"					text="Pel. Paja"/>
         <text name="fillType_paperBoard"					text="Cartón"/> <!-- last -->
         <text name="fillType_bottles"						text="Botellas"/> <!-- last -->
-        <text name="fillType_molasses"						text="Melaza"/> <!-- last -->
+        <text name="fillType_molasse"						text="Melaza Cruda"/> <!-- last -->
         <text name="fillType_brownSugar"					text="Azúcar Moreno"/> <!-- last -->
         <text name="fillType_sugar"							text="Azúcar"/> <!-- last -->
         <text name="fillType_wine"							text="Vino"/> <!-- last -->
@@ -128,6 +139,12 @@ Irish Farm Shed Pack - My-self (Sean6920s)
         <text name="fillType_olive"							text="Oliva"/> <!-- last -->
         <text name="fillType_olive_oil"						text="Aceite Oliva"/> <!-- last -->
         <text name="fillType_sunflower_oil"					text="Aceite Girasol"/> <!-- last -->
+        <text name="fillType_cake"							text="Pasteles"/> <!-- last -->
+        <text name="fillType_ind_pastries"					text="Bollería Industrial"/> <!-- last -->
+        <text name="fillType_cheese"						text="Queso"/> <!-- last -->
+        <text name="fillType_freshDrink"					text="Refrescos"/> <!-- last -->
+        <text name="fillType_oil"							text="Aceite Crudo"/> <!-- last -->
+        <text name="fillType_motoroil"						text="Aceite Motor"/> <!-- last -->
         <text name="fillTypeGroup_pellets"					text="Pellets"/>
         <text name="configuration_XS"						text="XS 525/65/R20.5"/>
 		
@@ -172,6 +189,9 @@ Irish Farm Shed Pack - My-self (Sean6920s)
         <text name="shopItem_harinaT"						text="Trigo Y Cebada"/> <!-- last -->
         <text name="shopItem_CleanerMaster"					text="CleanerMaster"/> <!-- last -->
         <text name="shopItem_Molinsur"						text="Molinsur"/> <!-- last -->
+        <text name="shopItem_FreshDrink"					text="FreshDrink"/> <!-- last -->
+        <text name="shopItem_Lecheria"						text="Lecheria"/> <!-- last -->
+        <text name="shopItem_oilStation"					text="Oil Company - Aceites"/> <!-- last -->
         <text name="shopItem_Ramp"							text="Rampa"/> <!-- last -->
         <text name="function_VSRloaderPallet"				text="VSR-Technology presenta estas horquillas más estrechas para las cajas grandes (BB) de plástico."/> <!-- last -->
         <text name="action_doSmartAttachGround"				text="Enganchar depósito móvil"/> <!-- last -->
